@@ -1,0 +1,569 @@
+[
+  {
+    "stage": "SS000",
+    "file_size": 20775,
+    "header": {
+      "checksum_or_id": "0x82A5",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xC008",
+      "spawner_offset": "0x14C8 (5320)"
+    },
+    "spawner_count_estimated": 64,
+    "spawners_sample": [
+      {
+        "index": 0,
+        "x": 359,
+        "y": 34669,
+        "enemy_type": 1,
+        "flags": 205,
+        "spawn_trigger": 199,
+        "extra": 118
+      },
+      {
+        "index": 1,
+        "x": 53274,
+        "y": 388,
+        "enemy_type": 192,
+        "flags": 1,
+        "spawn_trigger": 124,
+        "extra": 39
+      },
+      {
+        "index": 2,
+        "x": 21637,
+        "y": 34088,
+        "enemy_type": 205,
+        "flags": 31,
+        "spawn_trigger": 247,
+        "extra": 109
+      },
+      {
+        "index": 3,
+        "x": 551,
+        "y": 21854,
+        "enemy_type": 242,
+        "flags": 37,
+        "spawn_trigger": 80,
+        "extra": 26
+      },
+      {
+        "index": 4,
+        "x": 57384,
+        "y": 9813,
+        "enemy_type": 208,
+        "flags": 118,
+        "spawn_trigger": 36,
+        "extra": 32
+      },
+      {
+        "index": 5,
+        "x": 28024,
+        "y": 34199,
+        "enemy_type": 54,
+        "flags": 236,
+        "spawn_trigger": 85,
+        "extra": 44
+      },
+      {
+        "index": 6,
+        "x": 30416,
+        "y": 28532,
+        "enemy_type": 242,
+        "flags": 1,
+        "spawn_trigger": 0,
+        "extra": 3
+      },
+      {
+        "index": 7,
+        "x": 18694,
+        "y": 282,
+        "enemy_type": 80,
+        "flags": 254,
+        "spawn_trigger": 44,
+        "extra": 224
+      },
+      {
+        "index": 8,
+        "x": 58709,
+        "y": 30815,
+        "enemy_type": 1,
+        "flags": 128,
+        "spawn_trigger": 2,
+        "extra": 109
+      },
+      {
+        "index": 9,
+        "x": 64951,
+        "y": 53249,
+        "enemy_type": 253,
+        "flags": 1,
+        "spawn_trigger": 48,
+        "extra": 2
+      }
+    ]
+  },
+  {
+    "stage": "SS010",
+    "file_size": 15991,
+    "header": {
+      "checksum_or_id": "0x583C",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x8008",
+      "spawner_offset": "0x8F56 (36694)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS011",
+    "file_size": 13898,
+    "header": {
+      "checksum_or_id": "0x5324",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x0008",
+      "spawner_offset": "0x8E46 (36422)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS020",
+    "file_size": 25855,
+    "header": {
+      "checksum_or_id": "0x934B",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xE008",
+      "spawner_offset": "0x98D1 (39121)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS021",
+    "file_size": 5694,
+    "header": {
+      "checksum_or_id": "0x20AC",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x0008",
+      "spawner_offset": "0x855A (34138)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS030",
+    "file_size": 27794,
+    "header": {
+      "checksum_or_id": "0xB589",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x4008",
+      "spawner_offset": "0x9ED2 (40658)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS031",
+    "file_size": 21624,
+    "header": {
+      "checksum_or_id": "0x93D0",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xE008",
+      "spawner_offset": "0x991F (39199)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS040",
+    "file_size": 11960,
+    "header": {
+      "checksum_or_id": "0x488C",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x8008",
+      "spawner_offset": "0x8C5A (35930)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS041",
+    "file_size": 5701,
+    "header": {
+      "checksum_or_id": "0x2415",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x2008",
+      "spawner_offset": "0x861E (34334)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS050",
+    "file_size": 25310,
+    "header": {
+      "checksum_or_id": "0x9F57",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x0008",
+      "spawner_offset": "0x9D0D (40205)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS051",
+    "file_size": 16996,
+    "header": {
+      "checksum_or_id": "0x6A4E",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xC008",
+      "spawner_offset": "0x9299 (37529)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS060",
+    "file_size": 7100,
+    "header": {
+      "checksum_or_id": "0x2CF4",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x8008",
+      "spawner_offset": "0x8716 (34582)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS061",
+    "file_size": 14075,
+    "header": {
+      "checksum_or_id": "0x577F",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x6008",
+      "spawner_offset": "0x914E (37198)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS070",
+    "file_size": 13954,
+    "header": {
+      "checksum_or_id": "0x74F8",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xC008",
+      "spawner_offset": "0x1396 (5014)"
+    },
+    "spawner_count_estimated": 64,
+    "spawners_sample": [
+      {
+        "index": 0,
+        "x": 61291,
+        "y": 24688,
+        "enemy_type": 239,
+        "flags": 16,
+        "spawn_trigger": 224,
+        "extra": 6
+      },
+      {
+        "index": 1,
+        "x": 43962,
+        "y": 20597,
+        "enemy_type": 192,
+        "flags": 239,
+        "spawn_trigger": 48,
+        "extra": 240
+      },
+      {
+        "index": 2,
+        "x": 53254,
+        "y": 29438,
+        "enemy_type": 80,
+        "flags": 0,
+        "spawn_trigger": 7,
+        "extra": 1
+      },
+      {
+        "index": 3,
+        "x": 1792,
+        "y": 20592,
+        "enemy_type": 0,
+        "flags": 112,
+        "spawn_trigger": 32,
+        "extra": 240
+      },
+      {
+        "index": 4,
+        "x": 3839,
+        "y": 63725,
+        "enemy_type": 190,
+        "flags": 6,
+        "spawn_trigger": 208,
+        "extra": 14
+      },
+      {
+        "index": 5,
+        "x": 61425,
+        "y": 60766,
+        "enemy_type": 105,
+        "flags": 112,
+        "spawn_trigger": 240,
+        "extra": 103
+      },
+      {
+        "index": 6,
+        "x": 61104,
+        "y": 0,
+        "enemy_type": 5,
+        "flags": 100,
+        "spawn_trigger": 32,
+        "extra": 0
+      },
+      {
+        "index": 7,
+        "x": 8304,
+        "y": 6,
+        "enemy_type": 0,
+        "flags": 7,
+        "spawn_trigger": 96,
+        "extra": 160
+      },
+      {
+        "index": 8,
+        "x": 24507,
+        "y": 60752,
+        "enemy_type": 93,
+        "flags": 160,
+        "spawn_trigger": 187,
+        "extra": 63
+      },
+      {
+        "index": 9,
+        "x": 263,
+        "y": 89,
+        "enemy_type": 237,
+        "flags": 87,
+        "spawn_trigger": 128,
+        "extra": 237
+      }
+    ]
+  },
+  {
+    "stage": "SS071",
+    "file_size": 25789,
+    "header": {
+      "checksum_or_id": "0xB691",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x2008",
+      "spawner_offset": "0x9FDA (40922)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS080",
+    "file_size": 20025,
+    "header": {
+      "checksum_or_id": "0x8294",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x2008",
+      "spawner_offset": "0x9555 (38229)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS081",
+    "file_size": 19460,
+    "header": {
+      "checksum_or_id": "0x7D5C",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xA008",
+      "spawner_offset": "0x9648 (38472)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS090",
+    "file_size": 9022,
+    "header": {
+      "checksum_or_id": "0x3282",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x0008",
+      "spawner_offset": "0x88D4 (35028)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS091",
+    "file_size": 7957,
+    "header": {
+      "checksum_or_id": "0x2F07",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xA008",
+      "spawner_offset": "0x8803 (34819)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS092",
+    "file_size": 43599,
+    "header": {
+      "checksum_or_id": "0xFE06",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0x6008",
+      "spawner_offset": "0xAB12 (43794)"
+    },
+    "spawner_count_estimated": 0,
+    "spawners_sample": []
+  },
+  {
+    "stage": "SS120",
+    "file_size": 17912,
+    "header": {
+      "checksum_or_id": "0x5EB1",
+      "flags": "0x0000",
+      "map_param_x": 2304,
+      "map_param_y": 6145,
+      "tile_bank_id": "0xA008",
+      "spawner_offset": "0x0FDA (4058)"
+    },
+    "spawner_count_estimated": 64,
+    "spawners_sample": [
+      {
+        "index": 0,
+        "x": 43579,
+        "y": 705,
+        "enemy_type": 156,
+        "flags": 180,
+        "spawn_trigger": 27,
+        "extra": 199
+      },
+      {
+        "index": 1,
+        "x": 14058,
+        "y": 53307,
+        "enemy_type": 3,
+        "flags": 14,
+        "spawn_trigger": 192,
+        "extra": 79
+      },
+      {
+        "index": 2,
+        "x": 33743,
+        "y": 8746,
+        "enemy_type": 160,
+        "flags": 199,
+        "spawn_trigger": 150,
+        "extra": 241
+      },
+      {
+        "index": 3,
+        "x": 13610,
+        "y": 31472,
+        "enemy_type": 99,
+        "flags": 183,
+        "spawn_trigger": 3,
+        "extra": 53
+      },
+      {
+        "index": 4,
+        "x": 6864,
+        "y": 16424,
+        "enemy_type": 56,
+        "flags": 191,
+        "spawn_trigger": 67,
+        "extra": 4
+      },
+      {
+        "index": 5,
+        "x": 14566,
+        "y": 15147,
+        "enemy_type": 192,
+        "flags": 24,
+        "spawn_trigger": 71,
+        "extra": 128
+      },
+      {
+        "index": 6,
+        "x": 44294,
+        "y": 38993,
+        "enemy_type": 203,
+        "flags": 21,
+        "spawn_trigger": 136,
+        "extra": 123
+      },
+      {
+        "index": 7,
+        "x": 24468,
+        "y": 37223,
+        "enemy_type": 201,
+        "flags": 2,
+        "spawn_trigger": 96,
+        "extra": 96
+      },
+      {
+        "index": 8,
+        "x": 45863,
+        "y": 10041,
+        "enemy_type": 64,
+        "flags": 81,
+        "spawn_trigger": 154,
+        "extra": 249
+      },
+      {
+        "index": 9,
+        "x": 18744,
+        "y": 51607,
+        "enemy_type": 220,
+        "flags": 71,
+        "spawn_trigger": 44,
+        "extra": 105
+      }
+    ]
+  }
+]

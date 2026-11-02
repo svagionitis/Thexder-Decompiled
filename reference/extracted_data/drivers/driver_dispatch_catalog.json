@@ -1,0 +1,690 @@
+[
+  {
+    "file": "ADL.DRV",
+    "size_bytes": 7692,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 1,
+    "driver_type": "Sound / Music Synthesizer Driver",
+    "driver_short_name": "adldrv",
+    "driver_description": "AdLib Music Synthesizer Card",
+    "dispatch_entry_count": 0,
+    "dispatch_table": []
+  },
+  {
+    "file": "CMS.DRV",
+    "size_bytes": 3486,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 1,
+    "driver_type": "Sound / Music Synthesizer Driver",
+    "driver_short_name": "cms",
+    "driver_description": "Creative Music System/Game Blaster",
+    "dispatch_entry_count": 1,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x0A03",
+        "function_hint": "init_audio"
+      }
+    ]
+  },
+  {
+    "file": "EGA640.DRV",
+    "size_bytes": 9196,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 0,
+    "driver_type": "Video Display Driver",
+    "driver_short_name": "EGA640",
+    "driver_description": "EGA/VGA 640x200 16 color",
+    "dispatch_entry_count": 16,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x024D",
+        "function_hint": "init_video"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x0285",
+        "function_hint": "terminate_video"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x02FC",
+        "function_hint": "set_palette"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x0315",
+        "function_hint": "draw_sprite"
+      },
+      {
+        "slot": 4,
+        "target_offset": "0x0352",
+        "function_hint": "draw_masked_sprite"
+      },
+      {
+        "slot": 5,
+        "target_offset": "0x03AA",
+        "function_hint": "fill_rect"
+      },
+      {
+        "slot": 6,
+        "target_offset": "0x03B9",
+        "function_hint": "copy_rect"
+      },
+      {
+        "slot": 7,
+        "target_offset": "0x03C6",
+        "function_hint": "scroll_screen"
+      },
+      {
+        "slot": 8,
+        "target_offset": "0x040B",
+        "function_hint": "vsync_wait"
+      },
+      {
+        "slot": 9,
+        "target_offset": "0x0460",
+        "function_hint": "flip_page"
+      },
+      {
+        "slot": 10,
+        "target_offset": "0x04D8",
+        "function_hint": "set_clip_rect"
+      },
+      {
+        "slot": 11,
+        "target_offset": "0x054A",
+        "function_hint": "clear_screen"
+      },
+      {
+        "slot": 12,
+        "target_offset": "0x0575",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 13,
+        "target_offset": "0x0597",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 14,
+        "target_offset": "0x05E3",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 15,
+        "target_offset": "0x068D",
+        "function_hint": "unknown"
+      }
+    ]
+  },
+  {
+    "file": "IBMKBD.DRV",
+    "size_bytes": 808,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 4,
+    "driver_type": "Keyboard Input Driver",
+    "driver_short_name": "IBMKBD",
+    "driver_description": "Standard PC Keyboard",
+    "dispatch_entry_count": 4,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x00F2",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x011B",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x0129",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x031B",
+        "function_hint": "unknown"
+      }
+    ]
+  },
+  {
+    "file": "JOYSTICK.DRV",
+    "size_bytes": 367,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 6,
+    "driver_type": "Joystick / Gamepad Driver",
+    "driver_short_name": "JOYSTICK",
+    "driver_description": "Standard PC Joystick",
+    "dispatch_entry_count": 0,
+    "dispatch_table": []
+  },
+  {
+    "file": "MCGA320.DRV",
+    "size_bytes": 9153,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 0,
+    "driver_type": "Video Display Driver",
+    "driver_short_name": "MCGA",
+    "driver_description": "MCGA 320x200 256 color",
+    "dispatch_entry_count": 16,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x0252",
+        "function_hint": "init_video"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x0253",
+        "function_hint": "terminate_video"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x02A4",
+        "function_hint": "set_palette"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x02AD",
+        "function_hint": "draw_sprite"
+      },
+      {
+        "slot": 4,
+        "target_offset": "0x02DD",
+        "function_hint": "draw_masked_sprite"
+      },
+      {
+        "slot": 5,
+        "target_offset": "0x0316",
+        "function_hint": "fill_rect"
+      },
+      {
+        "slot": 6,
+        "target_offset": "0x031C",
+        "function_hint": "copy_rect"
+      },
+      {
+        "slot": 7,
+        "target_offset": "0x031D",
+        "function_hint": "scroll_screen"
+      },
+      {
+        "slot": 8,
+        "target_offset": "0x0333",
+        "function_hint": "vsync_wait"
+      },
+      {
+        "slot": 9,
+        "target_offset": "0x0360",
+        "function_hint": "flip_page"
+      },
+      {
+        "slot": 10,
+        "target_offset": "0x03EF",
+        "function_hint": "set_clip_rect"
+      },
+      {
+        "slot": 11,
+        "target_offset": "0x0436",
+        "function_hint": "clear_screen"
+      },
+      {
+        "slot": 12,
+        "target_offset": "0x048B",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 13,
+        "target_offset": "0x049D",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 14,
+        "target_offset": "0x04DC",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 15,
+        "target_offset": "0x0514",
+        "function_hint": "unknown"
+      }
+    ]
+  },
+  {
+    "file": "MT32.DRV",
+    "size_bytes": 1857,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 1,
+    "driver_type": "Sound / Music Synthesizer Driver",
+    "driver_short_name": "mtdrv",
+    "driver_description": "Roland MT-32, MT-100, LAPC-I, CM-32L, or CM-64",
+    "dispatch_entry_count": 0,
+    "dispatch_table": []
+  },
+  {
+    "file": "SNDBLAST.DRV",
+    "size_bytes": 9028,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 1,
+    "driver_type": "Sound / Music Synthesizer Driver",
+    "driver_short_name": "blastdrv",
+    "driver_description": "Sound Blaster Card",
+    "dispatch_entry_count": 2,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x2000",
+        "function_hint": "init_audio"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x0002",
+        "function_hint": "terminate_audio"
+      }
+    ]
+  },
+  {
+    "file": "STD.DRV",
+    "size_bytes": 1295,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 1,
+    "driver_type": "Sound / Music Synthesizer Driver",
+    "driver_short_name": "stddrv",
+    "driver_description": "IBM PC or Compatible Internal Speaker",
+    "dispatch_entry_count": 16,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x0021",
+        "function_hint": "init_audio"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x0021",
+        "function_hint": "terminate_audio"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x0022",
+        "function_hint": "play_music"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x0022",
+        "function_hint": "stop_music"
+      },
+      {
+        "slot": 4,
+        "target_offset": "0x0023",
+        "function_hint": "pause_music"
+      },
+      {
+        "slot": 5,
+        "target_offset": "0x0023",
+        "function_hint": "resume_music"
+      },
+      {
+        "slot": 6,
+        "target_offset": "0x0024",
+        "function_hint": "play_sfx"
+      },
+      {
+        "slot": 7,
+        "target_offset": "0x0024",
+        "function_hint": "stop_sfx"
+      },
+      {
+        "slot": 8,
+        "target_offset": "0x0025",
+        "function_hint": "set_volume"
+      },
+      {
+        "slot": 9,
+        "target_offset": "0x0025",
+        "function_hint": "update_sequencer"
+      },
+      {
+        "slot": 10,
+        "target_offset": "0x0026",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 11,
+        "target_offset": "0x0026",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 12,
+        "target_offset": "0x0027",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 13,
+        "target_offset": "0x0027",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 14,
+        "target_offset": "0x0028",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 15,
+        "target_offset": "0x0029",
+        "function_hint": "unknown"
+      }
+    ]
+  },
+  {
+    "file": "TANDY.DRV",
+    "size_bytes": 3905,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 1,
+    "driver_type": "Sound / Music Synthesizer Driver",
+    "driver_short_name": "tnddrv",
+    "driver_description": "Tandy 1000 TL series",
+    "dispatch_entry_count": 16,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x03F9",
+        "function_hint": "init_audio"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x03EA",
+        "function_hint": "terminate_audio"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x03DC",
+        "function_hint": "play_music"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x03CE",
+        "function_hint": "stop_music"
+      },
+      {
+        "slot": 4,
+        "target_offset": "0x03C0",
+        "function_hint": "pause_music"
+      },
+      {
+        "slot": 5,
+        "target_offset": "0x03B2",
+        "function_hint": "resume_music"
+      },
+      {
+        "slot": 6,
+        "target_offset": "0x03A4",
+        "function_hint": "play_sfx"
+      },
+      {
+        "slot": 7,
+        "target_offset": "0x0397",
+        "function_hint": "stop_sfx"
+      },
+      {
+        "slot": 8,
+        "target_offset": "0x038A",
+        "function_hint": "set_volume"
+      },
+      {
+        "slot": 9,
+        "target_offset": "0x037D",
+        "function_hint": "update_sequencer"
+      },
+      {
+        "slot": 10,
+        "target_offset": "0x0370",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 11,
+        "target_offset": "0x0363",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 12,
+        "target_offset": "0x0357",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 13,
+        "target_offset": "0x034B",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 14,
+        "target_offset": "0x033F",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 15,
+        "target_offset": "0x0333",
+        "function_hint": "unknown"
+      }
+    ]
+  },
+  {
+    "file": "TANDY320.DRV",
+    "size_bytes": 9765,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 0,
+    "driver_type": "Video Display Driver",
+    "driver_short_name": "TANDY",
+    "driver_description": "TANDY 320x200 16 color",
+    "dispatch_entry_count": 16,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x0465",
+        "function_hint": "init_video"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x046A",
+        "function_hint": "terminate_video"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x04DF",
+        "function_hint": "set_palette"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x04E8",
+        "function_hint": "draw_sprite"
+      },
+      {
+        "slot": 4,
+        "target_offset": "0x0528",
+        "function_hint": "draw_masked_sprite"
+      },
+      {
+        "slot": 5,
+        "target_offset": "0x05B0",
+        "function_hint": "fill_rect"
+      },
+      {
+        "slot": 6,
+        "target_offset": "0x05C2",
+        "function_hint": "copy_rect"
+      },
+      {
+        "slot": 7,
+        "target_offset": "0x05C3",
+        "function_hint": "scroll_screen"
+      },
+      {
+        "slot": 8,
+        "target_offset": "0x05F4",
+        "function_hint": "vsync_wait"
+      },
+      {
+        "slot": 9,
+        "target_offset": "0x0624",
+        "function_hint": "flip_page"
+      },
+      {
+        "slot": 10,
+        "target_offset": "0x0694",
+        "function_hint": "set_clip_rect"
+      },
+      {
+        "slot": 11,
+        "target_offset": "0x06D8",
+        "function_hint": "clear_screen"
+      },
+      {
+        "slot": 12,
+        "target_offset": "0x071E",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 13,
+        "target_offset": "0x0730",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 14,
+        "target_offset": "0x076B",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 15,
+        "target_offset": "0x07A6",
+        "function_hint": "unknown"
+      }
+    ]
+  },
+  {
+    "file": "TANDY3V.DRV",
+    "size_bytes": 3671,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 1,
+    "driver_type": "Sound / Music Synthesizer Driver",
+    "driver_short_name": "jrdrv",
+    "driver_description": "Tandy 1000 series",
+    "dispatch_entry_count": 16,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x03F9",
+        "function_hint": "init_audio"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x03EA",
+        "function_hint": "terminate_audio"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x03DC",
+        "function_hint": "play_music"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x03CE",
+        "function_hint": "stop_music"
+      },
+      {
+        "slot": 4,
+        "target_offset": "0x03C0",
+        "function_hint": "pause_music"
+      },
+      {
+        "slot": 5,
+        "target_offset": "0x03B2",
+        "function_hint": "resume_music"
+      },
+      {
+        "slot": 6,
+        "target_offset": "0x03A4",
+        "function_hint": "play_sfx"
+      },
+      {
+        "slot": 7,
+        "target_offset": "0x0397",
+        "function_hint": "stop_sfx"
+      },
+      {
+        "slot": 8,
+        "target_offset": "0x038A",
+        "function_hint": "set_volume"
+      },
+      {
+        "slot": 9,
+        "target_offset": "0x037D",
+        "function_hint": "update_sequencer"
+      },
+      {
+        "slot": 10,
+        "target_offset": "0x0370",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 11,
+        "target_offset": "0x0363",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 12,
+        "target_offset": "0x0357",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 13,
+        "target_offset": "0x034B",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 14,
+        "target_offset": "0x033F",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 15,
+        "target_offset": "0x0333",
+        "function_hint": "unknown"
+      }
+    ]
+  },
+  {
+    "file": "TANDYKBD.DRV",
+    "size_bytes": 798,
+    "sierra_magic": "0x87654321",
+    "driver_type_id": 4,
+    "driver_type": "Keyboard Input Driver",
+    "driver_short_name": "TANDYKBD",
+    "driver_description": "Tandy1000 Keyboard",
+    "dispatch_entry_count": 4,
+    "dispatch_table": [
+      {
+        "slot": 0,
+        "target_offset": "0x00F2",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 1,
+        "target_offset": "0x011B",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 2,
+        "target_offset": "0x0129",
+        "function_hint": "unknown"
+      },
+      {
+        "slot": 3,
+        "target_offset": "0x0311",
+        "function_hint": "unknown"
+      }
+    ]
+  }
+]

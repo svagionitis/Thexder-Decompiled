@@ -93,7 +93,15 @@ flowchart TD
      - Add strict warning flags (`-Wall -Wextra -pedantic`, `/W4`).
 
 ### Phase 2: Binary Disassembly & Reverse-Engineering in Ghidra
+> See detailed specification in [`phase2_binary_disassembly_and_re.md`](phase2_binary_disassembly_and_re.md) and reference artifacts in [`reference/`](../reference/).
+
 - **Objective:** Map out the executable structure, entry points, interrupt vectors, and data segments.
+- **Reference Corpus (`reference/`):**
+  - Raw Ghidra/Rizin decompilations and 16-bit disassemblies in `reference/raw_decompiled/`.
+  - Extracted multimedia assets, font sheets, and sprite atlases in `reference/extracted_data/images/`.
+  - Level layouts, tile parameters, and enemy spawner records in `reference/extracted_data/stages/`.
+  - In-game dialogues, mission communications, and error texts in `reference/extracted_data/strings/`.
+  - Device driver dispatch tables and hardware hooks in `reference/extracted_data/drivers/`.
 - **Tasks:**
   1. **Entry Point & CRT:**
      - Disassemble `GAME.EXE` start routine. Locate segment register setups (`DS = DGROUP`, `SS:SP`).

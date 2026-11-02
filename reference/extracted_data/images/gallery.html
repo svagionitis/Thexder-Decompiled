@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Firehawk: Thexder II - Extracted Graphics Gallery</title>
+<style>
+  body { background: #12141a; color: #e1e4ea; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 40px; }
+  h1 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 12px; }
+  h2 { color: #79c0ff; margin-top: 32px; }
+  .card { background: #1c2129; border: 1px solid #30363d; border-radius: 8px; padding: 20px; margin-bottom: 24px; }
+  .asset-img { background: #0b0d11; border: 1px solid #444c56; padding: 12px; border-radius: 4px; display: inline-block; image-rendering: pixelated; }
+  .meta { color: #8b949e; font-size: 14px; margin-top: 8px; }
+</style>
+</head>
+<body>
+<h1>Firehawk: Thexder II - Extracted Graphics Gallery</h1>
+<p>Authentic graphics reverse-engineered and decompressed from original DOS archives (LZW bitstream decoded to 4-plane EGA bitmaps).</p>
+
+<div class="card">
+  <h2>1. Player Thexder/Firehawk Robot & Jet Transformation Atlas</h2>
+  <img class="asset-img" src="ship_atlas.png" alt="Player Ship Atlas">
+  <div class="meta">16 animation frames (32x41 pixels) &bull; 4 bitplanes (B/G/R/I) &bull; Modeled from SHIP.bin</div>
+</div>
+
+<div class="card">
+  <h2>2. Collectible Crystals & Weapon Powerup Icons</h2>
+  <img class="asset-img" src="item_atlas.png" alt="Item Atlas">
+  <div class="meta">24 isometric rotation frames (16x18 pixels) &bull; 3 bitplanes &bull; Modeled from ITEM.bin</div>
+</div>
+
+<div class="card">
+  <h2>3. Complete In-Game 8x16 Font Sheet (REGFONT)</h2>
+  <img class="asset-img" src="regfont_sheet.png" alt="Font Sheet">
+  <div class="meta">256 character glyphs (8x16 pixels) &bull; Decompressed from assets/firehawk/REGFONT</div>
+</div>
+
+<div class="card">
+  <h2>4. HUD Panels, Gauges & UI Frames</h2>
+  <img class="asset-img" src="grph_atlas.png" alt="GRPH Atlas">
+  <img class="asset-img" src="grp2_atlas.png" alt="GRP2 Atlas">
+  <img class="asset-img" src="grp3_atlas.png" alt="GRP3 Atlas">
+  <div class="meta">Status bars, radar dials, energy meter borders &bull; Decompressed from GRPH, GRP2, GRP3</div>
+</div>
+
+<div class="card">
+  <h2>5. Standard 16-Color EGA Palette</h2>
+  <img class="asset-img" src="ega_palette_preview.png" alt="EGA Palette">
+  <div class="meta">16-color RGB hardware palette programmed by EGA640.DRV and MCGA320.DRV</div>
+</div>
+
+</body>
+</html>

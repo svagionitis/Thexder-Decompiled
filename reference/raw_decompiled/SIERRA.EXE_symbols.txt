@@ -1,0 +1,10 @@
+# Symbols and Data References for: SIERRA.EXE
+DAT_1000_35c4         1000:35c4        Label       refs=1
+DAT_1000_35c6         1000:35c6        Label       refs=1
+DAT_1000_35cc         1000:35cc        Label       refs=1
+DAT_135c_000e         135c:000e        Label       refs=1
+entry                 135c:0012        Function    refs=1
+DAT_135c_01e5         135c:01e5        Label       refs=1
+DAT_135c_01e6         135c:01e6        Label       refs=1
+DAT_2000_3f1c         2000:3f1c        Label       refs=2
+DAT_2000_3f1e         2000:3f1e        Label       refs=4

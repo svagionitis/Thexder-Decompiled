@@ -1,0 +1,5306 @@
+{
+  "GAME.EXE": {
+    "file": "GAME.EXE",
+    "category": "executable",
+    "is_compressed": false,
+    "raw_size": 37378,
+    "decompressed_size": 37378,
+    "string_count": 244,
+    "strings": [
+      {
+        "offset": "0x004F9",
+        "text": "BIOS"
+      },
+      {
+        "offset": "0x004FF",
+        "text": "ITEM"
+      },
+      {
+        "offset": "0x00505",
+        "text": "GMEN"
+      },
+      {
+        "offset": "0x0050B",
+        "text": "GRPH"
+      },
+      {
+        "offset": "0x00511",
+        "text": "GRP2"
+      },
+      {
+        "offset": "0x00517",
+        "text": "TEST"
+      },
+      {
+        "offset": "0x0051D",
+        "text": "COMMDATA"
+      },
+      {
+        "offset": "0x0065B",
+        "text": "E0cG"
+      },
+      {
+        "offset": "0x007DD",
+        "text": "PAUSE"
+      },
+      {
+        "offset": "0x00CEE",
+        "text": "rl<Fsh"
+      },
+      {
+        "offset": "0x00D33",
+        "text": "r'<Fs#"
+      },
+      {
+        "offset": "0x00D51",
+        "text": "r\t<(s"
+      },
+      {
+        "offset": "0x010CB",
+        "text": "RQSt"
+      },
+      {
+        "offset": "0x01DC1",
+        "text": "MISSION 1"
+      },
+      {
+        "offset": "0x01DCB",
+        "text": "FIREHAWK"
+      },
+      {
+        "offset": "0x01DD4",
+        "text": "NEDIAM"
+      },
+      {
+        "offset": "0x01DDB",
+        "text": "EARTH"
+      },
+      {
+        "offset": "0x01E99",
+        "text": "YELLOW"
+      },
+      {
+        "offset": "0x01EA0",
+        "text": "GREEN"
+      },
+      {
+        "offset": "0x01EB9",
+        "text": "ABCDE"
+      },
+      {
+        "offset": "0x01EBF",
+        "text": "FGHIJ"
+      },
+      {
+        "offset": "0x02220",
+        "text": "RES1.IX"
+      },
+      {
+        "offset": "0x02228",
+        "text": "RES1.SAR"
+      },
+      {
+        "offset": "0x02260",
+        "text": "MISSING FILE \"$\"$"
+      },
+      {
+        "offset": "0x02282",
+        "text": "--LOAD ERROR--"
+      },
+      {
+        "offset": "0x02294",
+        "text": "ALLOCATION FAILED"
+      },
+      {
+        "offset": "0x022A6",
+        "text": "MISSING FILE:"
+      },
+      {
+        "offset": "0x022CB",
+        "text": "GAME WILL TERMINATE"
+      },
+      {
+        "offset": "0x022E0",
+        "text": "LOADING INDEX"
+      },
+      {
+        "offset": "0x022EE",
+        "text": "MISSING RESOURCE"
+      },
+      {
+        "offset": "0x022FF",
+        "text": "OPENING VOLUME"
+      },
+      {
+        "offset": "0x0230E",
+        "text": "READING VOLUME"
+      },
+      {
+        "offset": "0x023DC",
+        "text": "WRQSP."
+      },
+      {
+        "offset": "0x023EA",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x0247A",
+        "text": "WVRQSP."
+      },
+      {
+        "offset": "0x02496",
+        "text": "F u\tX[YZ^_"
+      },
+      {
+        "offset": "0x024F1",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x02507",
+        "text": "D X[YZ^_"
+      },
+      {
+        "offset": "0x02514",
+        "text": "WVRS."
+      },
+      {
+        "offset": "0x02535",
+        "text": "raW."
+      },
+      {
+        "offset": "0x02571",
+        "text": "T P."
+      },
+      {
+        "offset": "0x0257C",
+        "text": "XXXX."
+      },
+      {
+        "offset": "0x02591",
+        "text": "[Z^_"
+      },
+      {
+        "offset": "0x025AB",
+        "text": "[Z^_"
+      },
+      {
+        "offset": "0x02618",
+        "text": "1 s3<"
+      },
+      {
+        "offset": "0x026D0",
+        "text": "SQRVW"
+      },
+      {
+        "offset": "0x0271F",
+        "text": "@X_^ZY["
+      },
+      {
+        "offset": "0x028F5",
+        "text": "&    AREA LOAD ERROR"
+      },
+      {
+        "offset": "0x02912",
+        "text": "<\tu%"
+      },
+      {
+        "offset": "0x02BE0",
+        "text": ")WARNING - LOW MEMORY"
+      },
+      {
+        "offset": "0x02C0D",
+        "text": "TURN OFF [NUMLOCK] KEY"
+      },
+      {
+        "offset": "0x02C26",
+        "text": "(PRESS ANY KEY TO CONTINUE)"
+      },
+      {
+        "offset": "0x02EC0",
+        "text": "GAME   OVER"
+      },
+      {
+        "offset": "0x02ED3",
+        "text": "CONTINUE"
+      },
+      {
+        "offset": "0x02EE4",
+        "text": "INTRODUCTION/PRACTICE"
+      },
+      {
+        "offset": "0x02FA9",
+        "text": "@uP."
+      },
+      {
+        "offset": "0x0325F",
+        "text": "4$9>1R314$9>1>1>1>1>1"
+      },
+      {
+        "offset": "0x03357",
+        "text": "$ udC"
+      },
+      {
+        "offset": "0x0335E",
+        "text": "$ u]C"
+      },
+      {
+        "offset": "0x03365",
+        "text": "$ uVC"
+      },
+      {
+        "offset": "0x0336C",
+        "text": "$ uO"
+      },
+      {
+        "offset": "0x0337A",
+        "text": "$ uAK"
+      },
+      {
+        "offset": "0x033DD",
+        "text": "$ uyC"
+      },
+      {
+        "offset": "0x033E4",
+        "text": "$ urC"
+      },
+      {
+        "offset": "0x033EB",
+        "text": "$ ukC"
+      },
+      {
+        "offset": "0x033F2",
+        "text": "$ ud"
+      },
+      {
+        "offset": "0x03400",
+        "text": "$ uVK"
+      },
+      {
+        "offset": "0x0349C",
+        "text": "$ u}"
+      },
+      {
+        "offset": "0x034A4",
+        "text": "$ uu"
+      },
+      {
+        "offset": "0x034D0",
+        "text": "$ uIC"
+      },
+      {
+        "offset": "0x034D7",
+        "text": "$ uBC"
+      },
+      {
+        "offset": "0x034DE",
+        "text": "$ u;"
+      },
+      {
+        "offset": "0x03568",
+        "text": "$ u}"
+      },
+      {
+        "offset": "0x03570",
+        "text": "$ uu"
+      },
+      {
+        "offset": "0x0359C",
+        "text": "$ uIK"
+      },
+      {
+        "offset": "0x035A3",
+        "text": "$ uBK"
+      },
+      {
+        "offset": "0x035AA",
+        "text": "$ u;"
+      },
+      {
+        "offset": "0x036E1",
+        "text": "$ uSC"
+      },
+      {
+        "offset": "0x036E8",
+        "text": "$ uLC"
+      },
+      {
+        "offset": "0x036EF",
+        "text": "$ uE"
+      },
+      {
+        "offset": "0x03760",
+        "text": "$ uSC"
+      },
+      {
+        "offset": "0x03767",
+        "text": "$ uLC"
+      },
+      {
+        "offset": "0x0376E",
+        "text": "$ uE"
+      },
+      {
+        "offset": "0x037E7",
+        "text": "$ u6"
+      },
+      {
+        "offset": "0x037EF",
+        "text": "$ u."
+      },
+      {
+        "offset": "0x037F7",
+        "text": "$ u&"
+      },
+      {
+        "offset": "0x03851",
+        "text": "$ u6"
+      },
+      {
+        "offset": "0x03859",
+        "text": "$ u."
+      },
+      {
+        "offset": "0x03861",
+        "text": "$ u&"
+      },
+      {
+        "offset": "0x038B3",
+        "text": "$ usK"
+      },
+      {
+        "offset": "0x038BA",
+        "text": "$ ulK"
+      },
+      {
+        "offset": "0x038C1",
+        "text": "$ ue"
+      },
+      {
+        "offset": "0x038CC",
+        "text": "$ uZ"
+      },
+      {
+        "offset": "0x038D4",
+        "text": "$ uR"
+      },
+      {
+        "offset": "0x03952",
+        "text": "$ usC"
+      },
+      {
+        "offset": "0x03959",
+        "text": "$ ulC"
+      },
+      {
+        "offset": "0x03960",
+        "text": "$ ue"
+      },
+      {
+        "offset": "0x0396B",
+        "text": "$ uZ"
+      },
+      {
+        "offset": "0x03973",
+        "text": "$ uR"
+      },
+      {
+        "offset": "0x039F1",
+        "text": "$ usK"
+      },
+      {
+        "offset": "0x039F8",
+        "text": "$ ulK"
+      },
+      {
+        "offset": "0x039FF",
+        "text": "$ ue"
+      },
+      {
+        "offset": "0x03A0A",
+        "text": "$ uZ"
+      },
+      {
+        "offset": "0x03A12",
+        "text": "$ uR"
+      },
+      {
+        "offset": "0x03A90",
+        "text": "$ usC"
+      },
+      {
+        "offset": "0x03A97",
+        "text": "$ ulC"
+      },
+      {
+        "offset": "0x03A9E",
+        "text": "$ ue"
+      },
+      {
+        "offset": "0x03AA9",
+        "text": "$ uZ"
+      },
+      {
+        "offset": "0x03AB1",
+        "text": "$ uR"
+      },
+      {
+        "offset": "0x03B75",
+        "text": "$ uaC"
+      },
+      {
+        "offset": "0x03B7C",
+        "text": "$ uZC"
+      },
+      {
+        "offset": "0x03B83",
+        "text": "$ uS"
+      },
+      {
+        "offset": "0x03F24",
+        "text": "u\tOK"
+      },
+      {
+        "offset": "0x04827",
+        "text": "J@JpJ"
+      },
+      {
+        "offset": "0x04ADA",
+        "text": "FFGG"
+      },
+      {
+        "offset": "0x04BA7",
+        "text": "J-JCJYJoJ"
+      },
+      {
+        "offset": "0x04C5D",
+        "text": "I-r."
+      },
+      {
+        "offset": "0x04C64",
+        "text": "Iur."
+      },
+      {
+        "offset": "0x04C9F",
+        "text": "Ii~."
+      },
+      {
+        "offset": "0x04E09",
+        "text": "</u!."
+      },
+      {
+        "offset": "0x04EE0",
+        "text": "<\nt!"
+      },
+      {
+        "offset": "0x050C0",
+        "text": "SAVEGM.DAT"
+      },
+      {
+        "offset": "0x0519C",
+        "text": "$ptY"
+      },
+      {
+        "offset": "0x05452",
+        "text": "REP_"
+      },
+      {
+        "offset": "0x0548C",
+        "text": "EXIT"
+      },
+      {
+        "offset": "0x0549C",
+        "text": "DART.M"
+      },
+      {
+        "offset": "0x054A6",
+        "text": "XXXXXXXX"
+      },
+      {
+        "offset": "0x054B0",
+        "text": "BOMB"
+      },
+      {
+        "offset": "0x054BA",
+        "text": "EN.TANK"
+      },
+      {
+        "offset": "0x054C4",
+        "text": "FLASHER"
+      },
+      {
+        "offset": "0x054D8",
+        "text": "STOPPER"
+      },
+      {
+        "offset": "0x054E2",
+        "text": "CONTACT"
+      },
+      {
+        "offset": "0x054EB",
+        "text": "SHIELD"
+      },
+      {
+        "offset": "0x054F3",
+        "text": "MISSILE"
+      },
+      {
+        "offset": "0x054FC",
+        "text": "OPTION"
+      },
+      {
+        "offset": "0x05504",
+        "text": "ENERGY"
+      },
+      {
+        "offset": "0x0550B",
+        "text": "EN.MAX"
+      },
+      {
+        "offset": "0x05512",
+        "text": "X    Y"
+      },
+      {
+        "offset": "0x0551A",
+        "text": "HIT ENTER KEY"
+      },
+      {
+        "offset": "0x05529",
+        "text": "DED1"
+      },
+      {
+        "offset": "0x0552F",
+        "text": "DED2"
+      },
+      {
+        "offset": "0x05535",
+        "text": "AP00"
+      },
+      {
+        "offset": "0x0553B",
+        "text": "AP11"
+      },
+      {
+        "offset": "0x05541",
+        "text": "MDEM"
+      },
+      {
+        "offset": "0x05547",
+        "text": "GRP3"
+      },
+      {
+        "offset": "0x0554D",
+        "text": "MAIN"
+      },
+      {
+        "offset": "0x05553",
+        "text": "DEMO"
+      },
+      {
+        "offset": "0x05559",
+        "text": "SHIP"
+      },
+      {
+        "offset": "0x0555F",
+        "text": "TAKO"
+      },
+      {
+        "offset": "0x05564",
+        "text": "WIND"
+      },
+      {
+        "offset": "0x05569",
+        "text": "CONT"
+      },
+      {
+        "offset": "0x0556E",
+        "text": "MIS1"
+      },
+      {
+        "offset": "0x05574",
+        "text": "TAK0"
+      },
+      {
+        "offset": "0x0557A",
+        "text": "ZAN?"
+      },
+      {
+        "offset": "0x05580",
+        "text": "MM11"
+      },
+      {
+        "offset": "0x0558C",
+        "text": "KA00"
+      },
+      {
+        "offset": "0x05592",
+        "text": "KA10"
+      },
+      {
+        "offset": "0x05598",
+        "text": "KA30"
+      },
+      {
+        "offset": "0x0559E",
+        "text": "KA11"
+      },
+      {
+        "offset": "0x055A4",
+        "text": "KA12"
+      },
+      {
+        "offset": "0x055AA",
+        "text": "KA13"
+      },
+      {
+        "offset": "0x055B0",
+        "text": "KA14"
+      },
+      {
+        "offset": "0x055B6",
+        "text": "KA20"
+      },
+      {
+        "offset": "0x055BC",
+        "text": "KA21"
+      },
+      {
+        "offset": "0x055C2",
+        "text": "KA22"
+      },
+      {
+        "offset": "0x055C8",
+        "text": "KA23"
+      },
+      {
+        "offset": "0x055CE",
+        "text": "KA24"
+      },
+      {
+        "offset": "0x055D4",
+        "text": "KA31"
+      },
+      {
+        "offset": "0x055DA",
+        "text": "KA34"
+      },
+      {
+        "offset": "0x055E0",
+        "text": "KA41"
+      },
+      {
+        "offset": "0x055E6",
+        "text": "KA42"
+      },
+      {
+        "offset": "0x055EC",
+        "text": "KA43"
+      },
+      {
+        "offset": "0x055F2",
+        "text": "KA44"
+      },
+      {
+        "offset": "0x055F8",
+        "text": "KA50"
+      },
+      {
+        "offset": "0x055FE",
+        "text": "KA52"
+      },
+      {
+        "offset": "0x05604",
+        "text": "KA54"
+      },
+      {
+        "offset": "0x05611",
+        "text": "AD00"
+      },
+      {
+        "offset": "0x05A3D",
+        "text": "<#s\\"
+      },
+      {
+        "offset": "0x05A98",
+        "text": "[^Z["
+      },
+      {
+        "offset": "0x05B23",
+        "text": "TYzYzY"
+      },
+      {
+        "offset": "0x05B4F",
+        "text": "#Y[Y"
+      },
+      {
+        "offset": "0x05C92",
+        "text": "<`r&<br"
+      },
+      {
+        "offset": "0x05CF6",
+        "text": "<\nt2"
+      },
+      {
+        "offset": "0x05DD9",
+        "text": "fire.hawk.demo"
+      },
+      {
+        "offset": "0x05F1D",
+        "text": ";]C]"
+      },
+      {
+        "offset": "0x05F7A",
+        "text": "BIGD"
+      },
+      {
+        "offset": "0x05F80",
+        "text": "BIGG"
+      },
+      {
+        "offset": "0x06179",
+        "text": "R]<1s"
+      },
+      {
+        "offset": "0x06185",
+        "text": "R]`."
+      },
+      {
+        "offset": "0x067E0",
+        "text": "tBFFF."
+      },
+      {
+        "offset": "0x067ED",
+        "text": "t5FFF."
+      },
+      {
+        "offset": "0x067FA",
+        "text": "t(FFF."
+      },
+      {
+        "offset": "0x06809",
+        "text": "FFF."
+      },
+      {
+        "offset": "0x06816",
+        "text": "FFF."
+      },
+      {
+        "offset": "0x06CD3",
+        "text": "'0SQR"
+      },
+      {
+        "offset": "0x06E56",
+        "text": "C(7C"
+      },
+      {
+        "offset": "0x06F8A",
+        "text": "fire.hawk.demo"
+      },
+      {
+        "offset": "0x06FCB",
+        "text": "n+nKnpnKnDn"
+      },
+      {
+        "offset": "0x06FD7",
+        "text": "rwn~n"
+      },
+      {
+        "offset": "0x071BE",
+        "text": "GFFFIt"
+      },
+      {
+        "offset": "0x0736E",
+        "text": "GFIt"
+      },
+      {
+        "offset": "0x0739F",
+        "text": ".+6~q"
+      },
+      {
+        "offset": "0x073A5",
+        "text": "$.+6~q"
+      },
+      {
+        "offset": "0x0795D",
+        "text": "< rR,"
+      },
+      {
+        "offset": "0x07A52",
+        "text": "<$s{"
+      },
+      {
+        "offset": "0x07C42",
+        "text": "SAVEGM.DAT"
+      },
+      {
+        "offset": "0x07C4D",
+        "text": "MISSION"
+      },
+      {
+        "offset": "0x07C72",
+        "text": "{!{1{Q{p{"
+      },
+      {
+        "offset": "0x07C7C",
+        "text": "{        RESTORE MISSION"
+      },
+      {
+        "offset": "0x07C97",
+        "text": "EXIT"
+      },
+      {
+        "offset": "0x07D31",
+        "text": "SELECT MISSION USING ARROW KEYS"
+      },
+      {
+        "offset": "0x07D51",
+        "text": "AND PRESS ENTER TO RESTORE IT."
+      },
+      {
+        "offset": "0x07D70",
+        "text": "[F10]-CLEAR ALL SAVED MISSIONS."
+      },
+      {
+        "offset": "0x07D90",
+        "text": "[F8]-CHANGE MISSION DISKS."
+      },
+      {
+        "offset": "0x07DB3",
+        "text": "{CHANGE MISSION DISKS AND"
+      },
+      {
+        "offset": "0x07DCD",
+        "text": "PRESS ENTER TO CONTINUE."
+      },
+      {
+        "offset": "0x07DF0",
+        "text": "VRQSP"
+      },
+      {
+        "offset": "0x07F81",
+        "text": "X[YZ^"
+      },
+      {
+        "offset": "0x08017",
+        "text": "!r.P"
+      },
+      {
+        "offset": "0x08041",
+        "text": "X[YZ^"
+      },
+      {
+        "offset": "0x088B5",
+        "text": "$p<@t"
+      },
+      {
+        "offset": "0x08919",
+        "text": "VPSR"
+      },
+      {
+        "offset": "0x0892C",
+        "text": "Z[X."
+      },
+      {
+        "offset": "0x08950",
+        "text": "PWR."
+      },
+      {
+        "offset": "0x08A2A",
+        "text": "<$t*<,t&<$r"
+      },
+      {
+        "offset": "0x08AB5",
+        "text": "ti<#se"
+      },
+      {
+        "offset": "0x08CB5",
+        "text": "[ZYQ"
+      },
+      {
+        "offset": "0x08CEA",
+        "text": "SORRY, BUT YOUR RESPONSE"
+      },
+      {
+        "offset": "0x08D03",
+        "text": "WAS NOT CORRECT.  THE GAME"
+      },
+      {
+        "offset": "0x08D1E",
+        "text": "WILL NOW QUIT."
+      },
+      {
+        "offset": "0x08D4F",
+        "text": "IN ORDER TO VERIFY YOUR"
+      },
+      {
+        "offset": "0x08D67",
+        "text": "OWNERSHIP OF THIS PRODUCT,"
+      },
+      {
+        "offset": "0x08D82",
+        "text": "PLEASE LOOK UP THE FOLLOWING"
+      },
+      {
+        "offset": "0x08DA0",
+        "text": "WORD FROM YOUR FIREHAWK"
+      },
+      {
+        "offset": "0x08DB9",
+        "text": "BRIEFING BOOK AND TYPE IT"
+      },
+      {
+        "offset": "0x08DD4",
+        "text": "IN.  PRESS [ENTER] WHEN"
+      },
+      {
+        "offset": "0x08DED",
+        "text": "YOU ARE DONE."
+      },
+      {
+        "offset": "0x08E00",
+        "text": "PAGE:"
+      },
+      {
+        "offset": "0x08E12",
+        "text": "PARAGRAPH:"
+      },
+      {
+        "offset": "0x08E24",
+        "text": "LINE:"
+      },
+      {
+        "offset": "0x08E32",
+        "text": "WORD:"
+      },
+      {
+        "offset": "0x08E48",
+        "text": "THEXDERFIREHAWK"
+      },
+      {
+        "offset": "0x09067",
+        "text": "X<Z~"
+      },
+      {
+        "offset": "0x0906C",
+        "text": ", <A|"
+      }
+    ]
+  },
+  "SIERRA.EXE": {
+    "file": "SIERRA.EXE",
+    "category": "executable",
+    "is_compressed": false,
+    "raw_size": 14759,
+    "decompressed_size": 14759,
+    "string_count": 149,
+    "strings": [
+      {
+        "offset": "0x00200",
+        "text": "THEXDER II FIREHAWK  Version X.X\r\nCopyright Game Arts Co., LTD.  1989,1990\r\nCopyright Sierra On-Line, Inc.  1990\r\n$\r\nError in reading file \"RESOURCE.CFG\"\r\nRe-Run \"INSTALL\"\r\n$\r\nError while loading song driver\r\n$"
+      },
+      {
+        "offset": "0x005D1",
+        "text": "ATTENTION! FIREHAWK PILOT\r\nYour NumLock key has been activated.\r\nAs a result, your flight controls may not operate correctly.\r\n\r\nPlease deactivate your NumLock key.\r\nThen press \"ENTER\" to continue.\r\n\r\n$"
+      },
+      {
+        "offset": "0x0072A",
+        "text": "Missing file \"$\"$"
+      },
+      {
+        "offset": "0x0074A",
+        "text": "--LOAD ERROR--"
+      },
+      {
+        "offset": "0x0075B",
+        "text": "ALLOCATION FAILED"
+      },
+      {
+        "offset": "0x0076D",
+        "text": "MISSING FILE:"
+      },
+      {
+        "offset": "0x00783",
+        "text": "GAME WILL TERMINATE"
+      },
+      {
+        "offset": "0x00798",
+        "text": "UNABLE TO SAVE MISSION."
+      },
+      {
+        "offset": "0x007B0",
+        "text": "CHECK FOR MISSING FILE:"
+      },
+      {
+        "offset": "0x007C8",
+        "text": "SAVEGM.DAT"
+      },
+      {
+        "offset": "0x008E4",
+        "text": "[s\n."
+      },
+      {
+        "offset": "0x00A16",
+        "text": "WQSP"
+      },
+      {
+        "offset": "0x00C2F",
+        "text": "ss000"
+      },
+      {
+        "offset": "0x00C35",
+        "text": "std.drv"
+      },
+      {
+        "offset": "0x00C43",
+        "text": "patch.000"
+      },
+      {
+        "offset": "0x00CD3",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00CF6",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x00D57",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00D70",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x00DC6",
+        "text": "RQS."
+      },
+      {
+        "offset": "0x00E5B",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00E73",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x00EA1",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00EC1",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x00EE9",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00F00",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x00F12",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00F32",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x00F4C",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00F7D",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x00F90",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x00FB9",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x01196",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x011EB",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x012E1",
+        "text": "PSQR"
+      },
+      {
+        "offset": "0x01342",
+        "text": "ZY[X"
+      },
+      {
+        "offset": "0x0167F",
+        "text": "SQRVW"
+      },
+      {
+        "offset": "0x01747",
+        "text": "_^ZY["
+      },
+      {
+        "offset": "0x01785",
+        "text": "PSQRV"
+      },
+      {
+        "offset": "0x0182B",
+        "text": "]^ZY[X"
+      },
+      {
+        "offset": "0x01833",
+        "text": "PSQRV"
+      },
+      {
+        "offset": "0x01841",
+        "text": "tPV2"
+      },
+      {
+        "offset": "0x01892",
+        "text": "]^ZY[X"
+      },
+      {
+        "offset": "0x018A8",
+        "text": "u\t.;"
+      },
+      {
+        "offset": "0x01954",
+        "text": "PSQRVW"
+      },
+      {
+        "offset": "0x01BC1",
+        "text": "t7.:"
+      },
+      {
+        "offset": "0x01DA5",
+        "text": "u,QP"
+      },
+      {
+        "offset": "0x01DAF",
+        "text": "XYu :"
+      },
+      {
+        "offset": "0x01FAD",
+        "text": "_^ZY[X"
+      },
+      {
+        "offset": "0x02071",
+        "text": "PSQRVW."
+      },
+      {
+        "offset": "0x020EA",
+        "text": "_^ZY[X"
+      },
+      {
+        "offset": "0x021D2",
+        "text": "u\t.9"
+      },
+      {
+        "offset": "0x02273",
+        "text": "VUPSQR"
+      },
+      {
+        "offset": "0x0247C",
+        "text": "ZY[X]^"
+      },
+      {
+        "offset": "0x0272F",
+        "text": "`u\r."
+      },
+      {
+        "offset": "0x0279F",
+        "text": "u\t.9"
+      },
+      {
+        "offset": "0x027B7",
+        "text": "SQRU"
+      },
+      {
+        "offset": "0x0280D",
+        "text": "t/E>"
+      },
+      {
+        "offset": "0x0286C",
+        "text": "]ZY["
+      },
+      {
+        "offset": "0x02B2E",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x02C3E",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x02C7A",
+        "text": "0123456789*+=,.\r@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^-0123456789:;,./"
+      },
+      {
+        "offset": "0x02CCF",
+        "text": "XYZ{|}~=0!\"#$%&'()*+<>?_QS"
+      },
+      {
+        "offset": "0x02D41",
+        "text": "00[Y"
+      },
+      {
+        "offset": "0x02D62",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x02D78",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x02D81",
+        "text": "VQSP."
+      },
+      {
+        "offset": "0x02E2D",
+        "text": "1VQ&"
+      },
+      {
+        "offset": "0x02E46",
+        "text": "X[Y^"
+      },
+      {
+        "offset": "0x02E4D",
+        "text": "VQSP."
+      },
+      {
+        "offset": "0x02EB5",
+        "text": "1VQ&"
+      },
+      {
+        "offset": "0x02ECE",
+        "text": "X[Y^"
+      },
+      {
+        "offset": "0x02ED5",
+        "text": "QSP."
+      },
+      {
+        "offset": "0x02F1C",
+        "text": "Y[Z."
+      },
+      {
+        "offset": "0x02F91",
+        "text": ".3Q."
+      },
+      {
+        "offset": "0x02FC9",
+        "text": "RES1.IX"
+      },
+      {
+        "offset": "0x02FDE",
+        "text": "4INSERT DISK   AND THEN"
+      },
+      {
+        "offset": "0x02FF6",
+        "text": "INSERT 3 1/2 DISK"
+      },
+      {
+        "offset": "0x0300A",
+        "text": "INTO DRIVE A"
+      },
+      {
+        "offset": "0x03019",
+        "text": "PRESS [ENTER] TO CONTINUE"
+      },
+      {
+        "offset": "0x03033",
+        "text": "DISK X"
+      },
+      {
+        "offset": "0x0303A",
+        "text": "GAME CONTROL DISK"
+      },
+      {
+        "offset": "0x03057",
+        "text": "RQSP."
+      },
+      {
+        "offset": "0x03072",
+        "text": "X[YZ"
+      },
+      {
+        "offset": "0x030C6",
+        "text": "3<3u"
+      },
+      {
+        "offset": "0x030E8",
+        "text": "fileid5"
+      },
+      {
+        "offset": "0x0313C",
+        "text": "^5t5"
+      },
+      {
+        "offset": "0x03154",
+        "text": "6;6[6v6"
+      },
+      {
+        "offset": "0x03166",
+        "text": "6FIREHAWK  VERSION X.X"
+      },
+      {
+        "offset": "0x0317D",
+        "text": "[F2] TOGGLE MUSIC"
+      },
+      {
+        "offset": "0x0318F",
+        "text": "[F4] TOGGLE SOUND EFFECTS"
+      },
+      {
+        "offset": "0x031A9",
+        "text": "[F7] RESTORE GAME"
+      },
+      {
+        "offset": "0x031BD",
+        "text": "[P] PAUSE GAME"
+      },
+      {
+        "offset": "0x031CC",
+        "text": "[+] INCREASE MUSIC"
+      },
+      {
+        "offset": "0x031DF",
+        "text": "[-] DECREASE MUSIC"
+      },
+      {
+        "offset": "0x031F2",
+        "text": "[CTRL +] INCREASE EFFECTS"
+      },
+      {
+        "offset": "0x0320C",
+        "text": "[CTRL -] DECREASE EFFECTS"
+      },
+      {
+        "offset": "0x03228",
+        "text": "[TAB]   DISPLAY SELECTIONS"
+      },
+      {
+        "offset": "0x03244",
+        "text": "[SHIFT HELD] DISPLAY SELECTIONS"
+      },
+      {
+        "offset": "0x03264",
+        "text": "[SHIFT QUICK] USE SELECTED"
+      },
+      {
+        "offset": "0x03286",
+        "text": "WEAPON"
+      },
+      {
+        "offset": "0x0328D",
+        "text": "[SPACE] FIRE LASER"
+      },
+      {
+        "offset": "0x032A7",
+        "text": "SELECT WEAPON"
+      },
+      {
+        "offset": "0x032B8",
+        "text": "[CTRL-Q] RETURN TO DOS"
+      },
+      {
+        "offset": "0x032D1",
+        "text": "PRESS [ENTER] TO CONTINUE"
+      },
+      {
+        "offset": "0x0330F",
+        "text": "$797F7V7f7q7"
+      },
+      {
+        "offset": "0x03322",
+        "text": "7WRITE-PROTECTED DISK"
+      },
+      {
+        "offset": "0x03338",
+        "text": "UNKNOWN UNIT"
+      },
+      {
+        "offset": "0x03345",
+        "text": "DRIVE NOT READY"
+      },
+      {
+        "offset": "0x03355",
+        "text": "INVALID COMMAND"
+      },
+      {
+        "offset": "0x03365",
+        "text": "DATA ERROR"
+      },
+      {
+        "offset": "0x03370",
+        "text": "REQUEST STRUCTURE INVALID"
+      },
+      {
+        "offset": "0x0338A",
+        "text": "SEEK ERROR"
+      },
+      {
+        "offset": "0x03395",
+        "text": "NON MS-DOS DISK"
+      },
+      {
+        "offset": "0x033A5",
+        "text": "SECTOR NOT FOUND"
+      },
+      {
+        "offset": "0x033B6",
+        "text": "PRINTER OUT OF PAPER"
+      },
+      {
+        "offset": "0x033CB",
+        "text": "WRITE FAULT"
+      },
+      {
+        "offset": "0x033D7",
+        "text": "READ FAULT"
+      },
+      {
+        "offset": "0x033E2",
+        "text": "GENERAL FAILURE"
+      },
+      {
+        "offset": "0x033F2",
+        "text": "INVALID DISK CHANGE"
+      },
+      {
+        "offset": "0x03408",
+        "text": "TYPE R-RETRY, A-ABORT TO DOS"
+      },
+      {
+        "offset": "0x03425",
+        "text": "Type R-Retry A-Abort to DOS$"
+      },
+      {
+        "offset": "0x0346D",
+        "text": "PSQRVWU"
+      },
+      {
+        "offset": "0x0349A",
+        "text": "]_^ZY[X"
+      },
+      {
+        "offset": "0x035A7",
+        "text": "version"
+      },
+      {
+        "offset": "0x035AF",
+        "text": "resource.cfg"
+      },
+      {
+        "offset": "0x035C8",
+        "text": "HARD DISK"
+      },
+      {
+        "offset": "0x035D2",
+        "text": "SINGLE FLOPPY"
+      },
+      {
+        "offset": "0x035E0",
+        "text": "DUAL FLOPPY"
+      },
+      {
+        "offset": "0x035F9",
+        "text": "EGA640.DRV"
+      },
+      {
+        "offset": "0x03604",
+        "text": "TANDY320.DRV"
+      },
+      {
+        "offset": "0x03611",
+        "text": "CGA320.DRV"
+      },
+      {
+        "offset": "0x0361C",
+        "text": "MCGA320.DRV"
+      },
+      {
+        "offset": "0x03628",
+        "text": "PCJR.DRV"
+      },
+      {
+        "offset": "0x03637",
+        "text": "DEMO.EXE"
+      },
+      {
+        "offset": "0x03641",
+        "text": "DEM1"
+      },
+      {
+        "offset": "0x03647",
+        "text": "DEM2"
+      },
+      {
+        "offset": "0x0364D",
+        "text": "DEM3"
+      },
+      {
+        "offset": "0x03653",
+        "text": "DEM4"
+      },
+      {
+        "offset": "0x03659",
+        "text": "GAME.EXE"
+      },
+      {
+        "offset": "0x03668",
+        "text": "regFont"
+      },
+      {
+        "offset": "0x03674",
+        "text": "efc1"
+      },
+      {
+        "offset": "0x03679",
+        "text": "efc2"
+      },
+      {
+        "offset": "0x0367E",
+        "text": "Insert Disk 2 and then\r\nPress any key to continue\r\n$\r\nInsert Disk 1 and then\r\nPress any key to continue\r\n$"
+      },
+      {
+        "offset": "0x03720",
+        "text": "joystick.drv"
+      },
+      {
+        "offset": "0x038D6",
+        "text": "!Packed file is corruptM"
+      },
+      {
+        "offset": "0x03940",
+        "text": "1\t1<1D1"
+      },
+      {
+        "offset": "0x03954",
+        "text": "6W8x8"
+      },
+      {
+        "offset": "0x0395A",
+        "text": "8)95B9B=BABEBIBQB]BaBeBmBqBuByB}B"
+      }
+    ]
+  },
+  "DEMO.EXE": {
+    "file": "DEMO.EXE",
+    "category": "executable",
+    "is_compressed": false,
+    "raw_size": 15898,
+    "decompressed_size": 15898,
+    "string_count": 105,
+    "strings": [
+      {
+        "offset": "0x00203",
+        "text": "THEXDER THE SECOND CONTACT"
+      },
+      {
+        "offset": "0x0021E",
+        "text": "START\\PRACTICE\\MUSIC"
+      },
+      {
+        "offset": "0x00233",
+        "text": "INITIAL START!"
+      },
+      {
+        "offset": "0x00242",
+        "text": "PRACTICE START!"
+      },
+      {
+        "offset": "0x00252",
+        "text": "EXIT\\RESTORE\\SAVE\\MUSIC"
+      },
+      {
+        "offset": "0x0026A",
+        "text": "EXIT\\OPENING THEME\\MISSION 1\\MISSION 2\\MISSION 3\\MISSION 4\\MISSION 5\\MISSION 6\\MISSION 7\\MISSION 8\\MISSION 9\\MOON LIGHT SONATA"
+      },
+      {
+        "offset": "0x002E9",
+        "text": "*MUSIC*"
+      },
+      {
+        "offset": "0x002F1",
+        "text": "SELECT A NUMBER."
+      },
+      {
+        "offset": "0x00302",
+        "text": "*RESTORE*"
+      },
+      {
+        "offset": "0x0030C",
+        "text": "*SAVE*"
+      },
+      {
+        "offset": "0x00313",
+        "text": "MISSION 0 START!"
+      },
+      {
+        "offset": "0x00324",
+        "text": "EXIT\\(1)\\(2)\\(3)\\(4)\\(5)\\(6)\\(7)\\(8"
+      },
+      {
+        "offset": "0x00348",
+        "text": "SURE?   YES   NO"
+      },
+      {
+        "offset": "0x0039A",
+        "text": "TTLC"
+      },
+      {
+        "offset": "0x003A0",
+        "text": "TTLS"
+      },
+      {
+        "offset": "0x003A6",
+        "text": "grph"
+      },
+      {
+        "offset": "0x0041D",
+        "text": "(2<FPZx"
+      },
+      {
+        "offset": "0x00AF0",
+        "text": "0123456789*+=,.\r@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^-0123456789:;,./"
+      },
+      {
+        "offset": "0x00B48",
+        "text": "XYZ{|}~=0!\"#$%&'()*+<>?_"
+      },
+      {
+        "offset": "0x00E98",
+        "text": "WVQS."
+      },
+      {
+        "offset": "0x00F1D",
+        "text": "[Y^_"
+      },
+      {
+        "offset": "0x00FB0",
+        "text": "(C)COPYRIGHT 1989,1990 GAME ARTS CO."
+      },
+      {
+        "offset": "0x00FD6",
+        "text": "(C)COPYRIGHT 1990 SIERRA ON-LINE, INC."
+      },
+      {
+        "offset": "0x00FFF",
+        "text": "en26.pk3"
+      },
+      {
+        "offset": "0x01009",
+        "text": "en24.pk3"
+      },
+      {
+        "offset": "0x01013",
+        "text": "en23.pk3"
+      },
+      {
+        "offset": "0x01330",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x01350",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01363",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x0137C",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x013BC",
+        "text": "EXECUTIVE PRODUCER"
+      },
+      {
+        "offset": "0x013E1",
+        "text": "//            KEN WILLIAMS"
+      },
+      {
+        "offset": "0x01408",
+        "text": "EXECUTIVE PRODUCER"
+      },
+      {
+        "offset": "0x0142D",
+        "text": "//     ORIGINAL JAPANESE VERSION"
+      },
+      {
+        "offset": "0x01454",
+        "text": "//          MITSUHIRO MAZDA"
+      },
+      {
+        "offset": "0x0147B",
+        "text": "PRODUCERS ENGLISH VERSION"
+      },
+      {
+        "offset": "0x014A0",
+        "text": "//            GARY BUTTS"
+      },
+      {
+        "offset": "0x014C7",
+        "text": "//             KEN KOCH"
+      },
+      {
+        "offset": "0x014EE",
+        "text": "//            JOSH MANDEL"
+      },
+      {
+        "offset": "0x01515",
+        "text": "STORY CONCEPT"
+      },
+      {
+        "offset": "0x0153A",
+        "text": "//           SATOSHI UESAKA"
+      },
+      {
+        "offset": "0x01561",
+        "text": "DIRECTORS"
+      },
+      {
+        "offset": "0x01586",
+        "text": "//           SATOSHI UESAKA"
+      },
+      {
+        "offset": "0x015AD",
+        "text": "//            ARI KAMIJOH"
+      },
+      {
+        "offset": "0x015D4",
+        "text": "//          KAZUYUKI OHHATA"
+      },
+      {
+        "offset": "0x015FB",
+        "text": "GAME DESIGNERS"
+      },
+      {
+        "offset": "0x01620",
+        "text": "//           SATOSHI UESAKA"
+      },
+      {
+        "offset": "0x01647",
+        "text": "//            ARI KAMIJOH"
+      },
+      {
+        "offset": "0x0166E",
+        "text": "GRAPHIC DESIGNER"
+      },
+      {
+        "offset": "0x01693",
+        "text": "//        TSUYOSHI TANAKA(PC88)"
+      },
+      {
+        "offset": "0x016BA",
+        "text": "LEAD PROGRAMMERS"
+      },
+      {
+        "offset": "0x016DF",
+        "text": "//     ORIGINAL JAPANESE VERSION"
+      },
+      {
+        "offset": "0x01706",
+        "text": "//         ARI KAMIJOH(MSX2)"
+      },
+      {
+        "offset": "0x0172D",
+        "text": "//       KAZUYUKI OHHATA(PC88)"
+      },
+      {
+        "offset": "0x01754",
+        "text": "LEAD PROGRAMMERS"
+      },
+      {
+        "offset": "0x01779",
+        "text": "//          ENGLISH VERSION"
+      },
+      {
+        "offset": "0x017A0",
+        "text": "//            GARY BUTTS"
+      },
+      {
+        "offset": "0x017C7",
+        "text": "//             KEN KOCH"
+      },
+      {
+        "offset": "0x017EE",
+        "text": "COMPOSERS"
+      },
+      {
+        "offset": "0x01813",
+        "text": "//            HIROMI OHBA"
+      },
+      {
+        "offset": "0x0183A",
+        "text": "//         MASAHIKO YOSHIMURA"
+      },
+      {
+        "offset": "0x01861",
+        "text": "//         MECANO ASSOCIATES"
+      },
+      {
+        "offset": "0x01889",
+        "text": "MAP DESIGNER, GAME ARRANGING"
+      },
+      {
+        "offset": "0x018AE",
+        "text": "//            OSAMU HARADA"
+      },
+      {
+        "offset": "0x018D5",
+        "text": "ADDITIONAL GRAPHIC DESIGNERS"
+      },
+      {
+        "offset": "0x018FA",
+        "text": "//           MASAHIKO IKEYA"
+      },
+      {
+        "offset": "0x01921",
+        "text": "//           MASATOSHI AZUMI"
+      },
+      {
+        "offset": "0x01948",
+        "text": "ADDITIONAL PROGRAMMERS"
+      },
+      {
+        "offset": "0x0196D",
+        "text": "//            OSAMU HARADA"
+      },
+      {
+        "offset": "0x01994",
+        "text": "//        TOSHIMICHI MASUBUCHI"
+      },
+      {
+        "offset": "0x019BB",
+        "text": "MUSIC EDITING & SOUND EFFECTS"
+      },
+      {
+        "offset": "0x019E0",
+        "text": "//         TADASHI SHIMAYAMA"
+      },
+      {
+        "offset": "0x01A07",
+        "text": "MUSIC MIDI CONVERSION"
+      },
+      {
+        "offset": "0x01A2C",
+        "text": "//            ROB ATELSAP"
+      },
+      {
+        "offset": "0x01A53",
+        "text": "//             KEN ALLEN"
+      },
+      {
+        "offset": "0x01A7A",
+        "text": "ENGLISH TEXT TRANSLATION"
+      },
+      {
+        "offset": "0x01A9F",
+        "text": "//          AKIKO SKJELLERUP"
+      },
+      {
+        "offset": "0x01AC6",
+        "text": "//             MICKIE LEE"
+      },
+      {
+        "offset": "0x01AED",
+        "text": "//            YOKO HAYASHI"
+      },
+      {
+        "offset": "0x01B15",
+        "text": "THE SECOND NEDIAM INCIDENT HAS ENDED."
+      },
+      {
+        "offset": "0x01B3B",
+        "text": "WITH ONLY MINUTES LEFT TO SPARE,"
+      },
+      {
+        "offset": "0x01B5C",
+        "text": "/NEDIAM'S CENTRAL BRAIN, A MAMMOTH"
+      },
+      {
+        "offset": "0x01B7F",
+        "text": "/HYBRID THEXDER, WAS ANNIHILATED."
+      },
+      {
+        "offset": "0x01BBE",
+        "text": "CAUGHT IN THE EARTH'S GRAVITY, NEDIAM"
+      },
+      {
+        "offset": "0x01BE4",
+        "text": "/NOW ORBITS THE EARTH AS A SECOND MOON."
+      },
+      {
+        "offset": "0x01C0F",
+        "text": "FOUR YEARS EARLIER, NEDIAM'S CENTRAL"
+      },
+      {
+        "offset": "0x01C34",
+        "text": "/BRAIN HAD LOCATED AND RESCUED ARTHUR."
+      },
+      {
+        "offset": "0x01C5B",
+        "text": "/HIS DESIRE TO SEE JOANNA ONCE AGAIN"
+      },
+      {
+        "offset": "0x01C80",
+        "text": "/CAUSED NEDIAM TO HEAD TOWARDS EARTH."
+      },
+      {
+        "offset": "0x01CA6",
+        "text": "JOANNA HAS NOW BEEN REUNITED WITH"
+      },
+      {
+        "offset": "0x01CCC",
+        "text": "/ARTHUR, AND WITH THE NEDIAM'S DATA"
+      },
+      {
+        "offset": "0x01CF0",
+        "text": "/BANKS, THE TWO HAVE RETURNED SAFELY"
+      },
+      {
+        "offset": "0x01D15",
+        "text": "/TO EARTH."
+      },
+      {
+        "offset": "0x01D37",
+        "text": "NEDIAM'S EXTRAORDINARY TECHNOLOGY CAN"
+      },
+      {
+        "offset": "0x01D5D",
+        "text": "/NOW BE TAPPED BY EARTH SCIENTISTS FOR"
+      },
+      {
+        "offset": "0x01D85",
+        "text": "/FUTURE SPACE EXPLORATION."
+      },
+      {
+        "offset": "0x01DA0",
+        "text": "THANKS TO YOUR OUTSTANDING EFFORTS,"
+      },
+      {
+        "offset": "0x01DC4",
+        "text": "/THE ENTIRE HUMAN RACE, SAVED FROM"
+      },
+      {
+        "offset": "0x01DE7",
+        "text": "/OBLITERATION, CAN BENEFIT FROM"
+      },
+      {
+        "offset": "0x01E07",
+        "text": "/NEDIAM'S SECRETS."
+      },
+      {
+        "offset": "0x02278",
+        "text": "QWV."
+      },
+      {
+        "offset": "0x03DF6",
+        "text": "?@ABCDEF"
+      },
+      {
+        "offset": "0x03E00",
+        "text": "GHIJ"
+      },
+      {
+        "offset": "0x03E06",
+        "text": "KLMN"
+      },
+      {
+        "offset": "0x03E0B",
+        "text": "OPQ\r\rR>ST\r\r\rUV"
+      }
+    ]
+  },
+  "INSTALL.EXE": {
+    "file": "INSTALL.EXE",
+    "category": "executable",
+    "is_compressed": false,
+    "raw_size": 16959,
+    "decompressed_size": 16959,
+    "string_count": 111,
+    "strings": [
+      {
+        "offset": "0x00C23",
+        "text": "?!Ct"
+      },
+      {
+        "offset": "0x0146C",
+        "text": "<\ru:"
+      },
+      {
+        "offset": "0x01A34",
+        "text": "s\nOO"
+      },
+      {
+        "offset": "0x01EC8",
+        "text": "<%t\n<&t"
+      },
+      {
+        "offset": "0x0218C",
+        "text": "<\rto"
+      },
+      {
+        "offset": "0x02192",
+        "text": "tkGN"
+      },
+      {
+        "offset": "0x0219F",
+        "text": "<\rt\\"
+      },
+      {
+        "offset": "0x021A5",
+        "text": "tX<\"t$<\\t"
+      },
+      {
+        "offset": "0x021D0",
+        "text": "<\rt+"
+      },
+      {
+        "offset": "0x021D6",
+        "text": "t'<\"t"
+      },
+      {
+        "offset": "0x02242",
+        "text": "<\rt|"
+      },
+      {
+        "offset": "0x0224C",
+        "text": "?CCN"
+      },
+      {
+        "offset": "0x02259",
+        "text": "<\rtb"
+      },
+      {
+        "offset": "0x0225F",
+        "text": "t^<\"t'<\\t"
+      },
+      {
+        "offset": "0x0228D",
+        "text": "<\rt."
+      },
+      {
+        "offset": "0x02293",
+        "text": "t*<\"t"
+      },
+      {
+        "offset": "0x02331",
+        "text": "_^Yt"
+      },
+      {
+        "offset": "0x02458",
+        "text": "`\nu$"
+      },
+      {
+        "offset": "0x024CC",
+        "text": "QPPS"
+      },
+      {
+        "offset": "0x024E0",
+        "text": "F#Q#e#"
+      },
+      {
+        "offset": "0x024ED",
+        "text": "#($U"
+      },
+      {
+        "offset": "0x02520",
+        "text": ", <Xw"
+      },
+      {
+        "offset": "0x02602",
+        "text": "\"<Fu"
+      },
+      {
+        "offset": "0x02659",
+        "text": "<st'<ntQ<pt`<Et"
+      },
+      {
+        "offset": "0x02940",
+        "text": "QRSP"
+      },
+      {
+        "offset": "0x029AB",
+        "text": "0<9v"
+      },
+      {
+        "offset": "0x029E5",
+        "text": "s\rKK"
+      },
+      {
+        "offset": "0x02BD3",
+        "text": "62\nP"
+      },
+      {
+        "offset": "0x02D47",
+        "text": "=\nPW"
+      },
+      {
+        "offset": "0x02D99",
+        "text": "=/u!"
+      },
+      {
+        "offset": "0x02EF2",
+        "text": "t6K3"
+      },
+      {
+        "offset": "0x02FD5",
+        "text": "w\n_Y"
+      },
+      {
+        "offset": "0x02FEE",
+        "text": "s6BSQ"
+      },
+      {
+        "offset": "0x03015",
+        "text": "!Y[r"
+      },
+      {
+        "offset": "0x0302F",
+        "text": ";w\nu"
+      },
+      {
+        "offset": "0x0347A",
+        "text": "]_^r"
+      },
+      {
+        "offset": "0x03578",
+        "text": "MS Run-Time Library - Copyright (c) 1990, Microsoft Corp"
+      },
+      {
+        "offset": "0x035B4",
+        "text": "(ENTER to continue...)"
+      },
+      {
+        "offset": "0x035CB",
+        "text": "Sierra's THEXDER II FIREHAWK will provide you with superior graphics and sound, but ONLY if you correctly specify the type of hardware that is installed on your computer."
+      },
+      {
+        "offset": "0x03679",
+        "text": "(Y/N)"
+      },
+      {
+        "offset": "0x0367F",
+        "text": "Do you wish to EXIT install?"
+      },
+      {
+        "offset": "0x0369C",
+        "text": "drivers"
+      },
+      {
+        "offset": "0x036B2",
+        "text": "RESOURCE.CFG"
+      },
+      {
+        "offset": "0x036D3",
+        "text": "(ENTER to continue)"
+      },
+      {
+        "offset": "0x036E7",
+        "text": "Can't save configuration information!"
+      },
+      {
+        "offset": "0x0370D",
+        "text": "(C) Copyright 1990, Sierra On-Line, Inc"
+      },
+      {
+        "offset": "0x03737",
+        "text": "THEXDER II FIREHAWK Setup"
+      },
+      {
+        "offset": "0x0375A",
+        "text": "and ENTER to select.  ESC to exit"
+      },
+      {
+        "offset": "0x0377E",
+        "text": "Please select the graphics capability of your computer."
+      },
+      {
+        "offset": "0x037B9",
+        "text": "NONE"
+      },
+      {
+        "offset": "0x037BE",
+        "text": "Use the capability selected for music"
+      },
+      {
+        "offset": "0x037E7",
+        "text": "SIERRA supports a wide range of high quality sound effects.\nPlease select the sound effect capability of your computer."
+      },
+      {
+        "offset": "0x03862",
+        "text": "NONE"
+      },
+      {
+        "offset": "0x03867",
+        "text": "Please select the music/sound capability of your computer."
+      },
+      {
+        "offset": "0x038A5",
+        "text": "Please select the Keyboard capability of your computer."
+      },
+      {
+        "offset": "0x038EA",
+        "text": "Do you wish to use an IBM compatible joystick?\nNOTE: It must be connected to PORT 1 of your Game Control Adaptor."
+      },
+      {
+        "offset": "0x0395F",
+        "text": "YES - Draw the background"
+      },
+      {
+        "offset": "0x03979",
+        "text": "NO - Don't draw the background"
+      },
+      {
+        "offset": "0x03998",
+        "text": "Many slower computers will perform better\nduring this game if no background scenes\nare drawn.  Do you want background scenes drawn?"
+      },
+      {
+        "offset": "0x03A1C",
+        "text": "BACKGROUND"
+      },
+      {
+        "offset": "0x03A2A",
+        "text": "NOBACKGROUND"
+      },
+      {
+        "offset": "0x03A3B",
+        "text": "cdefghijklmnopqrstuvwxyz"
+      },
+      {
+        "offset": "0x03A54",
+        "text": "(ESC or C through Z)"
+      },
+      {
+        "offset": "0x03A69",
+        "text": "If you wish to install this game on your hard disk, type the letter of your hard disk.\n\nIf you wish to skip this step, press ESC."
+      },
+      {
+        "offset": "0x03AED",
+        "text": "(ENTER)"
+      },
+      {
+        "offset": "0x03AF5",
+        "text": "The game will be placed\nin a subdirectory on your\nhard disk named:\n   \\SIERRA\\THEX2"
+      },
+      {
+        "offset": "0x03B49",
+        "text": "instgame.bat %c %c %c"
+      },
+      {
+        "offset": "0x03B61",
+        "text": "(ENTER to continue...)"
+      },
+      {
+        "offset": "0x03B78",
+        "text": "SYSTEM"
+      },
+      {
+        "offset": "0x03B81",
+        "text": "(ENTER to continue...)"
+      },
+      {
+        "offset": "0x03B98",
+        "text": "That is not a valid drive letter!"
+      },
+      {
+        "offset": "0x03BBC",
+        "text": "(ENTER to continue)"
+      },
+      {
+        "offset": "0x03BD0",
+        "text": "Setup is complete..."
+      },
+      {
+        "offset": "0x03BE5",
+        "text": "????????.%s"
+      },
+      {
+        "offset": "0x03BF1",
+        "text": "%s/%s"
+      },
+      {
+        "offset": "0x03C16",
+        "text": "_C_FILE_INFO="
+      },
+      {
+        "offset": "0x03C72",
+        "text": "COMSPEC"
+      },
+      {
+        "offset": "0x03C7D",
+        "text": "command.com"
+      },
+      {
+        "offset": "0x03CCB",
+        "text": "000WP"
+      },
+      {
+        "offset": "0x03CE3",
+        "text": "ppxxxx"
+      },
+      {
+        "offset": "0x03CFB",
+        "text": "(null)"
+      },
+      {
+        "offset": "0x03D07",
+        "text": "(((((                  H"
+      },
+      {
+        "offset": "0x03E08",
+        "text": "Error 0"
+      },
+      {
+        "offset": "0x03E11",
+        "text": "No such file or directory"
+      },
+      {
+        "offset": "0x03E2F",
+        "text": "Arg list too long"
+      },
+      {
+        "offset": "0x03E41",
+        "text": "Exec format error"
+      },
+      {
+        "offset": "0x03E53",
+        "text": "Bad file number"
+      },
+      {
+        "offset": "0x03E65",
+        "text": "Not enough core"
+      },
+      {
+        "offset": "0x03E75",
+        "text": "Permission denied"
+      },
+      {
+        "offset": "0x03E8A",
+        "text": "File exists"
+      },
+      {
+        "offset": "0x03E96",
+        "text": "Cross-device link"
+      },
+      {
+        "offset": "0x03EAB",
+        "text": "Invalid argument"
+      },
+      {
+        "offset": "0x03EBD",
+        "text": "Too many open files"
+      },
+      {
+        "offset": "0x03ED4",
+        "text": "No space left on device"
+      },
+      {
+        "offset": "0x03EF0",
+        "text": "Math argument"
+      },
+      {
+        "offset": "0x03EFE",
+        "text": "Result too large"
+      },
+      {
+        "offset": "0x03F10",
+        "text": "Resource deadlock would occur"
+      },
+      {
+        "offset": "0x03F2E",
+        "text": "Unknown error"
+      },
+      {
+        "offset": "0x03F5F",
+        "text": "&\t8\t9\t:\t;\tL\tM\ta\tb\tc\td\t|\t}\t~"
+      },
+      {
+        "offset": "0x03F8A",
+        "text": "COMSPEC"
+      },
+      {
+        "offset": "0x03F92",
+        "text": ".bat"
+      },
+      {
+        "offset": "0x03F97",
+        "text": ".exe"
+      },
+      {
+        "offset": "0x03F9C",
+        "text": ".com"
+      },
+      {
+        "offset": "0x03FA2",
+        "text": "\"\n'\n,\nPATH"
+      },
+      {
+        "offset": "0x0415E",
+        "text": "<<NMSG>>"
+      },
+      {
+        "offset": "0x04168",
+        "text": "R6000\r\n- stack overflow"
+      },
+      {
+        "offset": "0x04184",
+        "text": "R6003\r\n- integer divide by 0"
+      },
+      {
+        "offset": "0x041A5",
+        "text": "R6009\r\n- not enough space for environment"
+      },
+      {
+        "offset": "0x041D8",
+        "text": "run-time error"
+      },
+      {
+        "offset": "0x041EA",
+        "text": "R6002\r\n- floating-point support not loaded"
+      },
+      {
+        "offset": "0x04219",
+        "text": "R6001\r\n- null pointer assignment"
+      }
+    ]
+  },
+  "ADL.DRV": {
+    "file": "ADL.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 7692,
+    "decompressed_size": 7692,
+    "string_count": 28,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "adldrv"
+      },
+      {
+        "offset": "0x00011",
+        "text": "AdLib Music Synthesizer Card"
+      },
+      {
+        "offset": "0x013DD",
+        "text": "u$.8"
+      },
+      {
+        "offset": "0x014AC",
+        "text": "SQRW"
+      },
+      {
+        "offset": "0x01525",
+        "text": "_ZY["
+      },
+      {
+        "offset": "0x0171F",
+        "text": "SQVW"
+      },
+      {
+        "offset": "0x0175F",
+        "text": "_^Y["
+      },
+      {
+        "offset": "0x01793",
+        "text": "QRWV."
+      },
+      {
+        "offset": "0x017DE",
+        "text": "^_ZY"
+      },
+      {
+        "offset": "0x017E3",
+        "text": "QRV."
+      },
+      {
+        "offset": "0x01839",
+        "text": "WQSR"
+      },
+      {
+        "offset": "0x0186A",
+        "text": "Z[SR"
+      },
+      {
+        "offset": "0x0189B",
+        "text": "SRQ."
+      },
+      {
+        "offset": "0x0192C",
+        "text": "YZ[Z[Y_^X"
+      },
+      {
+        "offset": "0x0196D",
+        "text": "PSQRVW"
+      },
+      {
+        "offset": "0x01A0B",
+        "text": "_^ZY[X"
+      },
+      {
+        "offset": "0x01A65",
+        "text": "SQRW."
+      },
+      {
+        "offset": "0x01A9E",
+        "text": "_ZY["
+      },
+      {
+        "offset": "0x01B0C",
+        "text": "SQRWV"
+      },
+      {
+        "offset": "0x01B2F",
+        "text": "_ZY["
+      },
+      {
+        "offset": "0x01B34",
+        "text": "QRVW"
+      },
+      {
+        "offset": "0x01B4F",
+        "text": "Y[XR"
+      },
+      {
+        "offset": "0x01B61",
+        "text": "_FAG"
+      },
+      {
+        "offset": "0x01B77",
+        "text": "[_^ZY"
+      },
+      {
+        "offset": "0x01B96",
+        "text": "PSQW"
+      },
+      {
+        "offset": "0x01BD9",
+        "text": "_Y[X"
+      },
+      {
+        "offset": "0x01C01",
+        "text": "u?PSQ"
+      },
+      {
+        "offset": "0x01D40",
+        "text": "SQW."
+      }
+    ]
+  },
+  "CMS.DRV": {
+    "file": "CMS.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 3486,
+    "decompressed_size": 3486,
+    "string_count": 22,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "cms\"Creative Music System/Game Blaster"
+      },
+      {
+        "offset": "0x00035",
+        "text": "&.3:@GMSY_ekqw|"
+      },
+      {
+        "offset": "0x000C7",
+        "text": "#(-27<AFK"
+      },
+      {
+        "offset": "0x000D6",
+        "text": "$*06<BHNTZ"
+      },
+      {
+        "offset": "0x000E5",
+        "text": "#*18?FMT[bi"
+      },
+      {
+        "offset": "0x000F4",
+        "text": "(08@HPX`hpx"
+      },
+      {
+        "offset": "0x00104",
+        "text": "$-6?HQZclu~"
+      },
+      {
+        "offset": "0x00114",
+        "text": "(2<FPZdnx"
+      },
+      {
+        "offset": "0x00123",
+        "text": "!,7BMXcny"
+      },
+      {
+        "offset": "0x00133",
+        "text": "$0<HT`lx"
+      },
+      {
+        "offset": "0x00143",
+        "text": "'4AN[hu"
+      },
+      {
+        "offset": "0x00153",
+        "text": "*8FTbp~"
+      },
+      {
+        "offset": "0x00163",
+        "text": "-<KZix"
+      },
+      {
+        "offset": "0x00172",
+        "text": "0@P`p"
+      },
+      {
+        "offset": "0x006BA",
+        "text": "u'.8"
+      },
+      {
+        "offset": "0x0079C",
+        "text": "SQRVP"
+      },
+      {
+        "offset": "0x00805",
+        "text": "^ZY["
+      },
+      {
+        "offset": "0x00A39",
+        "text": "ZQVS"
+      },
+      {
+        "offset": "0x00AA2",
+        "text": "PSQR."
+      },
+      {
+        "offset": "0x00B80",
+        "text": "[ZY[X"
+      },
+      {
+        "offset": "0x00C58",
+        "text": "PSQR."
+      },
+      {
+        "offset": "0x00C96",
+        "text": "ZY[X"
+      }
+    ]
+  },
+  "EGA640.DRV": {
+    "file": "EGA640.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 9196,
+    "decompressed_size": 9196,
+    "string_count": 173,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "EGA640"
+      },
+      {
+        "offset": "0x00011",
+        "text": "EGA/VGA 640x200 16 colorM"
+      },
+      {
+        "offset": "0x00069",
+        "text": "W\"|\""
+      },
+      {
+        "offset": "0x0007F",
+        "text": "1 t 2\""
+      },
+      {
+        "offset": "0x00086",
+        "text": "f!B#P"
+      },
+      {
+        "offset": "0x003C7",
+        "text": "RQP."
+      },
+      {
+        "offset": "0x0040C",
+        "text": "WRQSP."
+      },
+      {
+        "offset": "0x00459",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00467",
+        "text": "WQSP"
+      },
+      {
+        "offset": "0x004CC",
+        "text": "X[Y_"
+      },
+      {
+        "offset": "0x004D9",
+        "text": "WRQSP."
+      },
+      {
+        "offset": "0x00543",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x0054B",
+        "text": "WQSP"
+      },
+      {
+        "offset": "0x0056F",
+        "text": "X[Y_"
+      },
+      {
+        "offset": "0x00617",
+        "text": "RQVVQ"
+      },
+      {
+        "offset": "0x00626",
+        "text": "^YZ."
+      },
+      {
+        "offset": "0x00638",
+        "text": "ZRQVVQ"
+      },
+      {
+        "offset": "0x00648",
+        "text": "^YZ."
+      },
+      {
+        "offset": "0x0065A",
+        "text": "ZRQVVQ"
+      },
+      {
+        "offset": "0x0066A",
+        "text": "^YZ."
+      },
+      {
+        "offset": "0x006D6",
+        "text": "RQWWQ"
+      },
+      {
+        "offset": "0x006E5",
+        "text": "_YZ."
+      },
+      {
+        "offset": "0x006F7",
+        "text": "ZRQWWQ"
+      },
+      {
+        "offset": "0x00707",
+        "text": "_YZ."
+      },
+      {
+        "offset": "0x00719",
+        "text": "ZRQWWQ"
+      },
+      {
+        "offset": "0x00729",
+        "text": "_YZ."
+      },
+      {
+        "offset": "0x00781",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x007E7",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x007F0",
+        "text": "WVRQSP."
+      },
+      {
+        "offset": "0x0083C",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x00847",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x00886",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x008FE",
+        "text": "C<\\t"
+      },
+      {
+        "offset": "0x00920",
+        "text": "WVRQS2"
+      },
+      {
+        "offset": "0x009B3",
+        "text": "[YZ^_"
+      },
+      {
+        "offset": "0x009D3",
+        "text": "t0WS2"
+      },
+      {
+        "offset": "0x00A03",
+        "text": "[_GGC"
+      },
+      {
+        "offset": "0x00A83",
+        "text": ".t\n."
+      },
+      {
+        "offset": "0x00A91",
+        "text": "6x\nR"
+      },
+      {
+        "offset": "0x00CDC",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00CE8",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00CED",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00D20",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00D2C",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00D31",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00D64",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00D70",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00D75",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00DA8",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00DB4",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00DB9",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00DEF",
+        "text": "%\nNta*"
+      },
+      {
+        "offset": "0x00DFB",
+        "text": "Nto*"
+      },
+      {
+        "offset": "0x00E05",
+        "text": "Nt}*"
+      },
+      {
+        "offset": "0x00E32",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00E3E",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00E43",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00EB8",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00EC7",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00ECC",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00EFA",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00F09",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00F0E",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00F3C",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00F48",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00F4D",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x00F5D",
+        "text": "Nt^*"
+      },
+      {
+        "offset": "0x00F67",
+        "text": "Ntl*"
+      },
+      {
+        "offset": "0x00F97",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x00FA6",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x00FAB",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x01009",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x01018",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x0101D",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x0104B",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x01057",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x0105C",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x0106C",
+        "text": "NtQ*"
+      },
+      {
+        "offset": "0x01099",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x010A8",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x010AD",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x010F3",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x010FF",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x01104",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x0113A",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x01149",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x0114E",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x01391",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x0139D",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x013A2",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x013D5",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x013E1",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x013E6",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x01419",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x01425",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x0142A",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x0145D",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x01469",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x0146E",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x014A6",
+        "text": "Nta*"
+      },
+      {
+        "offset": "0x014B0",
+        "text": "Nto*"
+      },
+      {
+        "offset": "0x014BA",
+        "text": "Nt}*"
+      },
+      {
+        "offset": "0x014E7",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x014F3",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x014F8",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x0156D",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x0157C",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x01581",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x015AF",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x015BE",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x015C3",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x015F1",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x015FD",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x01602",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x01612",
+        "text": "Nt^*"
+      },
+      {
+        "offset": "0x0161C",
+        "text": "Ntl*"
+      },
+      {
+        "offset": "0x0164C",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x0165B",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x01660",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x016BE",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x016CD",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x016D2",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x01700",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x0170C",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x01711",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x01721",
+        "text": "NtQ*"
+      },
+      {
+        "offset": "0x0174E",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x0175D",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x01762",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x017A8",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x017B4",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x017B9",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x017EF",
+        "text": ">p\n."
+      },
+      {
+        "offset": "0x017FE",
+        "text": "&u\n."
+      },
+      {
+        "offset": "0x01803",
+        "text": "&t\n."
+      },
+      {
+        "offset": "0x01863",
+        "text": "WVRQS."
+      },
+      {
+        "offset": "0x0187B",
+        "text": "WVRQS"
+      },
+      {
+        "offset": "0x0188A",
+        "text": "GR^."
+      },
+      {
+        "offset": "0x0189A",
+        "text": "[YZ^_"
+      },
+      {
+        "offset": "0x018A7",
+        "text": "t%, t"
+      },
+      {
+        "offset": "0x01905",
+        "text": "WVRS2"
+      },
+      {
+        "offset": "0x0195D",
+        "text": "[Z^_"
+      },
+      {
+        "offset": "0x01964",
+        "text": "VRQS"
+      },
+      {
+        "offset": "0x01A40",
+        "text": "[YZ^"
+      },
+      {
+        "offset": "0x01DB2",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x01E09",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01E11",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x01E87",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01E8F",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x01F08",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01F10",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x01F8A",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01FFA",
+        "text": "_^VW"
+      },
+      {
+        "offset": "0x02032",
+        "text": "VWRQSP."
+      },
+      {
+        "offset": "0x0206C",
+        "text": "X[YZ_^"
+      },
+      {
+        "offset": "0x02075",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x020C5",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x021AF",
+        "text": "PSQRW"
+      },
+      {
+        "offset": "0x02218",
+        "text": "_ZY[X"
+      },
+      {
+        "offset": "0x02234",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x0224E",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x02259",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x02273",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x0227E",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x02298",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x022E1",
+        "text": ">0\"QW"
+      },
+      {
+        "offset": "0x02310",
+        "text": ".\"Q."
+      },
+      {
+        "offset": "0x02316",
+        "text": ",\"W&"
+      },
+      {
+        "offset": "0x0232B",
+        "text": ",\"W&"
+      },
+      {
+        "offset": "0x02343",
+        "text": "WVRQS"
+      },
+      {
+        "offset": "0x02391",
+        "text": "[YZ^_"
+      },
+      {
+        "offset": "0x02399",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x023E5",
+        "text": "X[YZ_"
+      }
+    ]
+  },
+  "IBMKBD.DRV": {
+    "file": "IBMKBD.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 808,
+    "decompressed_size": 808,
+    "string_count": 5,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "IBMKBD"
+      },
+      {
+        "offset": "0x00011",
+        "text": "Standard PC Keyboard"
+      },
+      {
+        "offset": "0x0014A",
+        "text": "URSP."
+      },
+      {
+        "offset": "0x002ED",
+        "text": "X[Z]"
+      },
+      {
+        "offset": "0x00309",
+        "text": "X[Z]"
+      }
+    ]
+  },
+  "JOYSTICK.DRV": {
+    "file": "JOYSTICK.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 367,
+    "decompressed_size": 367,
+    "string_count": 5,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "JOYSTICK"
+      },
+      {
+        "offset": "0x00013",
+        "text": "Standard PC Joystick"
+      },
+      {
+        "offset": "0x0002C",
+        "text": "Checking joystick connections$S"
+      },
+      {
+        "offset": "0x000D7",
+        "text": "WVRQS"
+      },
+      {
+        "offset": "0x00169",
+        "text": "[YZ^_"
+      }
+    ]
+  },
+  "MCGA320.DRV": {
+    "file": "MCGA320.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 9153,
+    "decompressed_size": 9153,
+    "string_count": 176,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "MCGA"
+      },
+      {
+        "offset": "0x0000F",
+        "text": "MCGA 320x200 256 colorR"
+      },
+      {
+        "offset": "0x002DD",
+        "text": "WQSP"
+      },
+      {
+        "offset": "0x00311",
+        "text": "X[Y_"
+      },
+      {
+        "offset": "0x00334",
+        "text": "WRQP"
+      },
+      {
+        "offset": "0x0035A",
+        "text": "XYZ_"
+      },
+      {
+        "offset": "0x00361",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x003B2",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x003E1",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x003EF",
+        "text": "WRQSP2"
+      },
+      {
+        "offset": "0x0042F",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00437",
+        "text": "WRQSP2"
+      },
+      {
+        "offset": "0x00484",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00581",
+        "text": "WQSP"
+      },
+      {
+        "offset": "0x005A6",
+        "text": "X[Y_"
+      },
+      {
+        "offset": "0x005AE",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x005E6",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x005F0",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x00628",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x006E2",
+        "text": "C<\\t"
+      },
+      {
+        "offset": "0x00705",
+        "text": "WVRQS2"
+      },
+      {
+        "offset": "0x00759",
+        "text": "[YZ^_"
+      },
+      {
+        "offset": "0x008E1",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x0092B",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00931",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x00967",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00981",
+        "text": ".t\t."
+      },
+      {
+        "offset": "0x00BAE",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00BB6",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00BC2",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00BC7",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00BE7",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00BEF",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00BFB",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00C00",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00C20",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00C28",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00C34",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00C39",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00C59",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00C61",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00C6D",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00C72",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00CA9",
+        "text": "+\tNtn*"
+      },
+      {
+        "offset": "0x00CB5",
+        "text": "Ntn*"
+      },
+      {
+        "offset": "0x00CBF",
+        "text": "Ntw*"
+      },
+      {
+        "offset": "0x00CEB",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00CF9",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00D05",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00D0A",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00D6B",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00D7A",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00D7F",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00DB1",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00DC0",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00DC5",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00DE5",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00DF1",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00DF6",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00E06",
+        "text": "Ntb*"
+      },
+      {
+        "offset": "0x00E10",
+        "text": "Ntb*"
+      },
+      {
+        "offset": "0x00E33",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00E44",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00E53",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00E58",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00E9E",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00EAD",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00EB2",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00ED2",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00EDE",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00EE3",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00EF3",
+        "text": "NtL*"
+      },
+      {
+        "offset": "0x00F0A",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00F1B",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00F2A",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00F2F",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00F59",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00F65",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00F6A",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x00F81",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00F92",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x00FA1",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x00FA6",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x011CB",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x011D3",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x011DF",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x011E4",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01204",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x0120C",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x01218",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x0121D",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x0123D",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x01245",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x01251",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x01256",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01276",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x0127E",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x0128A",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x0128F",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x012C8",
+        "text": "Ntn*"
+      },
+      {
+        "offset": "0x012D2",
+        "text": "Ntn*"
+      },
+      {
+        "offset": "0x012DC",
+        "text": "Ntw*"
+      },
+      {
+        "offset": "0x01308",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x01316",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x01322",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x01327",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01388",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x01397",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x0139C",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x013CE",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x013DD",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x013E2",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01402",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x0140E",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x01413",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01423",
+        "text": "Ntb*"
+      },
+      {
+        "offset": "0x0142D",
+        "text": "Ntb*"
+      },
+      {
+        "offset": "0x01450",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x01461",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x01470",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x01475",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x014BB",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x014CA",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x014CF",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x014EF",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x014FB",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x01500",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01510",
+        "text": "NtL*"
+      },
+      {
+        "offset": "0x01527",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x01538",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x01547",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x0154C",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01576",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x01582",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x01587",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x0159E",
+        "text": "%ONu"
+      },
+      {
+        "offset": "0x015AF",
+        "text": ">p\t."
+      },
+      {
+        "offset": "0x015BE",
+        "text": "&u\t."
+      },
+      {
+        "offset": "0x015C3",
+        "text": "&t\t."
+      },
+      {
+        "offset": "0x01613",
+        "text": "WVRQS"
+      },
+      {
+        "offset": "0x01625",
+        "text": "WVRQS"
+      },
+      {
+        "offset": "0x01646",
+        "text": "[YZ^_"
+      },
+      {
+        "offset": "0x01653",
+        "text": "t%, t"
+      },
+      {
+        "offset": "0x01724",
+        "text": "WVRS2"
+      },
+      {
+        "offset": "0x017AB",
+        "text": "[Z^_"
+      },
+      {
+        "offset": "0x017C3",
+        "text": "WVQSP<"
+      },
+      {
+        "offset": "0x0188F",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01897",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x018EC",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x018F4",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x01989",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01991",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x01A29",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01A32",
+        "text": "VRQS"
+      },
+      {
+        "offset": "0x01A4C",
+        "text": "[YZ^"
+      },
+      {
+        "offset": "0x01A52",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x01B37",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01B4F",
+        "text": "WVRS"
+      },
+      {
+        "offset": "0x01B9B",
+        "text": "[Z^_"
+      },
+      {
+        "offset": "0x01D00",
+        "text": "@DDD@DDD@DDD"
+      },
+      {
+        "offset": "0x01D10",
+        "text": "@@DD@D"
+      },
+      {
+        "offset": "0x01D17",
+        "text": "D@DDD"
+      },
+      {
+        "offset": "0x01DBA",
+        "text": "WVRQSP<"
+      },
+      {
+        "offset": "0x01E38",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01E69",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x01E80",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01E8C",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x01EA3",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01EAE",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x01EC5",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01FB6",
+        "text": "VQRS"
+      },
+      {
+        "offset": "0x01FE9",
+        "text": "[ZY^"
+      },
+      {
+        "offset": "0x01FF0",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x02017",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x022F4",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x02340",
+        "text": "X[YZ_"
+      }
+    ]
+  },
+  "MT32.DRV": {
+    "file": "MT32.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 1857,
+    "decompressed_size": 1857,
+    "string_count": 9,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "mtdrv.Roland MT-32, MT-100, LAPC-I, CM-32L, or CM-64"
+      },
+      {
+        "offset": "0x00156",
+        "text": "!(/5<CIPW]d"
+      },
+      {
+        "offset": "0x002DF",
+        "text": "u\n.8"
+      },
+      {
+        "offset": "0x00354",
+        "text": "@t\tI"
+      },
+      {
+        "offset": "0x003AD",
+        "text": "PSQV"
+      },
+      {
+        "offset": "0x003DF",
+        "text": "^Y[X"
+      },
+      {
+        "offset": "0x003E4",
+        "text": "SUWV."
+      },
+      {
+        "offset": "0x004C2",
+        "text": "SQVU"
+      },
+      {
+        "offset": "0x004E3",
+        "text": "]^Y["
+      }
+    ]
+  },
+  "SNDBLAST.DRV": {
+    "file": "SNDBLAST.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 9028,
+    "decompressed_size": 9028,
+    "string_count": 33,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "blastdrv"
+      },
+      {
+        "offset": "0x00013",
+        "text": "Sound Blaster Card"
+      },
+      {
+        "offset": "0x013EC",
+        "text": "u$.8"
+      },
+      {
+        "offset": "0x014BB",
+        "text": "SQRW"
+      },
+      {
+        "offset": "0x01534",
+        "text": "_ZY["
+      },
+      {
+        "offset": "0x0172E",
+        "text": "SQVW"
+      },
+      {
+        "offset": "0x0176E",
+        "text": "_^Y["
+      },
+      {
+        "offset": "0x017A2",
+        "text": "QRWV."
+      },
+      {
+        "offset": "0x017ED",
+        "text": "^_ZY"
+      },
+      {
+        "offset": "0x017F2",
+        "text": "QRV."
+      },
+      {
+        "offset": "0x01848",
+        "text": "WQSR"
+      },
+      {
+        "offset": "0x01879",
+        "text": "Z[SR"
+      },
+      {
+        "offset": "0x018AA",
+        "text": "SRQ."
+      },
+      {
+        "offset": "0x0193B",
+        "text": "YZ[Z[Y_^X"
+      },
+      {
+        "offset": "0x0197C",
+        "text": "PSQRVW"
+      },
+      {
+        "offset": "0x01A1A",
+        "text": "_^ZY[X"
+      },
+      {
+        "offset": "0x01A74",
+        "text": "SQRW."
+      },
+      {
+        "offset": "0x01AAD",
+        "text": "_ZY["
+      },
+      {
+        "offset": "0x01B1B",
+        "text": "SQRWV"
+      },
+      {
+        "offset": "0x01B3E",
+        "text": "_ZY["
+      },
+      {
+        "offset": "0x01B43",
+        "text": "QRVW"
+      },
+      {
+        "offset": "0x01B5E",
+        "text": "Y[XR"
+      },
+      {
+        "offset": "0x01B70",
+        "text": "_FAG"
+      },
+      {
+        "offset": "0x01B86",
+        "text": "[_^ZY"
+      },
+      {
+        "offset": "0x01BA5",
+        "text": "PSQW"
+      },
+      {
+        "offset": "0x01BE8",
+        "text": "_Y[X"
+      },
+      {
+        "offset": "0x01C10",
+        "text": "u?PSQ"
+      },
+      {
+        "offset": "0x01D4F",
+        "text": "SQW."
+      },
+      {
+        "offset": "0x020AF",
+        "text": "PSQRWVU"
+      },
+      {
+        "offset": "0x020E5",
+        "text": "]^_ZY[X"
+      },
+      {
+        "offset": "0x0210E",
+        "text": "At\r.)"
+      },
+      {
+        "offset": "0x0226E",
+        "text": "PSQR"
+      },
+      {
+        "offset": "0x02299",
+        "text": "ZY[X"
+      }
+    ]
+  },
+  "STD.DRV": {
+    "file": "STD.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 1295,
+    "decompressed_size": 1295,
+    "string_count": 5,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "stddrv%IBM PC or Compatible Internal Speaker!"
+      },
+      {
+        "offset": "0x00285",
+        "text": "-\tO\tr"
+      },
+      {
+        "offset": "0x00293",
+        "text": "'\nM\ns"
+      },
+      {
+        "offset": "0x003A7",
+        "text": "PSQR."
+      },
+      {
+        "offset": "0x003FD",
+        "text": "ZY[X"
+      }
+    ]
+  },
+  "TANDY.DRV": {
+    "file": "TANDY.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 3905,
+    "decompressed_size": 3905,
+    "string_count": 24,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "tnddrv"
+      },
+      {
+        "offset": "0x00011",
+        "text": "Tandy 1000 TL series"
+      },
+      {
+        "offset": "0x002DE",
+        "text": "#(-27<AFK"
+      },
+      {
+        "offset": "0x002ED",
+        "text": "$*06<BHNTZ"
+      },
+      {
+        "offset": "0x002FC",
+        "text": "#*18?FMT[bi"
+      },
+      {
+        "offset": "0x0030B",
+        "text": "(08@HPX`hpx"
+      },
+      {
+        "offset": "0x0031B",
+        "text": "$-6?HQZclu~"
+      },
+      {
+        "offset": "0x0032B",
+        "text": "(2<FPZdnx"
+      },
+      {
+        "offset": "0x0033A",
+        "text": "!,7BMXcny"
+      },
+      {
+        "offset": "0x0034A",
+        "text": "$0<HT`lx"
+      },
+      {
+        "offset": "0x0035A",
+        "text": "'4AN[hu"
+      },
+      {
+        "offset": "0x0036A",
+        "text": "*8FTbp~"
+      },
+      {
+        "offset": "0x0037A",
+        "text": "-<KZix"
+      },
+      {
+        "offset": "0x00389",
+        "text": "0@P`p"
+      },
+      {
+        "offset": "0x00869",
+        "text": "u'.8"
+      },
+      {
+        "offset": "0x0094B",
+        "text": "SQRVP"
+      },
+      {
+        "offset": "0x009B4",
+        "text": "^ZY["
+      },
+      {
+        "offset": "0x009B9",
+        "text": "PQRW"
+      },
+      {
+        "offset": "0x009F1",
+        "text": "_ZYX"
+      },
+      {
+        "offset": "0x00C1A",
+        "text": "ZQVS"
+      },
+      {
+        "offset": "0x00C6D",
+        "text": "PSQRVW2"
+      },
+      {
+        "offset": "0x00CE0",
+        "text": "_^ZY[X"
+      },
+      {
+        "offset": "0x00DB5",
+        "text": "PSQR"
+      },
+      {
+        "offset": "0x00DDB",
+        "text": "ZY[X"
+      }
+    ]
+  },
+  "TANDY320.DRV": {
+    "file": "TANDY320.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 9765,
+    "decompressed_size": 9765,
+    "string_count": 83,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "TANDY"
+      },
+      {
+        "offset": "0x00010",
+        "text": "TANDY 320x200 16 colore"
+      },
+      {
+        "offset": "0x0008B",
+        "text": "\"4#w#\t$"
+      },
+      {
+        "offset": "0x00528",
+        "text": "WQSP"
+      },
+      {
+        "offset": "0x0056E",
+        "text": "X[Y_"
+      },
+      {
+        "offset": "0x00573",
+        "text": "RQSS"
+      },
+      {
+        "offset": "0x005C4",
+        "text": "WQP."
+      },
+      {
+        "offset": "0x005F5",
+        "text": "WRQP"
+      },
+      {
+        "offset": "0x0061E",
+        "text": "XYZ_"
+      },
+      {
+        "offset": "0x00625",
+        "text": "WRQSP."
+      },
+      {
+        "offset": "0x00665",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00686",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00694",
+        "text": "WRQSP2"
+      },
+      {
+        "offset": "0x006D1",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x006D9",
+        "text": "WRQSP2"
+      },
+      {
+        "offset": "0x00717",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00815",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x00847",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00850",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x00891",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x0089B",
+        "text": "WVQSP"
+      },
+      {
+        "offset": "0x008DC",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x00971",
+        "text": ">P\t&"
+      },
+      {
+        "offset": "0x00977",
+        "text": "C<\\t"
+      },
+      {
+        "offset": "0x0099C",
+        "text": "WVRQS2"
+      },
+      {
+        "offset": "0x00A04",
+        "text": "[YZ^_"
+      },
+      {
+        "offset": "0x00A25",
+        "text": "R\t.\""
+      },
+      {
+        "offset": "0x00A3A",
+        "text": "R\t.\""
+      },
+      {
+        "offset": "0x00A70",
+        "text": "tDWS2"
+      },
+      {
+        "offset": "0x00B05",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x00B41",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00B47",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x00B76",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x00DF6",
+        "text": "T\nNu"
+      },
+      {
+        "offset": "0x00E45",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x00FAC",
+        "text": "Nty*"
+      },
+      {
+        "offset": "0x00FE9",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x010FD",
+        "text": "NtU*"
+      },
+      {
+        "offset": "0x01116",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x011BA",
+        "text": "%GNu"
+      },
+      {
+        "offset": "0x01602",
+        "text": "Ntx*"
+      },
+      {
+        "offset": "0x01752",
+        "text": "NtT*"
+      },
+      {
+        "offset": "0x018B3",
+        "text": "WVRQS"
+      },
+      {
+        "offset": "0x018C5",
+        "text": "WVRQS"
+      },
+      {
+        "offset": "0x018D4",
+        "text": "GGR^."
+      },
+      {
+        "offset": "0x018E5",
+        "text": "[YZ^_"
+      },
+      {
+        "offset": "0x018F2",
+        "text": "t&, t"
+      },
+      {
+        "offset": "0x019E9",
+        "text": "WVRS2"
+      },
+      {
+        "offset": "0x01AD5",
+        "text": "[Z^_"
+      },
+      {
+        "offset": "0x01AE4",
+        "text": "@DDD@DDD@DDD"
+      },
+      {
+        "offset": "0x01AF4",
+        "text": "@@DD@D"
+      },
+      {
+        "offset": "0x01AFB",
+        "text": "D@DDD"
+      },
+      {
+        "offset": "0x01B05",
+        "text": "WVQSP<"
+      },
+      {
+        "offset": "0x01BBA",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01BC2",
+        "text": "WVQSP."
+      },
+      {
+        "offset": "0x01BE3",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01BEB",
+        "text": "WVQSP."
+      },
+      {
+        "offset": "0x01C2C",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01C34",
+        "text": "WVQSP."
+      },
+      {
+        "offset": "0x01C77",
+        "text": "X[Y^_"
+      },
+      {
+        "offset": "0x01C81",
+        "text": "WVRQSP."
+      },
+      {
+        "offset": "0x01CBB",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01CDA",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x01CEB",
+        "text": "VWRQSP"
+      },
+      {
+        "offset": "0x01DBD",
+        "text": "X[YZ_^"
+      },
+      {
+        "offset": "0x01DCE",
+        "text": "WVRS"
+      },
+      {
+        "offset": "0x01DF7",
+        "text": "[Z^_"
+      },
+      {
+        "offset": "0x01FFC",
+        "text": "WVRQSP<"
+      },
+      {
+        "offset": "0x02063",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x0208B",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x020A2",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x020AE",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x020C5",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x020D0",
+        "text": "WVRQSP"
+      },
+      {
+        "offset": "0x020E7",
+        "text": "X[YZ^_"
+      },
+      {
+        "offset": "0x02136",
+        "text": ">} QW."
+      },
+      {
+        "offset": "0x021F1",
+        "text": "{ QW."
+      },
+      {
+        "offset": "0x0222B",
+        "text": "VQRS"
+      },
+      {
+        "offset": "0x02264",
+        "text": "[ZY^"
+      },
+      {
+        "offset": "0x0226B",
+        "text": "WRQSP."
+      },
+      {
+        "offset": "0x0229C",
+        "text": "X[YZ_"
+      },
+      {
+        "offset": "0x02565",
+        "text": "WRQSP"
+      },
+      {
+        "offset": "0x025A5",
+        "text": "X[YZ_"
+      }
+    ]
+  },
+  "TANDY3V.DRV": {
+    "file": "TANDY3V.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 3671,
+    "decompressed_size": 3671,
+    "string_count": 24,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "jrdrv"
+      },
+      {
+        "offset": "0x00010",
+        "text": "Tandy 1000 series"
+      },
+      {
+        "offset": "0x002DA",
+        "text": "#(-27<AFK"
+      },
+      {
+        "offset": "0x002E9",
+        "text": "$*06<BHNTZ"
+      },
+      {
+        "offset": "0x002F8",
+        "text": "#*18?FMT[bi"
+      },
+      {
+        "offset": "0x00307",
+        "text": "(08@HPX`hpx"
+      },
+      {
+        "offset": "0x00317",
+        "text": "$-6?HQZclu~"
+      },
+      {
+        "offset": "0x00327",
+        "text": "(2<FPZdnx"
+      },
+      {
+        "offset": "0x00336",
+        "text": "!,7BMXcny"
+      },
+      {
+        "offset": "0x00346",
+        "text": "$0<HT`lx"
+      },
+      {
+        "offset": "0x00356",
+        "text": "'4AN[hu"
+      },
+      {
+        "offset": "0x00366",
+        "text": "*8FTbp~"
+      },
+      {
+        "offset": "0x00376",
+        "text": "-<KZix"
+      },
+      {
+        "offset": "0x00385",
+        "text": "0@P`p"
+      },
+      {
+        "offset": "0x00865",
+        "text": "u'.8"
+      },
+      {
+        "offset": "0x00947",
+        "text": "SQRVP"
+      },
+      {
+        "offset": "0x009B0",
+        "text": "^ZY["
+      },
+      {
+        "offset": "0x009B5",
+        "text": "PQRW"
+      },
+      {
+        "offset": "0x009D2",
+        "text": "_ZYX"
+      },
+      {
+        "offset": "0x00BFB",
+        "text": "ZQVS"
+      },
+      {
+        "offset": "0x00C4E",
+        "text": "PSQRVW2"
+      },
+      {
+        "offset": "0x00CC1",
+        "text": "_^ZY[X"
+      },
+      {
+        "offset": "0x00D96",
+        "text": "PSQR"
+      },
+      {
+        "offset": "0x00DBC",
+        "text": "ZY[X"
+      }
+    ]
+  },
+  "TANDYKBD.DRV": {
+    "file": "TANDYKBD.DRV",
+    "category": "driver",
+    "is_compressed": false,
+    "raw_size": 798,
+    "decompressed_size": 798,
+    "string_count": 5,
+    "strings": [
+      {
+        "offset": "0x0000A",
+        "text": "TANDYKBD"
+      },
+      {
+        "offset": "0x00013",
+        "text": "Tandy1000 Keyboard"
+      },
+      {
+        "offset": "0x0014A",
+        "text": "URSP."
+      },
+      {
+        "offset": "0x002E3",
+        "text": "X[Z]"
+      },
+      {
+        "offset": "0x002FF",
+        "text": "X[Z]"
+      }
+    ]
+  },
+  "COMMDATA.bin": {
+    "file": "COMMDATA.bin",
+    "category": "resource",
+    "is_compressed": true,
+    "raw_size": 1885,
+    "decompressed_size": 2159,
+    "string_count": 21,
+    "strings": [
+      {
+        "offset": "0x00292",
+        "text": "456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+      },
+      {
+        "offset": "0x003EA",
+        "text": "89:;<=>?@AB"
+      },
+      {
+        "offset": "0x003F6",
+        "text": "CDEFGHIJKAB"
+      },
+      {
+        "offset": "0x0040E",
+        "text": "RSTUV"
+      },
+      {
+        "offset": "0x0041A",
+        "text": "RY:Z[\\]?@AB"
+      },
+      {
+        "offset": "0x00426",
+        "text": "L^E_`aIbcAB"
+      },
+      {
+        "offset": "0x0043E",
+        "text": "fgTUh"
+      },
+      {
+        "offset": "0x0044A",
+        "text": "mnopqrstu"
+      },
+      {
+        "offset": "0x00454",
+        "text": "vwxyz{|}~"
+      },
+      {
+        "offset": "0x004C0",
+        "text": "jklmn"
+      },
+      {
+        "offset": "0x004C9",
+        "text": "qrstu"
+      },
+      {
+        "offset": "0x004CF",
+        "text": "vwxy"
+      },
+      {
+        "offset": "0x00556",
+        "text": "DEFGHIJK"
+      },
+      {
+        "offset": "0x0055F",
+        "text": "LMNOPQRS"
+      },
+      {
+        "offset": "0x0056A",
+        "text": "UVWXYZ[\\"
+      },
+      {
+        "offset": "0x00574",
+        "text": "]^_`abc"
+      },
+      {
+        "offset": "0x0057E",
+        "text": "defghi"
+      },
+      {
+        "offset": "0x005C4",
+        "text": "*+,-./012j"
+      },
+      {
+        "offset": "0x005D0",
+        "text": "klmnop"
+      },
+      {
+        "offset": "0x005D9",
+        "text": "qrstuv"
+      },
+      {
+        "offset": "0x005E1",
+        "text": "wxyz{|}"
+      }
+    ]
+  },
+  "DED1.bin": {
+    "file": "DED1.bin",
+    "category": "resource",
+    "is_compressed": true,
+    "raw_size": 859,
+    "decompressed_size": 1600,
+    "string_count": 0,
+    "strings": []
+  },
+  "DED2.bin": {
+    "file": "DED2.bin",
+    "category": "resource",
+    "is_compressed": true,
+    "raw_size": 644,
+    "decompressed_size": 832,
+    "string_count": 0,
+    "strings": []
+  },
+  "GMEN.bin": {
+    "file": "GMEN.bin",
+    "category": "resource",
+    "is_compressed": true,
+    "raw_size": 9821,
+    "decompressed_size": 14388,
+    "string_count": 52,
+    "strings": [
+      {
+        "offset": "0x00BF4",
+        "text": "FUFQ"
+      },
+      {
+        "offset": "0x00C8D",
+        "text": "5UQX"
+      },
+      {
+        "offset": "0x00E50",
+        "text": "QEUR"
+      },
+      {
+        "offset": "0x00E77",
+        "text": "QE}F"
+      },
+      {
+        "offset": "0x00EC6",
+        "text": "UPTQETe"
+      },
+      {
+        "offset": "0x00EF5",
+        "text": "UPTQEQ"
+      },
+      {
+        "offset": "0x00F9D",
+        "text": "UAUuE"
+      },
+      {
+        "offset": "0x00FBE",
+        "text": "UTU@"
+      },
+      {
+        "offset": "0x00FF0",
+        "text": "UTU@"
+      },
+      {
+        "offset": "0x01033",
+        "text": "]V!@T"
+      },
+      {
+        "offset": "0x01068",
+        "text": "uX%T"
+      },
+      {
+        "offset": "0x01102",
+        "text": "T]VP"
+      },
+      {
+        "offset": "0x011C0",
+        "text": "VUP@"
+      },
+      {
+        "offset": "0x011E8",
+        "text": "YUP@"
+      },
+      {
+        "offset": "0x01228",
+        "text": "!eUA"
+      },
+      {
+        "offset": "0x0130C",
+        "text": "UD??????"
+      },
+      {
+        "offset": "0x014E7",
+        "text": "aUp?"
+      },
+      {
+        "offset": "0x01528",
+        "text": "UP4U@"
+      },
+      {
+        "offset": "0x0172E",
+        "text": "AUP?"
+      },
+      {
+        "offset": "0x017C3",
+        "text": "AUp?"
+      },
+      {
+        "offset": "0x017F3",
+        "text": "UP4UE"
+      },
+      {
+        "offset": "0x01A21",
+        "text": "AUP?"
+      },
+      {
+        "offset": "0x01AB5",
+        "text": "@Up?"
+      },
+      {
+        "offset": "0x01AE5",
+        "text": "UP4U"
+      },
+      {
+        "offset": "0x01D15",
+        "text": "0UP?"
+      },
+      {
+        "offset": "0x01E59",
+        "text": "@UJ\""
+      },
+      {
+        "offset": "0x01E9C",
+        "text": "D@UB"
+      },
+      {
+        "offset": "0x021A3",
+        "text": "@5UT"
+      },
+      {
+        "offset": "0x022C7",
+        "text": "_U^Q"
+      },
+      {
+        "offset": "0x0261E",
+        "text": "UDUT"
+      },
+      {
+        "offset": "0x0276E",
+        "text": "qU ?"
+      },
+      {
+        "offset": "0x027B7",
+        "text": "QTP?"
+      },
+      {
+        "offset": "0x029C6",
+        "text": "QUP?"
+      },
+      {
+        "offset": "0x02A4B",
+        "text": "QUP?"
+      },
+      {
+        "offset": "0x02A5F",
+        "text": "QUP?"
+      },
+      {
+        "offset": "0x02A71",
+        "text": "@QU?"
+      },
+      {
+        "offset": "0x02A85",
+        "text": "QUP?"
+      },
+      {
+        "offset": "0x02A99",
+        "text": "QTP?"
+      },
+      {
+        "offset": "0x02CC8",
+        "text": "QUP?"
+      },
+      {
+        "offset": "0x02D4D",
+        "text": "PUP?"
+      },
+      {
+        "offset": "0x02D61",
+        "text": "PUP?"
+      },
+      {
+        "offset": "0x02D73",
+        "text": "@PU?"
+      },
+      {
+        "offset": "0x02D87",
+        "text": "PUP?"
+      },
+      {
+        "offset": "0x02D9B",
+        "text": "PTP?"
+      },
+      {
+        "offset": "0x02FC0",
+        "text": "n@8UP?"
+      },
+      {
+        "offset": "0x02FC8",
+        "text": "UHn@8UT"
+      },
+      {
+        "offset": "0x02FE6",
+        "text": "xUP?"
+      },
+      {
+        "offset": "0x03009",
+        "text": "7HU?"
+      },
+      {
+        "offset": "0x03182",
+        "text": "QUP*"
+      },
+      {
+        "offset": "0x031A1",
+        "text": "dwUR"
+      },
+      {
+        "offset": "0x031A8",
+        "text": "UQUT"
+      },
+      {
+        "offset": "0x031C5",
+        "text": "eRUQ@"
+      }
+    ]
+  }
+}

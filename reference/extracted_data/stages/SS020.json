@@ -1,0 +1,14 @@
+{
+  "stage": "SS020",
+  "file_size": 25855,
+  "header": {
+    "checksum_or_id": "0x934B",
+    "flags": "0x0000",
+    "map_param_x": 2304,
+    "map_param_y": 6145,
+    "tile_bank_id": "0xE008",
+    "spawner_offset": "0x98D1 (39121)"
+  },
+  "spawner_count_estimated": 0,
+  "spawners_sample": []
+}
