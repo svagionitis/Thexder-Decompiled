@@ -12,7 +12,7 @@ extern "C" {
 #define FP12_4_SHIFT 4
 #define FP12_4_ONE (1 << FP12_4_SHIFT)
 #define FP12_4_HALF (1 << (FP12_4_SHIFT - 1))
-#define FP12_4_TO_INT(v) ((int16_t)((int32_t)(v) >> FP12_4_SHIFT))
+#define FP12_4_TO_INT(v) ((int16_t)((v) >> FP12_4_SHIFT))
 #define INT_TO_FP12_4(v) ((int32_t)((int32_t)(v) << FP12_4_SHIFT))
 
 /// @brief 2D Vector using 12.4 fixed-point coordinates
