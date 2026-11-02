@@ -132,7 +132,39 @@ docs/doxygen_sqlite3.db
 *.qhc
 
 
-# Python bytecode
+# ==============================================================================
+# Python Bytecode, Caches & Virtual Environments
+# ==============================================================================
 __pycache__/
+*.py[cod]
+*$py.class
 *.pyc
+*.pyo
+*.pyd
+
+# Python Packaging & Distribution
+*.egg
+*.eggs/
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Tooling, Testing & Type Checking Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
 
