@@ -39,4 +39,3 @@ void hal_vfs_free(void* buffer);
 #ifdef __cplusplus
 }
 #endif
-

@@ -137,6 +137,7 @@ flowchart TD
      - Provide a case-insensitive file reader mapping DOS file requests to `assets/firehawk/`.
 
 ### Phase 4: Core Subsystem Decompilation into C (`.c` & `.h`)
+> See detailed specification in [`phase4_core_subsystems_decompilation.md`](phase4_core_subsystems_decompilation.md).
 - **Objective:** Decompile all game routines from Ghidra into clean, portable C code in `src/firehawk/`.
 - **Subsystems to decompile:**
   1. **Main Loop & Game States (`game_main.c`, `game_loop.c`):**
