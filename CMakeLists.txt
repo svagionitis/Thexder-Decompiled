@@ -44,8 +44,9 @@ endif()
 
 # Subdirectories
 add_subdirectory(tools)
+add_subdirectory(src/platform)
+add_subdirectory(apps/hal_smoke_test)
 
 if(BUILD_TESTING)
     add_subdirectory(tests)
 endif()
-

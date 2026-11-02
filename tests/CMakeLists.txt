@@ -17,3 +17,5 @@ add_test(
     COMMAND test_sar_extractor
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 )
+
+add_subdirectory(hal)

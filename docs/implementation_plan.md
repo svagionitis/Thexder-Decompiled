@@ -120,6 +120,7 @@ flowchart TD
      - Identify `stage_header_t` and tile grid arrays.
 
 ### Phase 3: Platform Abstraction Layer (HAL) Development
+> See detailed specification in [`phase3_platform_abstraction_layer.md`](phase3_platform_abstraction_layer.md).
 - **Objective:** Build the modern host runtime in `src/platform/` to host the decompiled C engine.
 - **Tasks:**
   1. **Virtual Framebuffer & Video Scaler:**
