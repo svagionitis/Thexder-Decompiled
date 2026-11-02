@@ -12,13 +12,13 @@ extern "C" {
 #define FP12_4_SHIFT 4
 #define FP12_4_ONE (1 << FP12_4_SHIFT)
 #define FP12_4_HALF (1 << (FP12_4_SHIFT - 1))
-#define FP12_4_TO_INT(v) ((int16_t)((v) >> FP12_4_SHIFT))
-#define INT_TO_FP12_4(v) ((int16_t)((int16_t)(v) << FP12_4_SHIFT))
+#define FP12_4_TO_INT(v) ((int16_t)((int32_t)(v) >> FP12_4_SHIFT))
+#define INT_TO_FP12_4(v) ((int32_t)((int32_t)(v) << FP12_4_SHIFT))
 
 /// @brief 2D Vector using 12.4 fixed-point coordinates
 typedef struct vector2d {
-    int16_t x; ///< 12.4 fixed-point horizontal coordinate
-    int16_t y; ///< 12.4 fixed-point vertical coordinate
+    int32_t x; ///< 12.4 fixed-point horizontal coordinate
+    int32_t y; ///< 12.4 fixed-point vertical coordinate
 } vector2d_t;
 
 /// @brief 2D Axis-Aligned Bounding Box (AABB) in integer pixel units
