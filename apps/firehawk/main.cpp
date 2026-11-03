@@ -15,6 +15,47 @@
 
 namespace {
 
+static bool save_framebuffer_bmp(const char* filepath, const uint8_t* fb, int w, int h)
+{
+    if (!filepath || !fb || w <= 0 || h <= 0) {
+        return false;
+    }
+
+    FILE* fp = fopen(filepath, "wb");
+    if (!fp) {
+        return false;
+    }
+
+    static const uint8_t ega_bgr[16][3] = { { 0x00, 0x00, 0x00 }, { 0xAA, 0x00, 0x00 }, { 0x00, 0xAA, 0x00 },
+        { 0xAA, 0xAA, 0x00 }, { 0x00, 0x00, 0xAA }, { 0xAA, 0x00, 0xAA }, { 0x00, 0x55, 0xAA }, { 0xAA, 0xAA, 0xAA },
+        { 0x55, 0x55, 0x55 }, { 0xFF, 0x55, 0x55 }, { 0x55, 0xFF, 0x55 }, { 0xFF, 0xFF, 0x55 }, { 0x55, 0x55, 0xFF },
+        { 0xFF, 0x55, 0xFF }, { 0x55, 0xFF, 0xFF }, { 0xFF, 0xFF, 0xFF } };
+
+    uint32_t row_bytes = (uint32_t)(w * 3);
+    uint32_t image_size = row_bytes * (uint32_t)h;
+    uint32_t file_size = 54 + image_size;
+
+    uint8_t header[54] = { 'B', 'M', (uint8_t)(file_size & 0xFF), (uint8_t)((file_size >> 8) & 0xFF),
+        (uint8_t)((file_size >> 16) & 0xFF), (uint8_t)((file_size >> 24) & 0xFF), 0, 0, 0, 0, 54, 0, 0, 0, 40, 0, 0, 0,
+        (uint8_t)(w & 0xFF), (uint8_t)((w >> 8) & 0xFF), 0, 0, (uint8_t)(h & 0xFF), (uint8_t)((h >> 8) & 0xFF), 0, 0, 1,
+        0, 24, 0, 0, 0, 0, 0, (uint8_t)(image_size & 0xFF), (uint8_t)((image_size >> 8) & 0xFF),
+        (uint8_t)((image_size >> 16) & 0xFF), (uint8_t)((image_size >> 24) & 0xFF), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0 };
+
+    fwrite(header, 1, 54, fp);
+
+    // BMP is stored bottom-up
+    for (int y = h - 1; y >= 0; --y) {
+        for (int x = 0; x < w; ++x) {
+            uint8_t col = fb[(size_t)y * (size_t)w + (size_t)x] & 0x0F;
+            fwrite(ega_bgr[col], 1, 3, fp);
+        }
+    }
+
+    fclose(fp);
+    return true;
+}
+
 const char* resolve_default_assets(void)
 {
     static const char* candidates[]
@@ -118,6 +159,7 @@ int main(int argc, char* argv[])
     int start_sub_stage = 0;
     bool auto_exit = false;
     int max_frames = 0;
+    const char* screenshot_path = nullptr;
 
     for (int i = 1; i < argc; ++i) {
         if (strcmp(argv[i], "--scale") == 0 && i + 1 < argc) {
@@ -128,6 +170,8 @@ int main(int argc, char* argv[])
             start_stage = atoi(argv[++i]);
         } else if (strcmp(argv[i], "--sub-stage") == 0 && i + 1 < argc) {
             start_sub_stage = atoi(argv[++i]);
+        } else if (strcmp(argv[i], "--screenshot") == 0 && i + 1 < argc) {
+            screenshot_path = argv[++i];
         } else if (strcmp(argv[i], "--auto-exit") == 0) {
             auto_exit = true;
         } else if (strcmp(argv[i], "--frames") == 0 && i + 1 < argc) {
@@ -137,12 +181,13 @@ int main(int argc, char* argv[])
             printf("Firehawk: Thexder II Native Port\n");
             printf("Usage: firehawk [options]\n");
             printf("Options:\n");
-            printf("  --scale <factor>     Integer scaling factor (1 to 5, default: 3)\n");
-            printf("  --asset-root <path>  Path to game assets directory (default: assets/firehawk)\n");
-            printf("  --stage <0-12>       Directly launch specific stage (default: title screen)\n");
-            printf("  --sub-stage <0-2>    Stage sector sub-index\n");
-            printf("  --auto-exit          Exit automatically after running specified frames\n");
-            printf("  --frames <N>         Number of frames to simulate before auto-exiting\n");
+            printf("  --scale <factor>       Integer scaling factor (1 to 5, default: 3)\n");
+            printf("  --asset-root <path>    Path to game assets directory (default: assets/firehawk)\n");
+            printf("  --stage <0-12>         Directly launch specific stage (default: title screen)\n");
+            printf("  --sub-stage <0-2>      Stage sector sub-index\n");
+            printf("  --screenshot <file.bmp> Save screenshot of final simulated frame to BMP file\n");
+            printf("  --auto-exit            Exit automatically after running specified frames\n");
+            printf("  --frames <N>           Number of frames to simulate before auto-exiting\n");
             return 0;
         }
     }
@@ -227,6 +272,14 @@ int main(int argc, char* argv[])
         frame_count++;
         if (auto_exit && max_frames > 0 && frame_count >= max_frames) {
             break;
+        }
+    }
+
+    if (screenshot_path != nullptr && fb != nullptr) {
+        if (save_framebuffer_bmp(screenshot_path, fb, HAL_SCREEN_WIDTH, HAL_SCREEN_HEIGHT)) {
+            printf("[Firehawk] Saved screenshot to %s\n", screenshot_path);
+        } else {
+            fprintf(stderr, "[ERROR] Failed to save screenshot to %s\n", screenshot_path);
         }
     }
 

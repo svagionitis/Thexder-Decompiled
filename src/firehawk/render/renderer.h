@@ -37,7 +37,10 @@ void renderer_draw_tilemap(uint8_t* fb, int16_t fb_w, int16_t fb_h, const stage_
 /// @param fb_h Framebuffer height in pixels
 /// @param player Pointer to player state
 /// @param cam_pos Camera position (12.4 fixed-point)
-void renderer_draw_player(uint8_t* fb, int16_t fb_w, int16_t fb_h, const player_state_t* player, vector2d_t cam_pos);
+/// @param ship_sprites Pointer to decompressed SHIP sprite sheet data (optional)
+/// @param ship_len Length of sprite sheet buffer
+void renderer_draw_player(uint8_t* fb, int16_t fb_w, int16_t fb_h, const player_state_t* player, vector2d_t cam_pos,
+    const uint8_t* ship_sprites, size_t ship_len);
 
 /// @brief Draw active entities (enemies, missiles, bullets)
 /// @param fb Pointer to 8-bit framebuffer

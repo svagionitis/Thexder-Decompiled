@@ -39,6 +39,9 @@ bool game_loop_init_stage(game_context_t* ctx, uint8_t stage_num, uint8_t sub_st
     size_t font_size = 0;
     res_manager_load_file("REGFONT", ctx->font_data, sizeof(ctx->font_data), &font_size, true);
 
+    // Load authentic SHIP robot and jet transformation sprite sheet
+    res_manager_load_chunk("SHIP", ctx->player_sprites, sizeof(ctx->player_sprites), &ctx->player_sprites_len, true);
+
     // Load stage geometry and spawners
     stage_header_t hdr = { 0 };
     if (!stage_loader_load_stage(stage_num, sub_stage, &ctx->tilemap, &hdr, ctx->spawners, 128, &ctx->spawner_count,
@@ -46,8 +49,30 @@ bool game_loop_init_stage(game_context_t* ctx, uint8_t stage_num, uint8_t sub_st
         return false;
     }
 
-    // Initialize subsystems
-    vector2d_t p_spawn = { INT_TO_FP12_4(32), INT_TO_FP12_4(32) };
+    // Load stage wall attribute table (KAxx)
+    char ka_tag[8];
+    snprintf(ka_tag, sizeof(ka_tag), "KA%02u%u", stage_num, sub_stage);
+    uint8_t ka_data[1024];
+    size_t ka_len = 0;
+    if (!res_manager_load_chunk(ka_tag, ka_data, sizeof(ka_data), &ka_len, true)) {
+        res_manager_load_chunk("KA00", ka_data, sizeof(ka_data), &ka_len, true);
+    }
+    if (ka_len >= 768) {
+        for (size_t t = 0; t < 256; ++t) {
+            if (ka_data[t * 3] == 0 && ka_data[t * 3 + 1] == 0 && ka_data[t * 3 + 2] == 0) {
+                ctx->tile_attributes[t] = TILE_FLAG_EMPTY;
+            } else {
+                ctx->tile_attributes[t] = TILE_FLAG_SOLID;
+                if ((ka_data[t * 3] & 0x04) != 0 || (ka_data[t * 3 + 2] & 0x04) != 0) {
+                    ctx->tile_attributes[t] |= TILE_FLAG_LAVA_HAZARD;
+                }
+            }
+        }
+        ctx->tilemap.tile_attributes = ctx->tile_attributes;
+    }
+
+    // Initialize subsystems (spawn on floor at y=32, so top of robot is at y=0)
+    vector2d_t p_spawn = { INT_TO_FP12_4(32), INT_TO_FP12_4(0) };
     player_init(&ctx->player, p_spawn);
     weapons_init(&ctx->weapons);
     entities_init(&ctx->pool);
@@ -126,7 +151,8 @@ void game_loop_tick(game_context_t* ctx, uint16_t inputs, uint8_t* fb)
         renderer_clear(fb, 320, 200, 0);
         renderer_draw_tilemap(fb, 320, 200, &ctx->tilemap, 168);
         renderer_draw_entities(fb, 320, 200, &ctx->pool, ctx->tilemap.camera_pos);
-        renderer_draw_player(fb, 320, 200, &ctx->player, ctx->tilemap.camera_pos);
+        renderer_draw_player(
+            fb, 320, 200, &ctx->player, ctx->tilemap.camera_pos, ctx->player_sprites, ctx->player_sprites_len);
         renderer_draw_laser(fb, 320, 200, &ctx->weapons.laser, ctx->tilemap.camera_pos);
         renderer_draw_barrier(fb, 320, 200, &ctx->player, ctx->tilemap.camera_pos);
         hud_render(fb, 320, 200, &ctx->player, ctx->font_data);

@@ -10,3 +10,4 @@ target_include_directories(firehawk PRIVATE
 )
 
 apply_compiler_flags(firehawk)
+
