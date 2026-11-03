@@ -40,6 +40,43 @@ if(Python3_FOUND)
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
         COMMENT "Verifying IWYU and fixed-width type headers"
     )
+
+    # Git pre-commit hook setup for clang-format
+    set(GIT_HOOKS_DIR "")
+    if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/.git")
+        if(IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/.git")
+            set(GIT_HOOKS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/.git/hooks")
+        else()
+            file(READ "${CMAKE_CURRENT_SOURCE_DIR}/.git" GIT_FILE_CONTENT)
+            string(REGEX MATCH "gitdir: ([^\r\n]+)" _MATCH "${GIT_FILE_CONTENT}")
+            if(CMAKE_MATCH_1)
+                get_filename_component(GIT_COMMON_DIR "${CMAKE_MATCH_1}" ABSOLUTE BASE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
+                set(GIT_HOOKS_DIR "${GIT_COMMON_DIR}/hooks")
+            endif()
+        endif()
+    endif()
+
+    if(GIT_HOOKS_DIR)
+        configure_file(
+            "${CMAKE_CURRENT_SOURCE_DIR}/cmake/pre-commit.in"
+            "${CMAKE_CURRENT_BINARY_DIR}/pre-commit"
+            @ONLY
+            NEWLINE_STYLE LF
+        )
+
+        file(COPY "${CMAKE_CURRENT_BINARY_DIR}/pre-commit"
+            DESTINATION "${GIT_HOOKS_DIR}"
+            FILE_PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
+        )
+        message(STATUS "Installed Git pre-commit hook for clang-format into ${GIT_HOOKS_DIR}")
+
+        add_custom_target(install-git-hooks
+            COMMAND ${CMAKE_COMMAND} -E copy_if_different
+                "${CMAKE_CURRENT_BINARY_DIR}/pre-commit"
+                "${GIT_HOOKS_DIR}/pre-commit"
+            COMMENT "Installing/updating Git pre-commit hook for clang-format"
+        )
+    endif()
 endif()
 
 # Subdirectories

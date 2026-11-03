@@ -192,12 +192,27 @@ flowchart TD
      - Execute under AddressSanitizer (ASan) and UndefinedBehaviorSanitizer (UBSan).
 
 ### Phase 6: Repository Quality Gate & Documentation
-- **Objective:** Enforce code standards, formatting, and document all findings.
+> See detailed specification in [`phase6_repository_quality_gate_documentation.md`](phase6_repository_quality_gate_documentation.md).
+
+- **Objective:** Enforce code standards, formatting, compiler hardening, automated Git pre-commit gates, and document all reverse-engineering findings with complete Ghidra address traceability.
 - **Tasks:**
-  1. Format all code using `python scripts/verify_clang_format.py --fix`.
-  2. Verify IWYU and fixed-width types using `python scripts/verify_iwyu_cstdint.py`.
-  3. Ensure zero compiler warnings under `-Wall -Wextra -pedantic` and `/W4`.
-  4. Complete the function-by-function Ghidra address index in `docs/firehawk/decompilation_plan.md`.
+  1. **Automated Clang-Format Style Enforcement:**
+     - Configure and format all codebase files using `python scripts/verify_clang_format.py --fix`.
+     - Provide CMake targets `format` and `check-format` for automated style maintenance.
+  2. **CMake Git Hook for Clang-Format:**
+     - Implement CMake-driven automated Git pre-commit hook installation into `.git/hooks/pre-commit`.
+     - Filter staged C/C++ files incrementally via `git diff --cached` to reject style-violating commits with actionable remediation.
+     - Add explicit CMake target `install-git-hooks` supporting standalone repositories, worktrees, and submodules.
+  3. **IWYU & Fixed-Width Integer Types:**
+     - Audit and enforce Include-What-You-Use with mandatory `<stdint.h>`, `<stdbool.h>`, `<stddef.h>`, and `<cstdint>`.
+     - Enforce `#pragma once` header guards and prohibit unstandardized raw primitive types across all binary data structures.
+  4. **Strict Compiler Warning Hardening:**
+     - Guarantee zero compiler warnings under `/W4 /WX /permissive- /utf-8` on MSVC and `-Wall -Wextra -pedantic -Werror -Wconversion -Wshadow` on GCC/Clang.
+  5. **Doxygen Provenance Standards & Reverse-Engineering Traceability:**
+     - Annotate all decompiled functions, structures, and global variables with standardized triple-slash (`///`) Doxygen blocks.
+     - Maintain strict Ghidra provenance tagging (`@details Ghidra: GAME.EXE @ segment:offset (symbol)`).
+  6. **Exhaustive Function-by-Function Ghidra Address Index:**
+     - Maintain full inventory in `docs/phase6_repository_quality_gate_documentation.md` and `docs/firehawk/decompilation_plan.md` cross-referencing 47+ decompiled functions, 10 DGROUP tables, and 10 driver dispatch vectors to original 16-bit Real Mode addresses.
 
 ---
 
