@@ -84,6 +84,7 @@ add_subdirectory(tools)
 add_subdirectory(src/platform)
 add_subdirectory(src/firehawk)
 add_subdirectory(apps/hal_smoke_test)
+add_subdirectory(apps/firehawk)
 
 if(BUILD_TESTING)
     add_subdirectory(tests)

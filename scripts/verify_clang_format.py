@@ -70,7 +70,7 @@ def main():
     parser = argparse.ArgumentParser(description="Verify or fix clang-format compliance.")
     parser.add_argument("--files", nargs="+", help="Specific files to check or format.")
     parser.add_argument("--fix", action="store_true", help="Format files in-place.")
-    parser.add_argument("paths", nargs="*", default=["src", "tools", "tests"], help="Directories to scan.")
+    parser.add_argument("paths", nargs="*", default=["src", "tools", "tests", "apps"], help="Directories to scan.")
 
     args = parser.parse_args()
 

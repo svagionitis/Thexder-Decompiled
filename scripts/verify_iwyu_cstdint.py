@@ -92,7 +92,7 @@ def main():
     parser = argparse.ArgumentParser(description="Verify IWYU and fixed-width headers.")
     parser.add_argument("--files", nargs="+", help="Specific files to check.")
     parser.add_argument("--fix-cstdint", action="store_true", help="Attempt to auto-insert missing headers.")
-    parser.add_argument("paths", nargs="*", default=["src", "tools", "tests"], help="Directories to scan.")
+    parser.add_argument("paths", nargs="*", default=["src", "tools", "tests", "apps"], help="Directories to scan.")
 
     args = parser.parse_args()
 

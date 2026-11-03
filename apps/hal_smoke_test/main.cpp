@@ -1,11 +1,14 @@
 #include "hal.h"
 #include <SDL2/SDL.h>
 
+#include <cstddef>
+#include <cstdint>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[])
+{
     SDL_SetMainReady();
     printf("[HAL Smoke Test] Starting Phase 3 Platform Abstraction Layer Smoke Test...\n");
 
@@ -51,7 +54,7 @@ int main(int argc, char* argv[]) {
             } else if (x == y || (15 - x) == y) {
                 test_sprite[y * 16 + x] = 12; // Bright red cross
             } else {
-                test_sprite[y * 16 + x] = 9;  // Bright blue center
+                test_sprite[y * 16 + x] = 9; // Bright blue center
             }
         }
     }
@@ -75,16 +78,24 @@ int main(int argc, char* argv[]) {
         int16_t jx = 0, jy = 0;
         uint8_t jbtn = 0;
         hal->input->get_joystick_state(&jx, &jy, &jbtn);
-        if (jx < -16000) sprite_x -= 2;
-        if (jx > 16000) sprite_x += 2;
-        if (jy < -16000) sprite_y -= 2;
-        if (jy > 16000) sprite_y += 2;
+        if (jx < -16000)
+            sprite_x -= 2;
+        if (jx > 16000)
+            sprite_x += 2;
+        if (jy < -16000)
+            sprite_y -= 2;
+        if (jy > 16000)
+            sprite_y += 2;
 
         // Keep sprite bounded inside screen
-        if (sprite_x < 0) sprite_x = 0;
-        if (sprite_x > HAL_SCREEN_WIDTH - 16) sprite_x = HAL_SCREEN_WIDTH - 16;
-        if (sprite_y < 0) sprite_y = 0;
-        if (sprite_y > HAL_SCREEN_HEIGHT - 16) sprite_y = HAL_SCREEN_HEIGHT - 16;
+        if (sprite_x < 0)
+            sprite_x = 0;
+        if (sprite_x > HAL_SCREEN_WIDTH - 16)
+            sprite_x = HAL_SCREEN_WIDTH - 16;
+        if (sprite_y < 0)
+            sprite_y = 0;
+        if (sprite_y > HAL_SCREEN_HEIGHT - 16)
+            sprite_y = HAL_SCREEN_HEIGHT - 16;
 
         // Draw background test color bars (16 EGA color stripes)
         for (int c = 0; c < 16; ++c) {
