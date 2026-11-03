@@ -165,17 +165,31 @@ flowchart TD
      - Parse and write `SAVEGM.DAT` with checksum validation.
 
 ### Phase 5: Verification, Playability & Quality Assurance
-- **Objective:** Verify 100% functional equivalence with the original DOS game.
+> See detailed specification in [`phase5_verification_playability_qa.md`](phase5_verification_playability_qa.md).
+
+- **Objective:** Verify 100% functional, kinematic, and visual equivalence with the original DOS game.
 - **Tasks:**
-  1. **Headless Unit Tests (`tests/`):**
-     - Test SAR unpacking on actual game archives.
-     - Test swept AABB collision against known stage tile layouts.
-     - Test transformation state machine transitions and boundaries.
-     - Test save game reading and writing.
-  2. **DOSBox Behavioral Cross-Check:**
-     - Compare frame-by-frame physics and player movement against DOSBox runs.
-  3. **Full Campaign Playtesting:**
-     - Verify smooth progression through all stages (Stage 0 to Stage 12).
+  1. **Headless Subsystem Unit & Regression Suite (`tests/`):**
+     - Verify SAR unpacking and LZW decompression integrity on all production archives (`RES*.SAR`).
+     - Test stage loading and tile attribute mapping across all stages (`SS000` through `SS120`).
+     - Test robot and jet kinematics, jump arcs, gravity, and crouch navigation through 1-tile gaps.
+     - Test homing laser raycasting, missile guidance, barrier shield defense, and collision sweeps.
+     - Test dynamic entity pool lifecycle (64 slots) and enemy AI state machines.
+     - Test `SAVEGM.DAT` binary serialization, checksum verification, and tamper detection.
+  2. **Deterministic Replay & Golden Vector Harness:**
+     - Implement headless input recording and replay runner (`.rec` format).
+     - Verify frame-by-frame simulation state hashes (coordinates, energy, entities, score).
+  3. **DOSBox Differential Behavioral Cross-Check:**
+     - Extract DGROUP real-mode memory states and compare against modern engine state snapshots.
+     - Diff 320x200 MCGA raw framebuffer indices against DOSBox-X video captures.
+     - Validate OPL2 FM synthesis register writes against AdLib/SB I/O port logs.
+  4. **Full Campaign Playability (Stages 0 to 12):**
+     - Play through all 13 stages to verify boss encounters, triggers, and stage progression.
+     - Verify COMMDATA typewriter mission text synchronization and audio cues.
+     - Validate victory cinematic, game over transitions, and high-score table persistence.
+  5. **Sanitizers & Zero-Allocation Assertion:**
+     - Verify zero heap allocations (`malloc`/`free`) inside the 60 Hz simulation loop.
+     - Execute under AddressSanitizer (ASan) and UndefinedBehaviorSanitizer (UBSan).
 
 ### Phase 6: Repository Quality Gate & Documentation
 - **Objective:** Enforce code standards, formatting, and document all findings.

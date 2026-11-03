@@ -46,7 +46,7 @@ macro(add_firehawk_test test_name)
 
     set_tests_properties(${test_name} PROPERTIES
         WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-        ENVIRONMENT "PATH=C:/vcpkg/packages/sdl2_x64-windows/debug/bin;C:/vcpkg/packages/sdl2_x64-windows/bin;$ENV{PATH}"
+        ENVIRONMENT "PATH=C:/vcpkg/packages/sdl2_x64-windows/debug/bin\\;C:/vcpkg/packages/sdl2_x64-windows/bin\\;$ENV{PATH}"
     )
 endmacro()
 
@@ -55,6 +55,9 @@ add_firehawk_test(test_stage_loader)
 add_firehawk_test(test_kinematics)
 add_firehawk_test(test_weapons)
 add_firehawk_test(test_entities)
+add_firehawk_test(test_collision)
 add_firehawk_test(test_savegame)
+add_firehawk_test(test_golden_replay)
+add_firehawk_test(test_campaign)
 
 add_subdirectory(hal)

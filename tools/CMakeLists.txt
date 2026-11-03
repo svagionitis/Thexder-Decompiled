@@ -18,3 +18,9 @@ target_link_libraries(sar_extractor PRIVATE
 )
 
 apply_compiler_flags(sar_extractor)
+
+add_executable(frame_diff
+    frame_diff.c
+)
+
+apply_compiler_flags(frame_diff)
