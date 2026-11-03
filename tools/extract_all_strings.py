@@ -31,18 +31,26 @@ def extract_strings_from_bytes(data: bytes, min_len: int = 4):
             curr.append(chr(b))
         else:
             if len(curr) >= min_len:
-                s = "".join(curr).strip()
+                raw_str = "".join(curr)
+                l_stripped = raw_str.lstrip()
+                lead_spaces = len(raw_str) - len(l_stripped)
+                s = l_stripped.rstrip()
+                actual_offset = start_offset + lead_spaces
                 if len(s) >= min_len and any(c.isalpha() for c in s):
                     strings.append({
-                        "offset": f"0x{start_offset:05X}",
+                        "offset": f"0x{actual_offset:05X}",
                         "text": s
                     })
             curr = []
     if len(curr) >= min_len:
-        s = "".join(curr).strip()
+        raw_str = "".join(curr)
+        l_stripped = raw_str.lstrip()
+        lead_spaces = len(raw_str) - len(l_stripped)
+        s = l_stripped.rstrip()
+        actual_offset = start_offset + lead_spaces
         if len(s) >= min_len and any(c.isalpha() for c in s):
             strings.append({
-                "offset": f"0x{start_offset:05X}",
+                "offset": f"0x{actual_offset:05X}",
                 "text": s
             })
     return strings

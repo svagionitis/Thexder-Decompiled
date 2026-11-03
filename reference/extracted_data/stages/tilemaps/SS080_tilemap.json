@@ -1,0 +1,16 @@
+{
+  "stage": "SS080",
+  "file_size": 20025,
+  "header": {
+    "checksum_or_id": "0x8294",
+    "flags": "0x0000",
+    "map_param_x": 2304,
+    "map_param_y": 6145,
+    "tile_bank_id": "0x2008",
+    "spawner_offset": "0x9555 (38229)"
+  },
+  "tile_data_offset": 12,
+  "tile_data_length": 20013,
+  "has_embedded_spawners": false,
+  "tile_sample_hex": "31070632e8922cc0c06a5e3e241848ef4c9e8900dac4296760a0143c2f0a0c0c"
+}

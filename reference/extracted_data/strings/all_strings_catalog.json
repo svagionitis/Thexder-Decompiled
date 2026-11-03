@@ -100,11 +100,11 @@
         "text": "RES1.SAR"
       },
       {
-        "offset": "0x02260",
+        "offset": "0x02262",
         "text": "MISSING FILE \"$\"$"
       },
       {
-        "offset": "0x02282",
+        "offset": "0x02285",
         "text": "--LOAD ERROR--"
       },
       {
@@ -116,7 +116,7 @@
         "text": "MISSING FILE:"
       },
       {
-        "offset": "0x022CB",
+        "offset": "0x022CC",
         "text": "GAME WILL TERMINATE"
       },
       {
@@ -216,15 +216,15 @@
         "text": "(PRESS ANY KEY TO CONTINUE)"
       },
       {
-        "offset": "0x02EC0",
+        "offset": "0x02EC6",
         "text": "GAME   OVER"
       },
       {
-        "offset": "0x02ED3",
+        "offset": "0x02EDA",
         "text": "CONTINUE"
       },
       {
-        "offset": "0x02EE4",
+        "offset": "0x02EEB",
         "text": "INTRODUCTION/PRACTICE"
       },
       {
@@ -844,7 +844,7 @@
         "text": "{        RESTORE MISSION"
       },
       {
-        "offset": "0x07C97",
+        "offset": "0x07C9C",
         "text": "EXIT"
       },
       {
@@ -900,7 +900,7 @@
         "text": "Z[X."
       },
       {
-        "offset": "0x08950",
+        "offset": "0x08951",
         "text": "PWR."
       },
       {
@@ -956,19 +956,19 @@
         "text": "YOU ARE DONE."
       },
       {
-        "offset": "0x08E00",
+        "offset": "0x08E05",
         "text": "PAGE:"
       },
       {
-        "offset": "0x08E12",
+        "offset": "0x08E17",
         "text": "PARAGRAPH:"
       },
       {
-        "offset": "0x08E24",
+        "offset": "0x08E29",
         "text": "LINE:"
       },
       {
-        "offset": "0x08E32",
+        "offset": "0x08E37",
         "text": "WORD:"
       },
       {
@@ -994,19 +994,19 @@
     "string_count": 149,
     "strings": [
       {
-        "offset": "0x00200",
+        "offset": "0x00202",
         "text": "THEXDER II FIREHAWK  Version X.X\r\nCopyright Game Arts Co., LTD.  1989,1990\r\nCopyright Sierra On-Line, Inc.  1990\r\n$\r\nError in reading file \"RESOURCE.CFG\"\r\nRe-Run \"INSTALL\"\r\n$\r\nError while loading song driver\r\n$"
       },
       {
-        "offset": "0x005D1",
+        "offset": "0x005D3",
         "text": "ATTENTION! FIREHAWK PILOT\r\nYour NumLock key has been activated.\r\nAs a result, your flight controls may not operate correctly.\r\n\r\nPlease deactivate your NumLock key.\r\nThen press \"ENTER\" to continue.\r\n\r\n$"
       },
       {
-        "offset": "0x0072A",
+        "offset": "0x0072C",
         "text": "Missing file \"$\"$"
       },
       {
-        "offset": "0x0074A",
+        "offset": "0x0074C",
         "text": "--LOAD ERROR--"
       },
       {
@@ -1018,7 +1018,7 @@
         "text": "MISSING FILE:"
       },
       {
-        "offset": "0x00783",
+        "offset": "0x00784",
         "text": "GAME WILL TERMINATE"
       },
       {
@@ -1262,7 +1262,7 @@
         "text": "VQSP."
       },
       {
-        "offset": "0x02E2D",
+        "offset": "0x02E2E",
         "text": "1VQ&"
       },
       {
@@ -1274,7 +1274,7 @@
         "text": "VQSP."
       },
       {
-        "offset": "0x02EB5",
+        "offset": "0x02EB6",
         "text": "1VQ&"
       },
       {
@@ -1338,7 +1338,7 @@
         "text": "fileid5"
       },
       {
-        "offset": "0x0313C",
+        "offset": "0x0313D",
         "text": "^5t5"
       },
       {
@@ -1478,7 +1478,7 @@
         "text": "TYPE R-RETRY, A-ABORT TO DOS"
       },
       {
-        "offset": "0x03425",
+        "offset": "0x03429",
         "text": "Type R-Retry A-Abort to DOS$"
       },
       {
@@ -1566,7 +1566,7 @@
         "text": "efc2"
       },
       {
-        "offset": "0x0367E",
+        "offset": "0x03680",
         "text": "Insert Disk 2 and then\r\nPress any key to continue\r\n$\r\nInsert Disk 1 and then\r\nPress any key to continue\r\n$"
       },
       {
@@ -1720,7 +1720,7 @@
         "text": "X[YZ^_"
       },
       {
-        "offset": "0x013BC",
+        "offset": "0x013C5",
         "text": "EXECUTIVE PRODUCER"
       },
       {
@@ -1728,7 +1728,7 @@
         "text": "//            KEN WILLIAMS"
       },
       {
-        "offset": "0x01408",
+        "offset": "0x01411",
         "text": "EXECUTIVE PRODUCER"
       },
       {
@@ -1740,7 +1740,7 @@
         "text": "//          MITSUHIRO MAZDA"
       },
       {
-        "offset": "0x0147B",
+        "offset": "0x01481",
         "text": "PRODUCERS ENGLISH VERSION"
       },
       {
@@ -1756,7 +1756,7 @@
         "text": "//            JOSH MANDEL"
       },
       {
-        "offset": "0x01515",
+        "offset": "0x01520",
         "text": "STORY CONCEPT"
       },
       {
@@ -1764,7 +1764,7 @@
         "text": "//           SATOSHI UESAKA"
       },
       {
-        "offset": "0x01561",
+        "offset": "0x0156E",
         "text": "DIRECTORS"
       },
       {
@@ -1780,7 +1780,7 @@
         "text": "//          KAZUYUKI OHHATA"
       },
       {
-        "offset": "0x015FB",
+        "offset": "0x01606",
         "text": "GAME DESIGNERS"
       },
       {
@@ -1792,7 +1792,7 @@
         "text": "//            ARI KAMIJOH"
       },
       {
-        "offset": "0x0166E",
+        "offset": "0x01678",
         "text": "GRAPHIC DESIGNER"
       },
       {
@@ -1800,7 +1800,7 @@
         "text": "//        TSUYOSHI TANAKA(PC88)"
       },
       {
-        "offset": "0x016BA",
+        "offset": "0x016C4",
         "text": "LEAD PROGRAMMERS"
       },
       {
@@ -1816,7 +1816,7 @@
         "text": "//       KAZUYUKI OHHATA(PC88)"
       },
       {
-        "offset": "0x01754",
+        "offset": "0x0175E",
         "text": "LEAD PROGRAMMERS"
       },
       {
@@ -1832,7 +1832,7 @@
         "text": "//             KEN KOCH"
       },
       {
-        "offset": "0x017EE",
+        "offset": "0x017FB",
         "text": "COMPOSERS"
       },
       {
@@ -1848,7 +1848,7 @@
         "text": "//         MECANO ASSOCIATES"
       },
       {
-        "offset": "0x01889",
+        "offset": "0x0188D",
         "text": "MAP DESIGNER, GAME ARRANGING"
       },
       {
@@ -1856,7 +1856,7 @@
         "text": "//            OSAMU HARADA"
       },
       {
-        "offset": "0x018D5",
+        "offset": "0x018D9",
         "text": "ADDITIONAL GRAPHIC DESIGNERS"
       },
       {
@@ -1868,7 +1868,7 @@
         "text": "//           MASATOSHI AZUMI"
       },
       {
-        "offset": "0x01948",
+        "offset": "0x0194F",
         "text": "ADDITIONAL PROGRAMMERS"
       },
       {
@@ -1880,7 +1880,7 @@
         "text": "//        TOSHIMICHI MASUBUCHI"
       },
       {
-        "offset": "0x019BB",
+        "offset": "0x019BE",
         "text": "MUSIC EDITING & SOUND EFFECTS"
       },
       {
@@ -1888,7 +1888,7 @@
         "text": "//         TADASHI SHIMAYAMA"
       },
       {
-        "offset": "0x01A07",
+        "offset": "0x01A0E",
         "text": "MUSIC MIDI CONVERSION"
       },
       {
@@ -1900,7 +1900,7 @@
         "text": "//             KEN ALLEN"
       },
       {
-        "offset": "0x01A7A",
+        "offset": "0x01A80",
         "text": "ENGLISH TEXT TRANSLATION"
       },
       {
@@ -2210,7 +2210,7 @@
         "text": "Can't save configuration information!"
       },
       {
-        "offset": "0x0370D",
+        "offset": "0x0370E",
         "text": "(C) Copyright 1990, Sierra On-Line, Inc"
       },
       {
@@ -2218,7 +2218,7 @@
         "text": "THEXDER II FIREHAWK Setup"
       },
       {
-        "offset": "0x0375A",
+        "offset": "0x0375B",
         "text": "and ENTER to select.  ESC to exit"
       },
       {
@@ -2354,7 +2354,7 @@
         "text": "(null)"
       },
       {
-        "offset": "0x03D07",
+        "offset": "0x03D10",
         "text": "(((((                  H"
       },
       {
@@ -2422,7 +2422,7 @@
         "text": "Unknown error"
       },
       {
-        "offset": "0x03F5F",
+        "offset": "0x03F60",
         "text": "&\t8\t9\t:\t;\tL\tM\ta\tb\tc\td\t|\t}\t~"
       },
       {
@@ -2626,7 +2626,7 @@
         "text": "#*18?FMT[bi"
       },
       {
-        "offset": "0x000F4",
+        "offset": "0x000F5",
         "text": "(08@HPX`hpx"
       },
       {
@@ -2658,7 +2658,7 @@
         "text": "-<KZix"
       },
       {
-        "offset": "0x00172",
+        "offset": "0x00173",
         "text": "0@P`p"
       },
       {
@@ -2720,7 +2720,7 @@
         "text": "1 t 2\""
       },
       {
-        "offset": "0x00086",
+        "offset": "0x00087",
         "text": "f!B#P"
       },
       {
@@ -3422,7 +3422,7 @@
         "text": "X[Z]"
       },
       {
-        "offset": "0x00309",
+        "offset": "0x0030A",
         "text": "X[Z]"
       }
     ]
@@ -4372,11 +4372,11 @@
         "text": "stddrv%IBM PC or Compatible Internal Speaker!"
       },
       {
-        "offset": "0x00285",
+        "offset": "0x00286",
         "text": "-\tO\tr"
       },
       {
-        "offset": "0x00293",
+        "offset": "0x00294",
         "text": "'\nM\ns"
       },
       {
@@ -4418,7 +4418,7 @@
         "text": "#*18?FMT[bi"
       },
       {
-        "offset": "0x0030B",
+        "offset": "0x0030C",
         "text": "(08@HPX`hpx"
       },
       {
@@ -4450,7 +4450,7 @@
         "text": "-<KZix"
       },
       {
-        "offset": "0x00389",
+        "offset": "0x0038A",
         "text": "0@P`p"
       },
       {
@@ -4866,7 +4866,7 @@
         "text": "#*18?FMT[bi"
       },
       {
-        "offset": "0x00307",
+        "offset": "0x00308",
         "text": "(08@HPX`hpx"
       },
       {
@@ -4898,7 +4898,7 @@
         "text": "-<KZix"
       },
       {
-        "offset": "0x00385",
+        "offset": "0x00386",
         "text": "0@P`p"
       },
       {
@@ -4968,7 +4968,7 @@
         "text": "X[Z]"
       },
       {
-        "offset": "0x002FF",
+        "offset": "0x00300",
         "text": "X[Z]"
       }
     ]

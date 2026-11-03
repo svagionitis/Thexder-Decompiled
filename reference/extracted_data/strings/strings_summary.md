@@ -29,7 +29,7 @@
 ### Strings from `SIERRA.EXE`
 
 ```text
-[0x00200] THEXDER II FIREHAWK  Version X.X
+[0x00202] THEXDER II FIREHAWK  Version X.X
 Copyright Game Arts Co., LTD.  1989,1990
 Copyright Sierra On-Line, Inc.  1990
 $
@@ -38,7 +38,7 @@ Re-Run "INSTALL"
 $
 Error while loading song driver
 $
-[0x005D1] ATTENTION! FIREHAWK PILOT
+[0x005D3] ATTENTION! FIREHAWK PILOT
 Your NumLock key has been activated.
 As a result, your flight controls may not operate correctly.
 
@@ -46,11 +46,11 @@ Please deactivate your NumLock key.
 Then press "ENTER" to continue.
 
 $
-[0x0072A] Missing file "$"$
-[0x0074A] --LOAD ERROR--
+[0x0072C] Missing file "$"$
+[0x0074C] --LOAD ERROR--
 [0x0075B] ALLOCATION FAILED
 [0x0076D] MISSING FILE:
-[0x00783] GAME WILL TERMINATE
+[0x00784] GAME WILL TERMINATE
 [0x00798] UNABLE TO SAVE MISSION.
 [0x007B0] CHECK FOR MISSING FILE:
 [0x007C8] SAVEGM.DAT
@@ -108,11 +108,11 @@ $
 [0x01EBF] FGHIJ
 [0x02220] RES1.IX
 [0x02228] RES1.SAR
-[0x02260] MISSING FILE "$"$
-[0x02282] --LOAD ERROR--
+[0x02262] MISSING FILE "$"$
+[0x02285] --LOAD ERROR--
 [0x02294] ALLOCATION FAILED
 [0x022A6] MISSING FILE:
-[0x022CB] GAME WILL TERMINATE
+[0x022CC] GAME WILL TERMINATE
 [0x022E0] LOADING INDEX
 [0x022EE] MISSING RESOURCE
 [0x022FF] OPENING VOLUME
