@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Firehawk: Thexder II - GRPH Cockpit HUD & Telemetry Viewer</title>
+<style>
+  body {
+    background-color: #0e1117;
+    color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+  }
+  h1 {
+    color: #58a6ff;
+    font-size: 24px;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #8b949e;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+  .card-full {
+    width: 100%;
+    max-width: 980px;
+  }
+  .card h2 {
+    font-size: 16px;
+    color: #79c0ff;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .image-wrapper {
+    background: #000;
+    border: 1px solid #30363d;
+    padding: 12px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .pixel-art {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    display: block;
+  }
+  .meta-tag {
+    display: inline-block;
+    background: #1f242c;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 12px;
+    color: #58a6ff;
+    margin-right: 6px;
+    margin-top: 10px;
+  }
+  .palette-bar {
+    display: flex;
+    gap: 4px;
+    margin-top: 12px;
+  }
+  .swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid #444c56;
+  }
+  code {
+    background: #21262d;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 12px;
+    color: #ff7b72;
+  }
+  pre {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 12px;
+    overflow-x: auto;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 12px;
+    color: #e6edf3;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 12px;
+    font-size: 13px;
+  }
+  th, td {
+    border: 1px solid #30363d;
+    padding: 6px 10px;
+    text-align: left;
+  }
+  th {
+    background: #21262d;
+    color: #58a6ff;
+  }
+</style>
+</head>
+<body>
+
+<h1>Firehawk: Thexder II — GRPH Telemetry &amp; In-Game HUD Visualizer</h1>
+<p>Authentic planar 4-bitplane EGA bitmap decoded directly from <code>assets/firehawk/GRPH</code> (1,184 bytes) and <code>build/extracted/RES1/GRPH.bin</code> (552 bytes LZW). Displays the raw atlas alongside the functional in-game HUD components assembled strictly using <code>GAME.EXE</code> disassembly offsets.</p>
+
+<div class="grid-container">
+
+  <!-- 1. Assembled In-Game HUD Telemetry Board -->
+  <div class="card card-full">
+    <h2>1. In-Game Assembled HUD Telemetry Components</h2>
+    <p>How the raw planar data in <strong>GRPH</strong> appears when dynamically sliced and blitted to the cockpit HUD by <code>GAME.EXE</code> (<code>1000:0477</code>, <code>1000:1f4d</code>&ndash;<code>1000:1ffc</code>) and <code>EGA640.DRV</code> (<code>0000:1909</code>):</p>
+    <div class="image-wrapper">
+      <img class="pixel-art" src="grph_ingame_telemetry.png" alt="In-Game HUD Components" width="560" height="380">
+    </div>
+    <div>
+      <span class="meta-tag">Radar Scope (32x32)</span>
+      <span class="meta-tag">Energy Gauges (32x8)</span>
+      <span class="meta-tag">Docking Reticle (32x14)</span>
+      <span class="meta-tag">Zero synthetic src/ data</span>
+    </div>
+  </div>
+
+  <!-- 2. Isolated GRPH Sprite Atlas (2x Native) -->
+  <div class="card">
+    <h2>2. Raw GRPH Atlas (2x Native)</h2>
+    <div class="image-wrapper">
+      <img class="pixel-art" src="grph_atlas.png" alt="GRPH Atlas 2x" width="64" height="148">
+    </div>
+    <div>
+      <span class="meta-tag">32 &times; 74 Native px</span>
+      <span class="meta-tag">1,184 Bytes</span>
+      <span class="meta-tag">4 Bitplanes</span>
+    </div>
+  </div>
+
+  <!-- 3. High Zoom Pixel Inspection (4x) -->
+  <div class="card">
+    <h2>3. Raw Atlas (4x Zoom)</h2>
+    <div class="image-wrapper">
+      <img class="pixel-art" src="grph_atlas.png" alt="GRPH Atlas 4x" width="128" height="296">
+    </div>
+    <div>
+      <span class="meta-tag">4x Nearest-Neighbor</span>
+      <span class="meta-tag">16 Colors</span>
+    </div>
+  </div>
+
+  <!-- 4. Subsystem Breakdown & Palette -->
+  <div class="card" style="max-width: 480px;">
+    <h2>4. Telemetry Bank Layout & Runtime Dispatch</h2>
+    <p>In <code>GAME.EXE</code>, <code>GRPH</code> is loaded at offset <code>1000:0477</code> into buffer <code>0x6663</code> (pointer variable <code>[1686h]</code>). During HUD redraws (<code>1000:1f4d</code>&ndash;<code>1000:1ffc</code>), rows are selected by index in <code>AL</code> and drawn via driver slot <code>0x38</code>:</p>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Row Range</th>
+          <th>Size</th>
+          <th>Telemetry Element &amp; Engine Dispatch</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Rows 0&ndash;31</strong></td>
+          <td>32&times;32</td>
+          <td><strong>Radar Bezels &amp; Sweep Reticles:</strong> Corner brackets and reticles blitted into the radar console viewport.</td>
+        </tr>
+        <tr>
+          <td><strong>Rows 32&ndash;59</strong></td>
+          <td>32&times;28</td>
+          <td><strong>Segmented Energy/Shield Gauges:</strong> Evaluated at <code>1000:1f91</code> based on player energy <code>[05FDh]</code>:<br>
+            &bull; <code>AL &lt; 9</code>: Row <code>0x32</code> (critical red warning)<br>
+            &bull; <code>9 &le; AL &lt; 15</code>: Row <code>0x36</code> (medium yellow)<br>
+            &bull; <code>AL &ge; 15</code>: Row <code>0x34</code> (full bright cyan/green)
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Rows 60&ndash;73</strong></td>
+          <td>32&times;14</td>
+          <td><strong>Docking &amp; Guidance Markers:</strong> Directional crosshairs and docking status markers blitted to navigation console.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 style="margin-top: 20px;">Standard 16-Color EGA Hardware Palette</h2>
+    <div class="palette-bar">
+      <div class="swatch" style="background:#000000" title="0: Black"></div>
+      <div class="swatch" style="background:#0000AA" title="1: Blue"></div>
+      <div class="swatch" style="background:#00AA00" title="2: Green"></div>
+      <div class="swatch" style="background:#00AAAA" title="3: Cyan"></div>
+      <div class="swatch" style="background:#AA0000" title="4: Red"></div>
+      <div class="swatch" style="background:#AA00AA" title="5: Magenta"></div>
+      <div class="swatch" style="background:#AA5500" title="6: Brown"></div>
+      <div class="swatch" style="background:#AAAAAA" title="7: Light Gray"></div>
+      <div class="swatch" style="background:#555555" title="8: Dark Gray"></div>
+      <div class="swatch" style="background:#5555FF" title="9: Bright Blue"></div>
+      <div class="swatch" style="background:#55FF55" title="10: Bright Green"></div>
+      <div class="swatch" style="background:#55FFFF" title="11: Bright Cyan"></div>
+      <div class="swatch" style="background:#FF5555" title="12: Bright Red"></div>
+      <div class="swatch" style="background:#FF55FF" title="13: Bright Magenta"></div>
+      <div class="swatch" style="background:#FFFF55" title="14: Bright Yellow"></div>
+      <div class="swatch" style="background:#FFFFFF" title="15: Bright White"></div>
+    </div>
+  </div>
+
+  <!-- 5. Driver Addressing Disassembly -->
+  <div class="card" style="max-width: 480px;">
+    <h2>5. Video Driver Row Addressing (EGA640.DRV 0000:1909)</h2>
+    <p>Driver computes byte offset from scanline row index <code>Y</code> in <code>AL</code> (16 bytes/row stride):</p>
+    <pre><code>0000:1909  xor  ah, ah
+0000:190b  add  ax, ax          ; AX * 2
+0000:190d  add  ax, ax          ; AX * 4
+0000:190f  add  ax, ax          ; AX * 8
+0000:1911  add  ax, ax          ; AX * 16 (stride)
+0000:1913  add  ax, word [1686h]; AX += GRPH base (0x6663)
+0000:1917  mov  si, ax          ; SI = bitmap source pointer</code></pre>
+  </div>
+
+</div>
+
+</body>
+</html>

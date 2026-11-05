@@ -25,6 +25,8 @@ The `assets/firehawk/` directory contains the complete original DOS release of *
 | `EFC1` - `EFC4` | 1.9K - 28K ea. | Binary Sound Effects | Sound effect banks: FM synth (`EFC1`), Tandy (`EFC2`), 11kHz PCM (`EFC3`/`EFC4`) |
 | `EN23.PK3` - `EN26.PK3`| 244B - 6.5KB ea. | 2-bit RLE Graphic Packs | Ending cutscene visual assets: Earth horizon, Moon/descent, "THE END" banner |
 | `*.DRV` | ~800B - 9K ea. | Relocatable Driver Binaries | Video (`MCGA320`, `EGA640`), Audio (`ADL`, `SNDBLAST`, `MT32`), Keyboard, Joystick |
+| `FILEID3` | 4 | Plain Text Volume Marker | Floppy Disk #3 volume identifier for multi-disk verification in `SIERRA.EXE` |
+| `GRPH` | 1,184 | Planar EGA Bitmap | Cockpit HUD gauges, radar bezel, and status bar graphics ($32 \times 74$ px) |
 | `SAVEGM.DAT` | 315 | Binary Save State | Player savegame file storing stage, score, energy, weapons, and flags |
 
 ---
@@ -198,6 +200,25 @@ This utility:
 - Exports all sprites and components into authentic EGA 16-color PNGs.
 - Renders the full 640x200 composite ending cutscene screen (`ending_scene2_full_composite_640x200.png`).
 - Generates a machine-readable JSON manifest at `reference/extracted_data/images/pk3_decoded/pk3_manifest.json`.
+
+---
+
+## 8. Floppy Disk Media Marker (`FILEID3`)
+
+`FILEID3` is a 4-byte plain-text volume identifier placed in the root of Floppy Disk 3 to verify media during disk swapping and stage loading in `SIERRA.EXE`:
+- **Dedicated Audit Document:** [`docs/firehawk/fileid_technical_audit.md`](fileid_technical_audit.md)
+- **Inspection Tool:** `tools/fileid_inspector.py`
+
+---
+
+## 9. Cockpit HUD & Telemetry Bitplanes (`GRPH`)
+
+`GRPH` is a 1,184-byte planar 4-bitplane EGA graphic atlas ($32 \times 74$ pixels, 16 colors) containing cockpit energy gauges, radar frames, and status indicators:
+- **Dedicated Audit Document:** [`docs/firehawk/grph_technical_audit.md`](grph_technical_audit.md)
+- **Decoder Tool:** `tools/grph_decoder.py`
+- **Rendered Visual Asset:** `reference/extracted_data/images/grph_atlas.png` ($32 \times 74$ px native, $64 \times 148$ px 2x)
+
+
 
 
 
