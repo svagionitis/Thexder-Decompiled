@@ -122,7 +122,7 @@ def decompress_firehawk_lzw(data: bytes) -> bytes:
     return bytes(output)
 
 def render_font_sheet(regfont_path, out_png_path):
-    """Decompresses and renders the authentic 8x16 font glyphs from REGFONT."""
+    """Decompresses and renders the authentic 8x8 bitmap font glyphs from REGFONT."""
     with open(regfont_path, "rb") as f:
         file_bytes = f.read()
 
@@ -133,27 +133,30 @@ def render_font_sheet(regfont_path, out_png_path):
         return
 
     cols, rows = 16, 16
-    cw, ch = 8, 16
+    cw, ch = 8, 8
     scale = 2
-    img = Image.new("RGBA", (cols * cw * scale, rows * ch * scale), (20, 24, 30, 255))
+    pad = 2
+    img_w = cols * (cw * scale + pad) + pad
+    img_h = rows * (ch * scale + pad) + pad
+    img = Image.new("RGBA", (img_w, img_h), (18, 22, 28, 255))
     pix = img.load()
 
     for ch_idx in range(256):
-        grid_x = (ch_idx % cols) * cw * scale
-        grid_y = (ch_idx // cols) * ch * scale
-        char_bytes = raw_font[ch_idx * ch : (ch_idx + 1) * ch]
+        grid_x = (ch_idx % cols) * (cw * scale + pad) + pad
+        grid_y = (ch_idx // cols) * (ch * scale + pad) + pad
+        char_bytes = raw_font[ch_idx * 16 : (ch_idx + 1) * 16]
 
-        for y in range(ch):
-            b = char_bytes[y]
-            for x in range(cw):
-                bit = (b >> (7 - x)) & 1
-                color = (255, 255, 255, 255) if bit else (20, 24, 30, 0)
+        for r in range(ch):
+            w16 = (char_bytes[r * 2] << 8) | char_bytes[r * 2 + 1]
+            for c in range(cw):
+                bit = (w16 >> (15 - c * 2)) & 1
+                color = (245, 245, 250, 255) if bit else (28, 34, 42, 255)
                 for dy in range(scale):
                     for dx in range(scale):
-                        pix[grid_x + x * scale + dx, grid_y + y * scale + dy] = color
+                        pix[grid_x + c * scale + dx, grid_y + r * scale + dy] = color
 
     img.save(out_png_path)
-    print(f"[OK] Rendered authentic 8x16 font sheet: {out_png_path} ({img.size[0]}x{img.size[1]})")
+    print(f"[OK] Rendered authentic 8x8 font sheet: {out_png_path} ({img.size[0]}x{img.size[1]})")
 
 def render_ship_atlas(ship_path, out_png_path):
     """
@@ -352,9 +355,9 @@ def generate_html_gallery():
 </div>
 
 <div class="card">
-  <h2>3. Complete In-Game 8x16 Font Sheet (REGFONT)</h2>
+  <h2>3. Complete In-Game Font Sheet (REGFONT)</h2>
   <img class="asset-img" src="regfont_sheet.png" alt="Font Sheet">
-  <div class="meta">256 character glyphs (8x16 pixels) &bull; Decompressed from assets/firehawk/REGFONT</div>
+  <div class="meta">256 character glyphs (8x8 MCGA / 16x8 EGA) &bull; Decompressed from assets/firehawk/REGFONT</div>
 </div>
 
 <div class="card">

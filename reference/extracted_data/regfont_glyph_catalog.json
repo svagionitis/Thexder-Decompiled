@@ -1,0 +1,7426 @@
+[
+  {
+    "slot_index": 0,
+    "slot_hex": "0x00",
+    "ascii_code": 32,
+    "ascii_char": " ",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 1,
+    "slot_hex": "0x01",
+    "ascii_code": 33,
+    "ascii_char": "!",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "03c00ff00ff003c003c0000003c00000",
+    "scanlines_hex": [
+      "0x03C0",
+      "0x0FF0",
+      "0x0FF0",
+      "0x03C0",
+      "0x03C0",
+      "0x0000",
+      "0x03C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      "..####..",
+      "..####..",
+      "...##...",
+      "...##...",
+      "........",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 2,
+    "slot_hex": "0x02",
+    "ascii_code": 34,
+    "ascii_char": "\"",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fcfcfcfc303000000000000000000000",
+    "scanlines_hex": [
+      "0xFCFC",
+      "0xFCFC",
+      "0x3030",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "###.###.",
+      "###.###.",
+      ".#...#..",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 3,
+    "slot_hex": "0x03",
+    "ascii_code": 35,
+    "ascii_char": "#",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "1860187c1fe0f87c1fe0f86018600000",
+    "scanlines_hex": [
+      "0x1860",
+      "0x187C",
+      "0x1FE0",
+      "0xF87C",
+      "0x1FE0",
+      "0xF860",
+      "0x1860",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#..",
+      "..#..##.",
+      "..####..",
+      "###..##.",
+      "..####..",
+      "###..#..",
+      "..#..#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 4,
+    "slot_hex": "0x04",
+    "ascii_code": 36,
+    "ascii_char": "$",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "06601ffe66601ff806667ff806600000",
+    "scanlines_hex": [
+      "0x0660",
+      "0x1FFE",
+      "0x6660",
+      "0x1FF8",
+      "0x0666",
+      "0x7FF8",
+      "0x0660",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#.#..",
+      "..######",
+      ".#.#.#..",
+      "..#####.",
+      "...#.#.#",
+      ".######.",
+      "...#.#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 5,
+    "slot_hex": "0x05",
+    "ascii_code": 37,
+    "ascii_char": "%",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00003c303cc003000cf030f000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3C30",
+      "0x3CC0",
+      "0x0300",
+      "0x0CF0",
+      "0x30F0",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".##..#..",
+      ".##.#...",
+      "...#....",
+      "..#.##..",
+      ".#..##..",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 6,
+    "slot_hex": "0x06",
+    "ascii_code": 38,
+    "ascii_char": "&",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3c00c30066003c00c730c1c07f3c0000",
+    "scanlines_hex": [
+      "0x3C00",
+      "0xC300",
+      "0x6600",
+      "0x3C00",
+      "0xC730",
+      "0xC1C0",
+      "0x7F3C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".##.....",
+      "#..#....",
+      ".#.#....",
+      ".##.....",
+      "#..#.#..",
+      "#...#...",
+      ".###.##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 7,
+    "slot_hex": "0x07",
+    "ascii_code": 39,
+    "ascii_char": "'",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "1f801f80060000000000000000000000",
+    "scanlines_hex": [
+      "0x1F80",
+      "0x1F80",
+      "0x0600",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..###...",
+      "..###...",
+      "...#....",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 8,
+    "slot_hex": "0x08",
+    "ascii_code": 40,
+    "ascii_char": "(",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "001c007000c000c000c00070001c0000",
+    "scanlines_hex": [
+      "0x001C",
+      "0x0070",
+      "0x00C0",
+      "0x00C0",
+      "0x00C0",
+      "0x0070",
+      "0x001C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "......#.",
+      ".....#..",
+      "....#...",
+      "....#...",
+      "....#...",
+      ".....#..",
+      "......#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 9,
+    "slot_hex": "0x09",
+    "ascii_code": 41,
+    "ascii_char": ")",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "e00038000c000c000c003800e0000000",
+    "scanlines_hex": [
+      "0xE000",
+      "0x3800",
+      "0x0C00",
+      "0x0C00",
+      "0x0C00",
+      "0x3800",
+      "0xE000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##......",
+      ".##.....",
+      "..#.....",
+      "..#.....",
+      "..#.....",
+      ".##.....",
+      "##......",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 10,
+    "slot_hex": "0x0A",
+    "ascii_code": 42,
+    "ascii_char": "*",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "000030300cc003000cc0303000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3030",
+      "0x0CC0",
+      "0x0300",
+      "0x0CC0",
+      "0x3030",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#...#..",
+      "..#.#...",
+      "...#....",
+      "..#.#...",
+      ".#...#..",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 11,
+    "slot_hex": "0x0B",
+    "ascii_code": 43,
+    "ascii_char": "+",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0000030003003ff00300030000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0300",
+      "0x0300",
+      "0x3FF0",
+      "0x0300",
+      "0x0300",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "...#....",
+      "...#....",
+      ".#####..",
+      "...#....",
+      "...#....",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 12,
+    "slot_hex": "0x0C",
+    "ascii_code": 44,
+    "ascii_char": ",",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "000000000000000003c003000c000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x03C0",
+      "0x0300",
+      "0x0C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "...##...",
+      "...#....",
+      "..#.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 13,
+    "slot_hex": "0x0D",
+    "ascii_code": 45,
+    "ascii_char": "-",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0000000000003ff00000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x3FF0",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      ".#####..",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 14,
+    "slot_hex": "0x0E",
+    "ascii_code": 46,
+    "ascii_char": ".",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "000000000000000003c003c000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x03C0",
+      "0x03C0",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "...##...",
+      "...##...",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 15,
+    "slot_hex": "0x0F",
+    "ascii_code": 47,
+    "ascii_char": "/",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "000000f003c00f003c00f00000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x00F0",
+      "0x03C0",
+      "0x0F00",
+      "0x3C00",
+      "0xF000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "....##..",
+      "...##...",
+      "..##....",
+      ".##.....",
+      "##......",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 16,
+    "slot_hex": "0x10",
+    "ascii_code": 48,
+    "ascii_char": "0",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf0fcf33cfc3cf03c3ff00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF0FC",
+      "0xF33C",
+      "0xFC3C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##..###.",
+      "##.#.##.",
+      "###..##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 17,
+    "slot_hex": "0x11",
+    "ascii_code": 49,
+    "ascii_char": "1",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "03c00fc00fc003c003c003c00ff00000",
+    "scanlines_hex": [
+      "0x03C0",
+      "0x0FC0",
+      "0x0FC0",
+      "0x03C0",
+      "0x03C0",
+      "0x03C0",
+      "0x0FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      "..###...",
+      "..###...",
+      "...##...",
+      "...##...",
+      "...##...",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 18,
+    "slot_hex": "0x12",
+    "ascii_code": 50,
+    "ascii_char": "2",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf03c03f03f00f000fffc0000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF03C",
+      "0x03F0",
+      "0x3F00",
+      "0xF000",
+      "0xFFFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##...##.",
+      "...###..",
+      ".###....",
+      "##......",
+      "#######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 19,
+    "slot_hex": "0x13",
+    "ascii_code": 51,
+    "ascii_char": "3",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03c003c07f0003cf03c3ff00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0x003C",
+      "0x07F0",
+      "0x003C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      ".....##.",
+      "...###..",
+      ".....##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 20,
+    "slot_hex": "0x14",
+    "ascii_code": 52,
+    "ascii_char": "4",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "03f00ff03cf0f0f0fffc00f000f00000",
+    "scanlines_hex": [
+      "0x03F0",
+      "0x0FF0",
+      "0x3CF0",
+      "0xF0F0",
+      "0xFFFC",
+      "0x00F0",
+      "0x00F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...###..",
+      "..####..",
+      ".##.##..",
+      "##..##..",
+      "#######.",
+      "....##..",
+      "....##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 21,
+    "slot_hex": "0x15",
+    "ascii_code": 53,
+    "ascii_char": "5",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fff8f000f000fff0003cf03c3ff00000",
+    "scanlines_hex": [
+      "0xFFF8",
+      "0xF000",
+      "0xF000",
+      "0xFFF0",
+      "0x003C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "#######.",
+      "##......",
+      "##......",
+      "######..",
+      ".....##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 22,
+    "slot_hex": "0x16",
+    "ascii_code": 54,
+    "ascii_char": "6",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf000fff0f03cf03c3ff00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF000",
+      "0xFFF0",
+      "0xF03C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##......",
+      "######..",
+      "##...##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 23,
+    "slot_hex": "0x17",
+    "ascii_code": 55,
+    "ascii_char": "7",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fffcf03cf03c01f00780078007800000",
+    "scanlines_hex": [
+      "0xFFFC",
+      "0xF03C",
+      "0xF03C",
+      "0x01F0",
+      "0x0780",
+      "0x0780",
+      "0x0780",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "#######.",
+      "##...##.",
+      "##...##.",
+      "....##..",
+      "...##...",
+      "...##...",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 24,
+    "slot_hex": "0x18",
+    "ascii_code": 56,
+    "ascii_char": "8",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf03c3ff0f03cf03c3ff00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF03C",
+      "0x3FF0",
+      "0xF03C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##...##.",
+      ".#####..",
+      "##...##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 25,
+    "slot_hex": "0x19",
+    "ascii_code": 57,
+    "ascii_char": "9",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf03c3ffc003c00f03fc00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF03C",
+      "0x3FFC",
+      "0x003C",
+      "0x00F0",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##...##.",
+      ".######.",
+      ".....##.",
+      "....##..",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 26,
+    "slot_hex": "0x1A",
+    "ascii_code": 58,
+    "ascii_char": ":",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00001e001e0000001e001e0000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x1E00",
+      "0x1E00",
+      "0x0000",
+      "0x1E00",
+      "0x1E00",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..##....",
+      "..##....",
+      "........",
+      "..##....",
+      "..##....",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 27,
+    "slot_hex": "0x1B",
+    "ascii_code": 59,
+    "ascii_char": ";",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00001e001e0000001e001e003c00e000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x1E00",
+      "0x1E00",
+      "0x0000",
+      "0x1E00",
+      "0x1E00",
+      "0x3C00",
+      "0xE000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..##....",
+      "..##....",
+      "........",
+      "..##....",
+      "..##....",
+      ".##.....",
+      "##......"
+    ]
+  },
+  {
+    "slot_index": 28,
+    "slot_hex": "0x1C",
+    "ascii_code": 60,
+    "ascii_char": "<",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "01e007801e0078001e00078001e00000",
+    "scanlines_hex": [
+      "0x01E0",
+      "0x0780",
+      "0x1E00",
+      "0x7800",
+      "0x1E00",
+      "0x0780",
+      "0x01E0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....##..",
+      "...##...",
+      "..##....",
+      ".##.....",
+      "..##....",
+      "...##...",
+      "....##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 29,
+    "slot_hex": "0x1D",
+    "ascii_code": 61,
+    "ascii_char": "=",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00007ff87ff800007ff87ff800000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7FF8",
+      "0x7FF8",
+      "0x0000",
+      "0x7FF8",
+      "0x7FF8",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      ".######.",
+      "........",
+      ".######.",
+      ".######.",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 30,
+    "slot_hex": "0x1E",
+    "ascii_code": 62,
+    "ascii_char": ">",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "1e00078001e0007801e007801e000000",
+    "scanlines_hex": [
+      "0x1E00",
+      "0x0780",
+      "0x01E0",
+      "0x0078",
+      "0x01E0",
+      "0x0780",
+      "0x1E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..##....",
+      "...##...",
+      "....##..",
+      ".....##.",
+      "....##..",
+      "...##...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 31,
+    "slot_hex": "0x1F",
+    "ascii_code": 63,
+    "ascii_char": "?",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "1fe07878787801e00780000007800000",
+    "scanlines_hex": [
+      "0x1FE0",
+      "0x7878",
+      "0x7878",
+      "0x01E0",
+      "0x0780",
+      "0x0000",
+      "0x0780",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..####..",
+      ".##..##.",
+      ".##..##.",
+      "....##..",
+      "...##...",
+      "........",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 32,
+    "slot_hex": "0x20",
+    "ascii_code": 64,
+    "ascii_char": "@",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0fc03030c7cccc0cc7cc30300fc00000",
+    "scanlines_hex": [
+      "0x0FC0",
+      "0x3030",
+      "0xC7CC",
+      "0xCC0C",
+      "0xC7CC",
+      "0x3030",
+      "0x0FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..###...",
+      ".#...#..",
+      "#..##.#.",
+      "#.#...#.",
+      "#..##.#.",
+      ".#...#..",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 33,
+    "slot_hex": "0x21",
+    "ascii_code": 65,
+    "ascii_char": "A",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0fc03cf0f03cf03cfffcf03cf03c0000",
+    "scanlines_hex": [
+      "0x0FC0",
+      "0x3CF0",
+      "0xF03C",
+      "0xF03C",
+      "0xFFFC",
+      "0xF03C",
+      "0xF03C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..###...",
+      ".##.##..",
+      "##...##.",
+      "##...##.",
+      "#######.",
+      "##...##.",
+      "##...##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 34,
+    "slot_hex": "0x22",
+    "ascii_code": 66,
+    "ascii_char": "B",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fff03c3c3c3c3ff03c3c3c3cfff00000",
+    "scanlines_hex": [
+      "0xFFF0",
+      "0x3C3C",
+      "0x3C3C",
+      "0x3FF0",
+      "0x3C3C",
+      "0x3C3C",
+      "0xFFF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "######..",
+      ".##..##.",
+      ".##..##.",
+      ".#####..",
+      ".##..##.",
+      ".##..##.",
+      "######..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 35,
+    "slot_hex": "0x23",
+    "ascii_code": 67,
+    "ascii_char": "C",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf03cf000f03cf03c3ff00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF03C",
+      "0xF000",
+      "0xF03C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##...##.",
+      "##......",
+      "##...##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 36,
+    "slot_hex": "0x24",
+    "ascii_code": 68,
+    "ascii_char": "D",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "ffc03cf03c3c3c3c3c3c3cf0ffc00000",
+    "scanlines_hex": [
+      "0xFFC0",
+      "0x3CF0",
+      "0x3C3C",
+      "0x3C3C",
+      "0x3C3C",
+      "0x3CF0",
+      "0xFFC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "#####...",
+      ".##.##..",
+      ".##..##.",
+      ".##..##.",
+      ".##..##.",
+      ".##.##..",
+      "#####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 37,
+    "slot_hex": "0x25",
+    "ascii_code": 69,
+    "ascii_char": "E",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fffc3c0c3c003ff03c003c0cfffc0000",
+    "scanlines_hex": [
+      "0xFFFC",
+      "0x3C0C",
+      "0x3C00",
+      "0x3FF0",
+      "0x3C00",
+      "0x3C0C",
+      "0xFFFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "#######.",
+      ".##...#.",
+      ".##.....",
+      ".#####..",
+      ".##.....",
+      ".##...#.",
+      "#######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 38,
+    "slot_hex": "0x26",
+    "ascii_code": 70,
+    "ascii_char": "F",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fffc3c003c303ff03c303c003c000000",
+    "scanlines_hex": [
+      "0xFFFC",
+      "0x3C00",
+      "0x3C30",
+      "0x3FF0",
+      "0x3C30",
+      "0x3C00",
+      "0x3C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "#######.",
+      ".##.....",
+      ".##..#..",
+      ".#####..",
+      ".##..#..",
+      ".##.....",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 39,
+    "slot_hex": "0x27",
+    "ascii_code": 71,
+    "ascii_char": "G",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf000f3fcf03cf03c3f3c0000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF000",
+      "0xF3FC",
+      "0xF03C",
+      "0xF03C",
+      "0x3F3C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##......",
+      "##.####.",
+      "##...##.",
+      "##...##.",
+      ".###.##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 40,
+    "slot_hex": "0x28",
+    "ascii_code": 72,
+    "ascii_char": "H",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cf03cf03cfffcf03cf03cf03c0000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0xFFFC",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "#######.",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 41,
+    "slot_hex": "0x29",
+    "ascii_code": 73,
+    "ascii_char": "I",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0ff003c003c003c003c003c00ff00000",
+    "scanlines_hex": [
+      "0x0FF0",
+      "0x03C0",
+      "0x03C0",
+      "0x03C0",
+      "0x03C0",
+      "0x03C0",
+      "0x0FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..####..",
+      "...##...",
+      "...##...",
+      "...##...",
+      "...##...",
+      "...##...",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 42,
+    "slot_hex": "0x2A",
+    "ascii_code": 74,
+    "ascii_char": "J",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ffc00f000f000f0f0f0f0f03fc00000",
+    "scanlines_hex": [
+      "0x3FFC",
+      "0x00F0",
+      "0x00F0",
+      "0x00F0",
+      "0xF0F0",
+      "0xF0F0",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".######.",
+      "....##..",
+      "....##..",
+      "....##..",
+      "##..##..",
+      "##..##..",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 43,
+    "slot_hex": "0x2B",
+    "ascii_code": 75,
+    "ascii_char": "K",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cf0f0f3c0ff00ffc0f0f0f03c0000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xF0F0",
+      "0xF3C0",
+      "0xFF00",
+      "0xFFC0",
+      "0xF0F0",
+      "0xF03C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "##..##..",
+      "##.##...",
+      "####....",
+      "#####...",
+      "##..##..",
+      "##...##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 44,
+    "slot_hex": "0x2C",
+    "ascii_code": 76,
+    "ascii_char": "L",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f000f000f000f000f000f000fffc0000",
+    "scanlines_hex": [
+      "0xF000",
+      "0xF000",
+      "0xF000",
+      "0xF000",
+      "0xF000",
+      "0xF000",
+      "0xFFFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##......",
+      "##......",
+      "##......",
+      "##......",
+      "##......",
+      "##......",
+      "#######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 45,
+    "slot_hex": "0x2D",
+    "ascii_code": 77,
+    "ascii_char": "M",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cfcfcfffcf33cf03cf03cf03c0000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xFCFC",
+      "0xFFFC",
+      "0xF33C",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "###.###.",
+      "#######.",
+      "##.#.##.",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 46,
+    "slot_hex": "0x2E",
+    "ascii_code": 78,
+    "ascii_char": "N",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cfc3cff3cfffcf3fcf0fcf03c0000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xFC3C",
+      "0xFF3C",
+      "0xFFFC",
+      "0xF3FC",
+      "0xF0FC",
+      "0xF03C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "###..##.",
+      "####.##.",
+      "#######.",
+      "##.####.",
+      "##..###.",
+      "##...##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 47,
+    "slot_hex": "0x2F",
+    "ascii_code": 79,
+    "ascii_char": "O",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf03cf03cf03cf03c3ff00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 48,
+    "slot_hex": "0x30",
+    "ascii_code": 80,
+    "ascii_char": "P",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fff03c3c3c3c3c3c3ff03c003c000000",
+    "scanlines_hex": [
+      "0xFFF0",
+      "0x3C3C",
+      "0x3C3C",
+      "0x3C3C",
+      "0x3FF0",
+      "0x3C00",
+      "0x3C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "######..",
+      ".##..##.",
+      ".##..##.",
+      ".##..##.",
+      ".#####..",
+      ".##.....",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 49,
+    "slot_hex": "0x31",
+    "ascii_code": 81,
+    "ascii_char": "Q",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf03cf03cf00cf0f03f3c0000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0xF00C",
+      "0xF0F0",
+      "0x3F3C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "##....#.",
+      "##..##..",
+      ".###.##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 50,
+    "slot_hex": "0x32",
+    "ascii_code": 82,
+    "ascii_char": "R",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fff03c3c3c3c3c3c3ff03c3c3c3c0000",
+    "scanlines_hex": [
+      "0xFFF0",
+      "0x3C3C",
+      "0x3C3C",
+      "0x3C3C",
+      "0x3FF0",
+      "0x3C3C",
+      "0x3C3C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "######..",
+      ".##..##.",
+      ".##..##.",
+      ".##..##.",
+      ".#####..",
+      ".##..##.",
+      ".##..##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 51,
+    "slot_hex": "0x33",
+    "ascii_code": 83,
+    "ascii_char": "S",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3ff0f03cf0003ff0003cf03c3ff00000",
+    "scanlines_hex": [
+      "0x3FF0",
+      "0xF03C",
+      "0xF000",
+      "0x3FF0",
+      "0x003C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####..",
+      "##...##.",
+      "##......",
+      ".#####..",
+      ".....##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 52,
+    "slot_hex": "0x34",
+    "ascii_code": 84,
+    "ascii_char": "T",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fffc0780078007800780078007800000",
+    "scanlines_hex": [
+      "0xFFFC",
+      "0x0780",
+      "0x0780",
+      "0x0780",
+      "0x0780",
+      "0x0780",
+      "0x0780",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "#######.",
+      "...##...",
+      "...##...",
+      "...##...",
+      "...##...",
+      "...##...",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 53,
+    "slot_hex": "0x35",
+    "ascii_code": 85,
+    "ascii_char": "U",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cf03cf03cf03cf03cf03c3ff00000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 54,
+    "slot_hex": "0x36",
+    "ascii_code": 86,
+    "ascii_char": "V",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cf03cf03c3cf03cf00fc003000000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0x3CF0",
+      "0x3CF0",
+      "0x0FC0",
+      "0x0300",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      ".##.##..",
+      ".##.##..",
+      "..###...",
+      "...#....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 55,
+    "slot_hex": "0x37",
+    "ascii_code": 87,
+    "ascii_char": "W",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cf03cf33cfffcfcfcf03cc00c0000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xF03C",
+      "0xF33C",
+      "0xFFFC",
+      "0xFCFC",
+      "0xF03C",
+      "0xC00C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "##...##.",
+      "##.#.##.",
+      "#######.",
+      "###.###.",
+      "##...##.",
+      "#.....#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 56,
+    "slot_hex": "0x38",
+    "ascii_code": 88,
+    "ascii_char": "X",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cfcfc3ff00fc03ff0fcfcf03c0000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xFCFC",
+      "0x3FF0",
+      "0x0FC0",
+      "0x3FF0",
+      "0xFCFC",
+      "0xF03C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "###.###.",
+      ".#####..",
+      "..###...",
+      ".#####..",
+      "###.###.",
+      "##...##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 57,
+    "slot_hex": "0x39",
+    "ascii_code": 89,
+    "ascii_char": "Y",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f03cf03cf03c3ff00780078007800000",
+    "scanlines_hex": [
+      "0xF03C",
+      "0xF03C",
+      "0xF03C",
+      "0x3FF0",
+      "0x0780",
+      "0x0780",
+      "0x0780",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##...##.",
+      "##...##.",
+      "##...##.",
+      ".#####..",
+      "...##...",
+      "...##...",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 58,
+    "slot_hex": "0x3A",
+    "ascii_code": 90,
+    "ascii_char": "Z",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "fff000f003c00f003c00f000fff00000",
+    "scanlines_hex": [
+      "0xFFF0",
+      "0x00F0",
+      "0x03C0",
+      "0x0F00",
+      "0x3C00",
+      "0xF000",
+      "0xFFF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "######..",
+      "....##..",
+      "...##...",
+      "..##....",
+      ".##.....",
+      "##......",
+      "######..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 59,
+    "slot_hex": "0x3B",
+    "ascii_code": 91,
+    "ascii_char": "[",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "003c00300030003000300030003c0000",
+    "scanlines_hex": [
+      "0x003C",
+      "0x0030",
+      "0x0030",
+      "0x0030",
+      "0x0030",
+      "0x0030",
+      "0x003C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....##.",
+      ".....#..",
+      ".....#..",
+      ".....#..",
+      ".....#..",
+      ".....#..",
+      ".....##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 60,
+    "slot_hex": "0x3C",
+    "ascii_code": 92,
+    "ascii_char": "\\",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "f0003c000f0003c000f0003c000f0000",
+    "scanlines_hex": [
+      "0xF000",
+      "0x3C00",
+      "0x0F00",
+      "0x03C0",
+      "0x00F0",
+      "0x003C",
+      "0x000F",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##......",
+      ".##.....",
+      "..##....",
+      "...##...",
+      "....##..",
+      ".....##.",
+      "......##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 61,
+    "slot_hex": "0x3D",
+    "ascii_code": 93,
+    "ascii_char": "]",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3c000c000c000c000c000c003c000000",
+    "scanlines_hex": [
+      "0x3C00",
+      "0x0C00",
+      "0x0C00",
+      "0x0C00",
+      "0x0C00",
+      "0x0C00",
+      "0x3C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".##.....",
+      "..#.....",
+      "..#.....",
+      "..#.....",
+      "..#.....",
+      "..#.....",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 62,
+    "slot_hex": "0x3E",
+    "ascii_code": 94,
+    "ascii_char": "^",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "03000cc03030c00c0000000000000000",
+    "scanlines_hex": [
+      "0x0300",
+      "0x0CC0",
+      "0x3030",
+      "0xC00C",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "..#.#...",
+      ".#...#..",
+      "#.....#.",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 63,
+    "slot_hex": "0x3F",
+    "ascii_code": 95,
+    "ascii_char": "_",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 64,
+    "slot_hex": "0x40",
+    "ascii_code": 96,
+    "ascii_char": "`",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00000c00fff00cc03fc0cf303c300000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0C00",
+      "0xFFF0",
+      "0x0CC0",
+      "0x3FC0",
+      "0xCF30",
+      "0x3C30",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..#.....",
+      "######..",
+      "..#.#...",
+      ".####...",
+      "#.##.#..",
+      ".##..#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 65,
+    "slot_hex": "0x41",
+    "ascii_code": 97,
+    "ascii_char": "a",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0600fffc0c603ff0cccccf0c38300000",
+    "scanlines_hex": [
+      "0x0600",
+      "0xFFFC",
+      "0x0C60",
+      "0x3FF0",
+      "0xCCCC",
+      "0xCF0C",
+      "0x3830",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "#######.",
+      "..#..#..",
+      ".#####..",
+      "#.#.#.#.",
+      "#.##..#.",
+      ".##..#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 66,
+    "slot_hex": "0x42",
+    "ascii_code": 98,
+    "ascii_char": "b",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00000000c0c0c030c030d83030000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0xC0C0",
+      "0xC030",
+      "0xC030",
+      "0xD830",
+      "0x3000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "#...#...",
+      "#....#..",
+      "#....#..",
+      "#.#..#..",
+      ".#......",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 67,
+    "slot_hex": "0x43",
+    "ascii_code": 99,
+    "ascii_char": "c",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0000c000c030c00ccc0c780c30000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0xC000",
+      "0xC030",
+      "0xC00C",
+      "0xCC0C",
+      "0x780C",
+      "0x3000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "#.......",
+      "#....#..",
+      "#.....#.",
+      "#.#...#.",
+      ".##...#.",
+      ".#......",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 68,
+    "slot_hex": "0x44",
+    "ascii_code": 100,
+    "ascii_char": "d",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00001f8000000fc0707000c01f000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x1F80",
+      "0x0000",
+      "0x0FC0",
+      "0x7070",
+      "0x00C0",
+      "0x1F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..###...",
+      "........",
+      "..###...",
+      ".#...#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 69,
+    "slot_hex": "0x45",
+    "ascii_code": 101,
+    "ascii_char": "e",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0fe000000ff0700c000c003003c00000",
+    "scanlines_hex": [
+      "0x0FE0",
+      "0x0000",
+      "0x0FF0",
+      "0x700C",
+      "0x000C",
+      "0x0030",
+      "0x03C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..####..",
+      "........",
+      "..####..",
+      ".#....#.",
+      "......#.",
+      ".....#..",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 70,
+    "slot_hex": "0x46",
+    "ascii_code": 102,
+    "ascii_char": "f",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00001f8000007fe001800f00f1f00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x1F80",
+      "0x0000",
+      "0x7FE0",
+      "0x0180",
+      "0x0F00",
+      "0xF1F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..###...",
+      "........",
+      ".#####..",
+      "....#...",
+      "..##....",
+      "##..##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 71,
+    "slot_hex": "0x47",
+    "ascii_code": 103,
+    "ascii_char": "g",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0fc000007ff001c007701c60e0fc0000",
+    "scanlines_hex": [
+      "0x0FC0",
+      "0x0000",
+      "0x7FF0",
+      "0x01C0",
+      "0x0770",
+      "0x1C60",
+      "0xE0FC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..###...",
+      "........",
+      ".#####..",
+      "....#...",
+      "...#.#..",
+      "..#..#..",
+      "##..###.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 72,
+    "slot_hex": "0x48",
+    "ascii_code": 104,
+    "ascii_char": "h",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00000c00ffc00c0c3fc0cc3038c00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0C00",
+      "0xFFC0",
+      "0x0C0C",
+      "0x3FC0",
+      "0xCC30",
+      "0x38C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..#.....",
+      "#####...",
+      "..#...#.",
+      ".####...",
+      "#.#..#..",
+      ".##.#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 73,
+    "slot_hex": "0x49",
+    "ascii_code": 105,
+    "ascii_char": "i",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0c00ffcc0c000ff07c0ccc0c38f00000",
+    "scanlines_hex": [
+      "0x0C00",
+      "0xFFCC",
+      "0x0C00",
+      "0x0FF0",
+      "0x7C0C",
+      "0xCC0C",
+      "0x38F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "#####.#.",
+      "..#.....",
+      "..####..",
+      ".##...#.",
+      "#.#...#.",
+      ".##.##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 74,
+    "slot_hex": "0x4A",
+    "ascii_code": 106,
+    "ascii_char": "j",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "06300c18ff8c18cc30c060c0c7800000",
+    "scanlines_hex": [
+      "0x0630",
+      "0x0C18",
+      "0xFF8C",
+      "0x18CC",
+      "0x30C0",
+      "0x60C0",
+      "0xC780",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#.#..",
+      "..#...#.",
+      "#####.#.",
+      "..#.#.#.",
+      ".#..#...",
+      ".#..#...",
+      "#..##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 75,
+    "slot_hex": "0x4B",
+    "ascii_code": 107,
+    "ascii_char": "k",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0c1b18c0ff3018d830c060c0c7800000",
+    "scanlines_hex": [
+      "0x0C1B",
+      "0x18C0",
+      "0xFF30",
+      "0x18D8",
+      "0x30C0",
+      "0x60C0",
+      "0xC780",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#...##",
+      "..#.#...",
+      "####.#..",
+      "..#.#.#.",
+      ".#..#...",
+      ".#..#...",
+      "#..##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 76,
+    "slot_hex": "0x4C",
+    "ascii_code": 108,
+    "ascii_char": "l",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "1800ffc00c00fff00300e0003fc00000",
+    "scanlines_hex": [
+      "0x1800",
+      "0xFFC0",
+      "0x0C00",
+      "0xFFF0",
+      "0x0300",
+      "0xE000",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "#####...",
+      "..#.....",
+      "######..",
+      "...#....",
+      "##......",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 77,
+    "slot_hex": "0x4D",
+    "ascii_code": 109,
+    "ascii_char": "m",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3036ff800c00fff00300e0003fc00000",
+    "scanlines_hex": [
+      "0x3036",
+      "0xFF80",
+      "0x0C00",
+      "0xFFF0",
+      "0x0300",
+      "0xE000",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#...#.#",
+      "#####...",
+      "..#.....",
+      "######..",
+      "...#....",
+      "##......",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 78,
+    "slot_hex": "0x4E",
+    "ascii_code": 110,
+    "ascii_char": "n",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "03800e003800e00038000e0003c00000",
+    "scanlines_hex": [
+      "0x0380",
+      "0x0E00",
+      "0x3800",
+      "0xE000",
+      "0x3800",
+      "0x0E00",
+      "0x03C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      "..##....",
+      ".##.....",
+      "##......",
+      ".##.....",
+      "..##....",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 79,
+    "slot_hex": "0x4F",
+    "ascii_code": 111,
+    "ascii_char": "o",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "039b0e003800e00038000e0003c00000",
+    "scanlines_hex": [
+      "0x039B",
+      "0x0E00",
+      "0x3800",
+      "0xE000",
+      "0x3800",
+      "0x0E00",
+      "0x03C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##.##",
+      "..##....",
+      ".##.....",
+      "##......",
+      ".##.....",
+      "..##....",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 80,
+    "slot_hex": "0x50",
+    "ascii_code": 112,
+    "ascii_char": "p",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "60306030cffcc030c030c06061800000",
+    "scanlines_hex": [
+      "0x6030",
+      "0x6030",
+      "0xCFFC",
+      "0xC030",
+      "0xC030",
+      "0xC060",
+      "0x6180",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#...#..",
+      ".#...#..",
+      "#.#####.",
+      "#....#..",
+      "#....#..",
+      "#....#..",
+      ".#..#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 81,
+    "slot_hex": "0x51",
+    "ascii_code": 113,
+    "ascii_char": "q",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "60db60c0cff8c0c0c0c0c18063000000",
+    "scanlines_hex": [
+      "0x60DB",
+      "0x60C0",
+      "0xCFF8",
+      "0xC0C0",
+      "0xC0C0",
+      "0xC180",
+      "0x6300",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#..#.##",
+      ".#..#...",
+      "#.#####.",
+      "#...#...",
+      "#...#...",
+      "#...#...",
+      ".#.#....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 82,
+    "slot_hex": "0x52",
+    "ascii_code": 114,
+    "ascii_char": "r",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00003ff000c000003000e0003ffc0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FF0",
+      "0x00C0",
+      "0x0000",
+      "0x3000",
+      "0xE000",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#####..",
+      "....#...",
+      "........",
+      ".#......",
+      "##......",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 83,
+    "slot_hex": "0x53",
+    "ascii_code": 115,
+    "ascii_char": "s",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "00363ff000c000003000e0003ffc0000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x3FF0",
+      "0x00C0",
+      "0x0000",
+      "0x3000",
+      "0xE000",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".#####..",
+      "....#...",
+      "........",
+      ".#......",
+      "##......",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 84,
+    "slot_hex": "0x54",
+    "ascii_code": 116,
+    "ascii_char": "t",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0c00fff0030000c06000c0003fc00000",
+    "scanlines_hex": [
+      "0x0C00",
+      "0xFFF0",
+      "0x0300",
+      "0x00C0",
+      "0x6000",
+      "0xC000",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "######..",
+      "...#....",
+      "....#...",
+      ".#......",
+      "#.......",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 85,
+    "slot_hex": "0x55",
+    "ascii_code": 117,
+    "ascii_char": "u",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0c36ffc0030000c06000c0003fc00000",
+    "scanlines_hex": [
+      "0x0C36",
+      "0xFFC0",
+      "0x0300",
+      "0x00C0",
+      "0x6000",
+      "0xC000",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#.#",
+      "#####...",
+      "...#....",
+      "....#...",
+      ".#......",
+      "#.......",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 86,
+    "slot_hex": "0x56",
+    "ascii_code": 118,
+    "ascii_char": "v",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "300038003000300c300c38180fe00000",
+    "scanlines_hex": [
+      "0x3000",
+      "0x3800",
+      "0x3000",
+      "0x300C",
+      "0x300C",
+      "0x3818",
+      "0x0FE0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#......",
+      ".##.....",
+      ".#......",
+      ".#....#.",
+      ".#....#.",
+      ".##...#.",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 87,
+    "slot_hex": "0x57",
+    "ascii_code": 119,
+    "ascii_char": "w",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "300038cc3000300c300c38180fe00000",
+    "scanlines_hex": [
+      "0x3000",
+      "0x38CC",
+      "0x3000",
+      "0x300C",
+      "0x300C",
+      "0x3818",
+      "0x0FE0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#......",
+      ".##.#.#.",
+      ".#......",
+      ".#....#.",
+      ".#....#.",
+      ".##...#.",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 88,
+    "slot_hex": "0x58",
+    "ascii_code": 120,
+    "ascii_char": "x",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0180fffc0fc038c00fc001801e000000",
+    "scanlines_hex": [
+      "0x0180",
+      "0xFFFC",
+      "0x0FC0",
+      "0x38C0",
+      "0x0FC0",
+      "0x0180",
+      "0x1E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....#...",
+      "#######.",
+      "..###...",
+      ".##.#...",
+      "..###...",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 89,
+    "slot_hex": "0x59",
+    "ascii_code": 121,
+    "ascii_char": "y",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "019bffe00fc038c00fc001801e000000",
+    "scanlines_hex": [
+      "0x019B",
+      "0xFFE0",
+      "0x0FC0",
+      "0x38C0",
+      "0x0FC0",
+      "0x0180",
+      "0x1E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....#.##",
+      "######..",
+      "..###...",
+      ".##.#...",
+      "..###...",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 90,
+    "slot_hex": "0x5A",
+    "ascii_code": 122,
+    "ascii_char": "z",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "183018307ffc1830186018000ff00000",
+    "scanlines_hex": [
+      "0x1830",
+      "0x1830",
+      "0x7FFC",
+      "0x1830",
+      "0x1860",
+      "0x1800",
+      "0x0FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#..",
+      "..#..#..",
+      ".######.",
+      "..#..#..",
+      "..#..#..",
+      "..#.....",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 91,
+    "slot_hex": "0x5B",
+    "ascii_code": 123,
+    "ascii_char": "{",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "30db30c07ffc306030c030001fe00000",
+    "scanlines_hex": [
+      "0x30DB",
+      "0x30C0",
+      "0x7FFC",
+      "0x3060",
+      "0x30C0",
+      "0x3000",
+      "0x1FE0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#..#.##",
+      ".#..#...",
+      ".######.",
+      ".#...#..",
+      ".#..#...",
+      ".#......",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 92,
+    "slot_hex": "0x5C",
+    "ascii_code": 124,
+    "ascii_char": "|",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3cf00380fc000ff8300030000fe00000",
+    "scanlines_hex": [
+      "0x3CF0",
+      "0x0380",
+      "0xFC00",
+      "0x0FF8",
+      "0x3000",
+      "0x3000",
+      "0x0FE0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".##.##..",
+      "...##...",
+      "###.....",
+      "..#####.",
+      ".#......",
+      ".#......",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 93,
+    "slot_hex": "0x5D",
+    "ascii_code": 125,
+    "ascii_char": "}",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "3c3603c0fc000ff8300030000fe00000",
+    "scanlines_hex": [
+      "0x3C36",
+      "0x03C0",
+      "0xFC00",
+      "0x0FF8",
+      "0x3000",
+      "0x3000",
+      "0x0FE0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".##..#.#",
+      "...##...",
+      "###.....",
+      "..#####.",
+      ".#......",
+      ".#......",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 94,
+    "slot_hex": "0x5E",
+    "ascii_code": 126,
+    "ascii_char": "~",
+    "category": "ASCII_PRINTABLE",
+    "is_empty": false,
+    "raw_hex": "0600fffc0c0018fc30186300c1fc0000",
+    "scanlines_hex": [
+      "0x0600",
+      "0xFFFC",
+      "0x0C00",
+      "0x18FC",
+      "0x3018",
+      "0x6300",
+      "0xC1FC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "#######.",
+      "..#.....",
+      "..#.###.",
+      ".#....#.",
+      ".#.#....",
+      "#...###.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 95,
+    "slot_hex": "0x5F",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0636ffc00c0018fc30186300c1fc0000",
+    "scanlines_hex": [
+      "0x0636",
+      "0xFFC0",
+      "0x0C00",
+      "0x18FC",
+      "0x3018",
+      "0x6300",
+      "0xC1FC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#.#.#",
+      "#####...",
+      "..#.....",
+      "..#.###.",
+      ".#....#.",
+      ".#.#....",
+      "#...###.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 96,
+    "slot_hex": "0x60",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0300fffc0c001bf03c0c000c03f00000",
+    "scanlines_hex": [
+      "0x0300",
+      "0xFFFC",
+      "0x0C00",
+      "0x1BF0",
+      "0x3C0C",
+      "0x000C",
+      "0x03F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "#######.",
+      "..#.....",
+      "..####..",
+      ".##...#.",
+      "......#.",
+      "...###..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 97,
+    "slot_hex": "0x61",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0336ffe00c001bf03c0c000c03f00000",
+    "scanlines_hex": [
+      "0x0336",
+      "0xFFE0",
+      "0x0C00",
+      "0x1BF0",
+      "0x3C0C",
+      "0x000C",
+      "0x03F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#.#.#",
+      "######..",
+      "..#.....",
+      "..####..",
+      ".##...#.",
+      "......#.",
+      "...###..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 98,
+    "slot_hex": "0x62",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000001fc0e030003000e00f800000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x1FC0",
+      "0xE030",
+      "0x0030",
+      "0x00E0",
+      "0x0F80",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "..###...",
+      "##...#..",
+      ".....#..",
+      "....##..",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 99,
+    "slot_hex": "0x63",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000fe0f018000c000c00700fc00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0FE0",
+      "0xF018",
+      "0x000C",
+      "0x000C",
+      "0x0070",
+      "0x0FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..####..",
+      "##....#.",
+      "......#.",
+      "......#.",
+      ".....#..",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 100,
+    "slot_hex": "0x64",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00360fc0f0300018001800701f800000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x0FC0",
+      "0xF030",
+      "0x0018",
+      "0x0018",
+      "0x0070",
+      "0x1F80",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      "..###...",
+      "##...#..",
+      "......#.",
+      "......#.",
+      ".....#..",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 101,
+    "slot_hex": "0x65",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "03fcfc70018006000600060001c00000",
+    "scanlines_hex": [
+      "0x03FC",
+      "0xFC70",
+      "0x0180",
+      "0x0600",
+      "0x0600",
+      "0x0600",
+      "0x01C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...####.",
+      "###..#..",
+      "....#...",
+      "...#....",
+      "...#....",
+      "...#....",
+      "....#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 102,
+    "slot_hex": "0x66",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "07dbf8e003000c000c000c0003800000",
+    "scanlines_hex": [
+      "0x07DB",
+      "0xF8E0",
+      "0x0300",
+      "0x0C00",
+      "0x0C00",
+      "0x0C00",
+      "0x0380",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##.##",
+      "###.##..",
+      "...#....",
+      "..#.....",
+      "..#.....",
+      "..#.....",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 103,
+    "slot_hex": "0x67",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1800180007f03c00c000c0003ffc0000",
+    "scanlines_hex": [
+      "0x1800",
+      "0x1800",
+      "0x07F0",
+      "0x3C00",
+      "0xC000",
+      "0xC000",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "..#.....",
+      "...###..",
+      ".##.....",
+      "#.......",
+      "#.......",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 104,
+    "slot_hex": "0x68",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1836180007f03c00c000c0003ffc0000",
+    "scanlines_hex": [
+      "0x1836",
+      "0x1800",
+      "0x07F0",
+      "0x3C00",
+      "0xC000",
+      "0xC000",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#.#",
+      "..#.....",
+      "...###..",
+      ".##.....",
+      "#.......",
+      "#.......",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 105,
+    "slot_hex": "0x69",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0c18ff0c30306030c7f01c3c07c60000",
+    "scanlines_hex": [
+      "0x0C18",
+      "0xFF0C",
+      "0x3030",
+      "0x6030",
+      "0xC7F0",
+      "0x1C3C",
+      "0x07C6",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#...#.",
+      "####..#.",
+      ".#...#..",
+      ".#...#..",
+      "#..###..",
+      "..#..##.",
+      "...##..#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 106,
+    "slot_hex": "0x6A",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "300031fcc030c000c000db0070fc0000",
+    "scanlines_hex": [
+      "0x3000",
+      "0x31FC",
+      "0xC030",
+      "0xC000",
+      "0xC000",
+      "0xDB00",
+      "0x70FC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#......",
+      ".#..###.",
+      "#....#..",
+      "#.......",
+      "#.......",
+      "#.##....",
+      ".#..###.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 107,
+    "slot_hex": "0x6B",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "30c03ff0398cce0cccfcf38c30f30000",
+    "scanlines_hex": [
+      "0x30C0",
+      "0x3FF0",
+      "0x398C",
+      "0xCE0C",
+      "0xCCFC",
+      "0xF38C",
+      "0x30F3",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#..#...",
+      ".#####..",
+      ".##.#.#.",
+      "#.##..#.",
+      "#.#.###.",
+      "##.##.#.",
+      ".#..##.#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 108,
+    "slot_hex": "0x6C",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3000fcf833063c06f0fc338c30f30000",
+    "scanlines_hex": [
+      "0x3000",
+      "0xFCF8",
+      "0x3306",
+      "0x3C06",
+      "0xF0FC",
+      "0x338C",
+      "0x30F3",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#......",
+      "###.###.",
+      ".#.#...#",
+      ".##....#",
+      "##..###.",
+      ".#.##.#.",
+      ".#..##.#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 109,
+    "slot_hex": "0x6D",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000fe0731cc306c306660c1c700000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0FE0",
+      "0x731C",
+      "0xC306",
+      "0xC306",
+      "0x660C",
+      "0x1C70",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..####..",
+      ".#.#..#.",
+      "#..#...#",
+      "#..#...#",
+      ".#.#..#.",
+      "..#..#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 110,
+    "slot_hex": "0x6E",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "60606060c7fcc060c7e0dc3867c60000",
+    "scanlines_hex": [
+      "0x6060",
+      "0x6060",
+      "0xC7FC",
+      "0xC060",
+      "0xC7E0",
+      "0xDC38",
+      "0x67C6",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#...#..",
+      ".#...#..",
+      "#..####.",
+      "#....#..",
+      "#..###..",
+      "#.#..##.",
+      ".#.##..#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 111,
+    "slot_hex": "0x6F",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "60db60c0cff8c0c0c7c0dcf0678c0000",
+    "scanlines_hex": [
+      "0x60DB",
+      "0x60C0",
+      "0xCFF8",
+      "0xC0C0",
+      "0xC7C0",
+      "0xDCF0",
+      "0x678C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#..#.##",
+      ".#..#...",
+      "#.#####.",
+      "#...#...",
+      "#..##...",
+      "#.#.##..",
+      ".#.##.#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 112,
+    "slot_hex": "0x70",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "60c660c9cff6c0c0c7c0dcf0678c0000",
+    "scanlines_hex": [
+      "0x60C6",
+      "0x60C9",
+      "0xCFF6",
+      "0xC0C0",
+      "0xC7C0",
+      "0xDCF0",
+      "0x678C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#..#..#",
+      ".#..#.#.",
+      "#.####.#",
+      "#...#...",
+      "#..##...",
+      "#.#.##..",
+      ".#.##.#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 113,
+    "slot_hex": "0x71",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c60f0786036c030c030e0703fc00000",
+    "scanlines_hex": [
+      "0x1C60",
+      "0xF078",
+      "0x6036",
+      "0xC030",
+      "0xC030",
+      "0xE070",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#..",
+      "##...##.",
+      ".#...#.#",
+      "#....#..",
+      "#....#..",
+      "##...#..",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 114,
+    "slot_hex": "0x72",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00361c60f8783036c030e0703fc00000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x1C60",
+      "0xF878",
+      "0x3036",
+      "0xC030",
+      "0xE070",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      "..#..#..",
+      "###..##.",
+      ".#...#.#",
+      "#....#..",
+      "##...#..",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 115,
+    "slot_hex": "0x73",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00061c69f8763030c030e0703fc00000",
+    "scanlines_hex": [
+      "0x0006",
+      "0x1C69",
+      "0xF876",
+      "0x3030",
+      "0xC030",
+      "0xE070",
+      "0x3FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".......#",
+      "..#..##.",
+      "###..#.#",
+      ".#...#..",
+      "#....#..",
+      "##...#..",
+      ".####...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 116,
+    "slot_hex": "0x74",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0f0000c003000300c0d8d8cc77860000",
+    "scanlines_hex": [
+      "0x0F00",
+      "0x00C0",
+      "0x0300",
+      "0x0300",
+      "0xC0D8",
+      "0xD8CC",
+      "0x7786",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..##....",
+      "....#...",
+      "...#....",
+      "...#....",
+      "#...#.#.",
+      "#.#.#.#.",
+      ".#.##..#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 117,
+    "slot_hex": "0x75",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0f3600c003000300c0d8d8cc77860000",
+    "scanlines_hex": [
+      "0x0F36",
+      "0x00C0",
+      "0x0300",
+      "0x0300",
+      "0xC0D8",
+      "0xD8CC",
+      "0x7786",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..##.#.#",
+      "....#...",
+      "...#....",
+      "...#....",
+      "#...#.#.",
+      "#.#.#.#.",
+      ".#.##..#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 118,
+    "slot_hex": "0x76",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0f0600c903060300c0d8d8cc77860000",
+    "scanlines_hex": [
+      "0x0F06",
+      "0x00C9",
+      "0x0306",
+      "0x0300",
+      "0xC0D8",
+      "0xD8CC",
+      "0x7786",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..##...#",
+      "....#.#.",
+      "...#...#",
+      "...#....",
+      "#...#.#.",
+      "#.#.#.#.",
+      ".#.##..#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 119,
+    "slot_hex": "0x77",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000000e003380e0e00038000e0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0E00",
+      "0x3380",
+      "0xE0E0",
+      "0x0038",
+      "0x000E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "..##....",
+      ".#.##...",
+      "##..##..",
+      ".....##.",
+      "......##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 120,
+    "slot_hex": "0x78",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000000e663380e0e00038000e0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0E66",
+      "0x3380",
+      "0xE0E0",
+      "0x0038",
+      "0x000E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "..##.#.#",
+      ".#.##...",
+      "##..##..",
+      ".....##.",
+      "......##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 121,
+    "slot_hex": "0x79",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000180e243398e0e00038000e0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0018",
+      "0x0E24",
+      "0x3398",
+      "0xE0E0",
+      "0x0038",
+      "0x000E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "......#.",
+      "..##.#..",
+      ".#.##.#.",
+      "##..##..",
+      ".....##.",
+      "......##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 122,
+    "slot_hex": "0x7A",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "61f86060c3fcc060c3f0ce3833c60000",
+    "scanlines_hex": [
+      "0x61F8",
+      "0x6060",
+      "0xC3FC",
+      "0xC060",
+      "0xC3F0",
+      "0xCE38",
+      "0x33C6",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#..###.",
+      ".#...#..",
+      "#..####.",
+      "#....#..",
+      "#..###..",
+      "#.##.##.",
+      ".#.##..#",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 123,
+    "slot_hex": "0x7B",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "67db60c0cffcc0c0c7c0d8f0678c0000",
+    "scanlines_hex": [
+      "0x67DB",
+      "0x60C0",
+      "0xCFFC",
+      "0xC0C0",
+      "0xC7C0",
+      "0xD8F0",
+      "0x678C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#.##.##",
+      ".#..#...",
+      "#.#####.",
+      "#...#...",
+      "#..##...",
+      "#.#.##..",
+      ".#.##.#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 124,
+    "slot_hex": "0x7C",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "67e660c9cfe6c0c0c7c0d8f0678c0000",
+    "scanlines_hex": [
+      "0x67E6",
+      "0x60C9",
+      "0xCFE6",
+      "0xC0C0",
+      "0xC7C0",
+      "0xD8F0",
+      "0x678C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#.###.#",
+      ".#..#.#.",
+      "#.####.#",
+      "#...#...",
+      "#..##...",
+      "#.#.##..",
+      ".#.##.#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 125,
+    "slot_hex": "0x7D",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "01807ffc0180fffc1f80f1f01f1c0000",
+    "scanlines_hex": [
+      "0x0180",
+      "0x7FFC",
+      "0x0180",
+      "0xFFFC",
+      "0x1F80",
+      "0xF1F0",
+      "0x1F1C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....#...",
+      ".######.",
+      "....#...",
+      "#######.",
+      "..###...",
+      "##..##..",
+      "..##..#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 126,
+    "slot_hex": "0x7E",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3f3003300c303ffecc30cc3038c00000",
+    "scanlines_hex": [
+      "0x3F30",
+      "0x0330",
+      "0x0C30",
+      "0x3FFE",
+      "0xCC30",
+      "0xCC30",
+      "0x38C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".###.#..",
+      "...#.#..",
+      "..#..#..",
+      ".#######",
+      "#.#..#..",
+      "#.#..#..",
+      ".##.#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 127,
+    "slot_hex": "0x7F",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0c00ff060c003c00c60c3c0c07f80000",
+    "scanlines_hex": [
+      "0x0C00",
+      "0xFF06",
+      "0x0C00",
+      "0x3C00",
+      "0xC60C",
+      "0x3C0C",
+      "0x07F8",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "####...#",
+      "..#.....",
+      ".##.....",
+      "#..#..#.",
+      ".##...#.",
+      "...####.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 128,
+    "slot_hex": "0x80",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "30c03ff0398cce06cc06f00c30f00000",
+    "scanlines_hex": [
+      "0x30C0",
+      "0x3FF0",
+      "0x398C",
+      "0xCE06",
+      "0xCC06",
+      "0xF00C",
+      "0x30F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#..#...",
+      ".#####..",
+      ".##.#.#.",
+      "#.##...#",
+      "#.#....#",
+      "##....#.",
+      ".#..##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 129,
+    "slot_hex": "0x81",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0c007fe00c00ffc0300c300c0ff00000",
+    "scanlines_hex": [
+      "0x0C00",
+      "0x7FE0",
+      "0x0C00",
+      "0xFFC0",
+      "0x300C",
+      "0x300C",
+      "0x0FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      ".#####..",
+      "..#.....",
+      "#####...",
+      ".#....#.",
+      ".#....#.",
+      "..####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 130,
+    "slot_hex": "0x82",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000000030c00ff0fc0c067006000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x30C0",
+      "0x0FF0",
+      "0xFC0C",
+      "0x0670",
+      "0x0600",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      ".#..#...",
+      "..####..",
+      "###...#.",
+      "...#.#..",
+      "...#....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 131,
+    "slot_hex": "0x83",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "603033f8fc06180c0c70060006000000",
+    "scanlines_hex": [
+      "0x6030",
+      "0x33F8",
+      "0xFC06",
+      "0x180C",
+      "0x0C70",
+      "0x0600",
+      "0x0600",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#...#..",
+      ".#.####.",
+      "###....#",
+      "..#...#.",
+      "..#..#..",
+      "...#....",
+      "...#....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 132,
+    "slot_hex": "0x84",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000000c3006fc07330c3300cc00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0xC300",
+      "0x6FC0",
+      "0x7330",
+      "0xC330",
+      "0x0CC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "#..#....",
+      ".####...",
+      ".#.#.#..",
+      "#..#.#..",
+      "..#.#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 133,
+    "slot_hex": "0x85",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0300cff0730c630cc30c067018000000",
+    "scanlines_hex": [
+      "0x0300",
+      "0xCFF0",
+      "0x730C",
+      "0x630C",
+      "0xC30C",
+      "0x0670",
+      "0x1800",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "#.####..",
+      ".#.#..#.",
+      ".#.#..#.",
+      "#..#..#.",
+      "...#.#..",
+      "..#.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 134,
+    "slot_hex": "0x86",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000c000fc00c003c00e3803c700000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0C00",
+      "0x0FC0",
+      "0x0C00",
+      "0x3C00",
+      "0xE380",
+      "0x3C70",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..#.....",
+      "..###...",
+      "..#.....",
+      ".##.....",
+      "##.##...",
+      ".##..#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 135,
+    "slot_hex": "0x87",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0600060007f806003f00e3e03e1c0000",
+    "scanlines_hex": [
+      "0x0600",
+      "0x0600",
+      "0x07F8",
+      "0x0600",
+      "0x3F00",
+      "0xE3E0",
+      "0x3E1C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "...#....",
+      "...####.",
+      "...#....",
+      ".###....",
+      "##.###..",
+      ".###..#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 136,
+    "slot_hex": "0x88",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "03c03070300033f03c0c300c03f00000",
+    "scanlines_hex": [
+      "0x03C0",
+      "0x3070",
+      "0x3000",
+      "0x33F0",
+      "0x3C0C",
+      "0x300C",
+      "0x03F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      ".#...#..",
+      ".#......",
+      ".#.###..",
+      ".##...#.",
+      ".#....#.",
+      "...###..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 137,
+    "slot_hex": "0x89",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "33603c3030183018003000e00f000000",
+    "scanlines_hex": [
+      "0x3360",
+      "0x3C30",
+      "0x3018",
+      "0x3018",
+      "0x0030",
+      "0x00E0",
+      "0x0F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#.#.#..",
+      ".##..#..",
+      ".#....#.",
+      ".#....#.",
+      ".....#..",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 138,
+    "slot_hex": "0x8A",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1ff000c007f0780c03cc0e3803e00000",
+    "scanlines_hex": [
+      "0x1FF0",
+      "0x00C0",
+      "0x07F0",
+      "0x780C",
+      "0x03CC",
+      "0x0E38",
+      "0x03E0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..####..",
+      "....#...",
+      "...###..",
+      ".##...#.",
+      "...##.#.",
+      "..##.##.",
+      "...###..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 139,
+    "slot_hex": "0x8B",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3000fce033183c18f030303630180000",
+    "scanlines_hex": [
+      "0x3000",
+      "0xFCE0",
+      "0x3318",
+      "0x3C18",
+      "0xF030",
+      "0x3036",
+      "0x3018",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#......",
+      "###.##..",
+      ".#.#..#.",
+      ".##...#.",
+      "##...#..",
+      ".#...#.#",
+      ".#....#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 140,
+    "slot_hex": "0x8C",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1ff000c007f0780c000c00380fc00000",
+    "scanlines_hex": [
+      "0x1FF0",
+      "0x00C0",
+      "0x07F0",
+      "0x780C",
+      "0x000C",
+      "0x0038",
+      "0x0FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..####..",
+      "....#...",
+      "...###..",
+      ".##...#.",
+      "......#.",
+      ".....##.",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 141,
+    "slot_hex": "0x8D",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3000fcf0330c3c06f006300c30f00000",
+    "scanlines_hex": [
+      "0x3000",
+      "0xFCF0",
+      "0x330C",
+      "0x3C06",
+      "0xF006",
+      "0x300C",
+      "0x30F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#......",
+      "###.##..",
+      ".#.#..#.",
+      ".##....#",
+      "##.....#",
+      ".#....#.",
+      ".#..##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 142,
+    "slot_hex": "0x8E",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0c00fff0180063f06cc0180007e00000",
+    "scanlines_hex": [
+      "0x0C00",
+      "0xFFF0",
+      "0x1800",
+      "0x63F0",
+      "0x6CC0",
+      "0x1800",
+      "0x07E0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "######..",
+      "..#.....",
+      ".#.###..",
+      ".##.#...",
+      "..#.....",
+      "...###..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 143,
+    "slot_hex": "0x8F",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "030006000c001b803c6060c0c07c0000",
+    "scanlines_hex": [
+      "0x0300",
+      "0x0600",
+      "0x0C00",
+      "0x1B80",
+      "0x3C60",
+      "0x60C0",
+      "0xC07C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "...#....",
+      "..#.....",
+      "..###...",
+      ".##..#..",
+      ".#..#...",
+      "#....##.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 144,
+    "slot_hex": "0x90",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000007ff00e3007c00e0038000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x7FF0",
+      "0x0E30",
+      "0x07C0",
+      "0x0E00",
+      "0x3800",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      ".#####..",
+      "..##.#..",
+      "...##...",
+      "..##....",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 145,
+    "slot_hex": "0x91",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00007ffe000e073807c00e0038000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7FFE",
+      "0x000E",
+      "0x0738",
+      "0x07C0",
+      "0x0E00",
+      "0x3800",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#######",
+      "......##",
+      "...#.##.",
+      "...##...",
+      "..##....",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 146,
+    "slot_hex": "0x92",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000000007801c03f80038003800000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0078",
+      "0x01C0",
+      "0x3F80",
+      "0x0380",
+      "0x0380",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      ".....##.",
+      "....#...",
+      ".####...",
+      "...##...",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 147,
+    "slot_hex": "0x93",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000003c00f007c039c001c001c00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x003C",
+      "0x00F0",
+      "0x07C0",
+      "0x39C0",
+      "0x01C0",
+      "0x01C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".....##.",
+      "....##..",
+      "...##...",
+      ".##.#...",
+      "....#...",
+      "....#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 148,
+    "slot_hex": "0x94",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000000003803ff0307000e00f800000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0380",
+      "0x3FF0",
+      "0x3070",
+      "0x00E0",
+      "0x0F80",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "...##...",
+      ".#####..",
+      ".#...#..",
+      "....##..",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 149,
+    "slot_hex": "0x95",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "03807ffc701c701c003800e00f000000",
+    "scanlines_hex": [
+      "0x0380",
+      "0x7FFC",
+      "0x701C",
+      "0x701C",
+      "0x0038",
+      "0x00E0",
+      "0x0F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      ".######.",
+      ".#....#.",
+      ".#....#.",
+      ".....##.",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 150,
+    "slot_hex": "0x96",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000000000003fe0060007007ff00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x3FE0",
+      "0x0600",
+      "0x0700",
+      "0x7FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      ".#####..",
+      "...#....",
+      "...#....",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 151,
+    "slot_hex": "0x97",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003ff803000380038003807ffc0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FF8",
+      "0x0300",
+      "0x0380",
+      "0x0380",
+      "0x0380",
+      "0x7FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      "...#....",
+      "...##...",
+      "...##...",
+      "...##...",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 152,
+    "slot_hex": "0x98",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000000000e03ff803e00ee070e00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x00E0",
+      "0x3FF8",
+      "0x03E0",
+      "0x0EE0",
+      "0x70E0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "....##..",
+      ".######.",
+      "...###..",
+      "..####..",
+      ".#..##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 153,
+    "slot_hex": "0x99",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "007000707ffe03f007701c7070700000",
+    "scanlines_hex": [
+      "0x0070",
+      "0x0070",
+      "0x7FFE",
+      "0x03F0",
+      "0x0770",
+      "0x1C70",
+      "0x7070",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#..",
+      ".....#..",
+      ".#######",
+      "...###..",
+      "...#.#..",
+      "..#..#..",
+      ".#...#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 154,
+    "slot_hex": "0x9A",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "038003807ffe070e0e0e38dce0700000",
+    "scanlines_hex": [
+      "0x0380",
+      "0x0380",
+      "0x7FFE",
+      "0x070E",
+      "0x0E0E",
+      "0x38DC",
+      "0xE070",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      "...##...",
+      ".#######",
+      "...#..##",
+      "..##..##",
+      ".##.#.#.",
+      "##...#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 155,
+    "slot_hex": "0x9B",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "03b603807ffe070e0e0e38dce0700000",
+    "scanlines_hex": [
+      "0x03B6",
+      "0x0380",
+      "0x7FFE",
+      "0x070E",
+      "0x0E0E",
+      "0x38DC",
+      "0xE070",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...###.#",
+      "...##...",
+      ".#######",
+      "...#..##",
+      "..##..##",
+      ".##.#.#.",
+      "##...#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 156,
+    "slot_hex": "0x9C",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "070007f87f8003fe7fc001c001c00000",
+    "scanlines_hex": [
+      "0x0700",
+      "0x07F8",
+      "0x7F80",
+      "0x03FE",
+      "0x7FC0",
+      "0x01C0",
+      "0x01C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#....",
+      "...####.",
+      ".####...",
+      "...#####",
+      ".####...",
+      "....#...",
+      "....#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 157,
+    "slot_hex": "0x9D",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "073607f87f8003fc7fc001c001c00000",
+    "scanlines_hex": [
+      "0x0736",
+      "0x07F8",
+      "0x7F80",
+      "0x03FC",
+      "0x7FC0",
+      "0x01C0",
+      "0x01C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#.#.#",
+      "...####.",
+      ".####...",
+      "...####.",
+      ".####...",
+      "....#...",
+      "....#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 158,
+    "slot_hex": "0x9E",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "038007fc1c1c7038007001c00e000000",
+    "scanlines_hex": [
+      "0x0380",
+      "0x07FC",
+      "0x1C1C",
+      "0x7038",
+      "0x0070",
+      "0x01C0",
+      "0x0E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      "...####.",
+      "..#...#.",
+      ".#...##.",
+      ".....#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 159,
+    "slot_hex": "0x9F",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "073607fc1c1c7038007001c00e000000",
+    "scanlines_hex": [
+      "0x0736",
+      "0x07FC",
+      "0x1C1C",
+      "0x7038",
+      "0x0070",
+      "0x01C0",
+      "0x0E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#.#.#",
+      "...####.",
+      "..#...#.",
+      ".#...##.",
+      ".....#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 160,
+    "slot_hex": "0xA0",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c001ffe3870e07000e001c00e000000",
+    "scanlines_hex": [
+      "0x1C00",
+      "0x1FFE",
+      "0x3870",
+      "0xE070",
+      "0x00E0",
+      "0x01C0",
+      "0x0E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "..######",
+      ".##..#..",
+      "##...#..",
+      "....##..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 161,
+    "slot_hex": "0xA1",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c361ffc3870e07000e001c00e000000",
+    "scanlines_hex": [
+      "0x1C36",
+      "0x1FFC",
+      "0x3870",
+      "0xE070",
+      "0x00E0",
+      "0x01C0",
+      "0x0E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#.#",
+      "..#####.",
+      ".##..#..",
+      "##...#..",
+      "....##..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 162,
+    "slot_hex": "0xA2",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003ffc001c001c003800383ffc0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FFC",
+      "0x001C",
+      "0x001C",
+      "0x0038",
+      "0x0038",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      "......#.",
+      "......#.",
+      ".....##.",
+      ".....##.",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 163,
+    "slot_hex": "0xA3",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00363ffc001c001c003800383ffc0000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x3FFC",
+      "0x001C",
+      "0x001C",
+      "0x0038",
+      "0x0038",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".######.",
+      "......#.",
+      "......#.",
+      ".....##.",
+      ".....##.",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 164,
+    "slot_hex": "0xA4",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c701c707ffe1c701c7000e00f000000",
+    "scanlines_hex": [
+      "0x1C70",
+      "0x1C70",
+      "0x7FFE",
+      "0x1C70",
+      "0x1C70",
+      "0x00E0",
+      "0x0F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#..",
+      "..#..#..",
+      ".#######",
+      "..#..#..",
+      "..#..#..",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 165,
+    "slot_hex": "0xA5",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c361c707ffe1c701c7000e00f000000",
+    "scanlines_hex": [
+      "0x1C36",
+      "0x1C70",
+      "0x7FFE",
+      "0x1C70",
+      "0x1C70",
+      "0x00E0",
+      "0x0F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#.#",
+      "..#..#..",
+      ".#######",
+      "..#..#..",
+      "..#..#..",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 166,
+    "slot_hex": "0xA6",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3e0000003e04000c003803e07e000000",
+    "scanlines_hex": [
+      "0x3E00",
+      "0x0000",
+      "0x3E04",
+      "0x000C",
+      "0x0038",
+      "0x03E0",
+      "0x7E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".###....",
+      "........",
+      ".###....",
+      "......#.",
+      ".....##.",
+      "...###..",
+      ".###....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 167,
+    "slot_hex": "0xA7",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3e3600003e04000c003803e07e000000",
+    "scanlines_hex": [
+      "0x3E36",
+      "0x0000",
+      "0x3E04",
+      "0x000C",
+      "0x0038",
+      "0x03E0",
+      "0x7E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".###.#.#",
+      "........",
+      ".###....",
+      "......#.",
+      ".....##.",
+      "...###..",
+      ".###....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 168,
+    "slot_hex": "0xA8",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003ff8007000e003b00e1c700e0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FF8",
+      "0x0070",
+      "0x00E0",
+      "0x03B0",
+      "0x0E1C",
+      "0x700E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      ".....#..",
+      "....##..",
+      "...###..",
+      "..##..#.",
+      ".#....##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 169,
+    "slot_hex": "0xA9",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00363ff000e001c007601c38701c0000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x3FF0",
+      "0x00E0",
+      "0x01C0",
+      "0x0760",
+      "0x1C38",
+      "0x701C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".#####..",
+      "....##..",
+      "....#...",
+      "...#.#..",
+      "..#..##.",
+      ".#....#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 170,
+    "slot_hex": "0xAA",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c001c7c7f9c1c1c1c701c000ffc0000",
+    "scanlines_hex": [
+      "0x1C00",
+      "0x1C7C",
+      "0x7F9C",
+      "0x1C1C",
+      "0x1C70",
+      "0x1C00",
+      "0x0FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "..#..##.",
+      ".####.#.",
+      "..#...#.",
+      "..#..#..",
+      "..#.....",
+      "..#####.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 171,
+    "slot_hex": "0xAB",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c361c7c7f9c1c1c1c701c000ffc0000",
+    "scanlines_hex": [
+      "0x1C36",
+      "0x1C7C",
+      "0x7F9C",
+      "0x1C1C",
+      "0x1C70",
+      "0x1C00",
+      "0x0FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#..#.#",
+      "..#..##.",
+      ".####.#.",
+      "..#...#.",
+      "..#..#..",
+      "..#.....",
+      "..#####.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 172,
+    "slot_hex": "0xAC",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000603838383838007001c00f000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x6038",
+      "0x3838",
+      "0x3838",
+      "0x0070",
+      "0x01C0",
+      "0x0F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#...##.",
+      ".##..##.",
+      ".##..##.",
+      ".....#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 173,
+    "slot_hex": "0xAD",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0036601838383838007001c00f000000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x6018",
+      "0x3838",
+      "0x3838",
+      "0x0070",
+      "0x01C0",
+      "0x0F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".#....#.",
+      ".##..##.",
+      ".##..##.",
+      ".....#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 174,
+    "slot_hex": "0xAE",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "038007fc1c1c73b8007001c00e000000",
+    "scanlines_hex": [
+      "0x0380",
+      "0x07FC",
+      "0x1C1C",
+      "0x73B8",
+      "0x0070",
+      "0x01C0",
+      "0x0E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      "...####.",
+      "..#...#.",
+      ".#.####.",
+      ".....#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 175,
+    "slot_hex": "0xAF",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "073607fc1c1c73b8007001c00e000000",
+    "scanlines_hex": [
+      "0x0736",
+      "0x07FC",
+      "0x1C1C",
+      "0x73B8",
+      "0x0070",
+      "0x01C0",
+      "0x0E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...#.#.#",
+      "...####.",
+      "..#...#.",
+      ".#.####.",
+      ".....#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 176,
+    "slot_hex": "0xB0",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "01f01f8003807ffe01c003801c000000",
+    "scanlines_hex": [
+      "0x01F0",
+      "0x1F80",
+      "0x0380",
+      "0x7FFE",
+      "0x01C0",
+      "0x0380",
+      "0x1C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....##..",
+      "..###...",
+      "...##...",
+      ".#######",
+      "....#...",
+      "...##...",
+      "..#.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 177,
+    "slot_hex": "0xB1",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "01db1f8003807ffe01c003801c000000",
+    "scanlines_hex": [
+      "0x01DB",
+      "0x1F80",
+      "0x0380",
+      "0x7FFE",
+      "0x01C0",
+      "0x0380",
+      "0x1C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....#.##",
+      "..###...",
+      "...##...",
+      ".#######",
+      "....#...",
+      "...##...",
+      "..#.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 178,
+    "slot_hex": "0xB2",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000000077387738003801e03f000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x7738",
+      "0x7738",
+      "0x0038",
+      "0x01E0",
+      "0x3F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      ".#.#.##.",
+      ".#.#.##.",
+      ".....##.",
+      "....##..",
+      ".###....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 179,
+    "slot_hex": "0xB3",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000661c3b9c3b9c001c00f01f800000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x661C",
+      "0x3B9C",
+      "0x3B9C",
+      "0x001C",
+      "0x00F0",
+      "0x1F80",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#.#..#.",
+      ".####.#.",
+      ".####.#.",
+      "......#.",
+      "....##..",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 180,
+    "slot_hex": "0xB4",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "003666003b9c3b9c001c00780fc00000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x6600",
+      "0x3B9C",
+      "0x3B9C",
+      "0x001C",
+      "0x0078",
+      "0x0FC0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".#.#....",
+      ".####.#.",
+      ".####.#.",
+      "......#.",
+      ".....##.",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 181,
+    "slot_hex": "0xB5",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1fe000007ffc03800380070038000000",
+    "scanlines_hex": [
+      "0x1FE0",
+      "0x0000",
+      "0x7FFC",
+      "0x0380",
+      "0x0380",
+      "0x0700",
+      "0x3800",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..####..",
+      "........",
+      ".######.",
+      "...##...",
+      "...##...",
+      "...#....",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 182,
+    "slot_hex": "0xB6",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3fb600007ff003800380070038000000",
+    "scanlines_hex": [
+      "0x3FB6",
+      "0x0000",
+      "0x7FF0",
+      "0x0380",
+      "0x0380",
+      "0x0700",
+      "0x3800",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#####.#",
+      "........",
+      ".#####..",
+      "...##...",
+      "...##...",
+      "...#....",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 183,
+    "slot_hex": "0xB7",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c001c001f801ce01c381c001c000000",
+    "scanlines_hex": [
+      "0x1C00",
+      "0x1C00",
+      "0x1F80",
+      "0x1CE0",
+      "0x1C38",
+      "0x1C00",
+      "0x1C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "..#.....",
+      "..###...",
+      "..#.##..",
+      "..#..##.",
+      "..#.....",
+      "..#.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 184,
+    "slot_hex": "0xB8",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1c001c361f801ce01c381c001c000000",
+    "scanlines_hex": [
+      "0x1C00",
+      "0x1C36",
+      "0x1F80",
+      "0x1CE0",
+      "0x1C38",
+      "0x1C00",
+      "0x1C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..#.....",
+      "..#..#.#",
+      "..###...",
+      "..#.##..",
+      "..#..##.",
+      "..#.....",
+      "..#.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 185,
+    "slot_hex": "0xB9",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "01c001c07ffc01c001c0078078000000",
+    "scanlines_hex": [
+      "0x01C0",
+      "0x01C0",
+      "0x7FFC",
+      "0x01C0",
+      "0x01C0",
+      "0x0780",
+      "0x7800",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....#...",
+      "....#...",
+      ".######.",
+      "....#...",
+      "....#...",
+      "...##...",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 186,
+    "slot_hex": "0xBA",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00001ff00000000000007ffc00000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x1FF0",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x7FFC",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..####..",
+      "........",
+      "........",
+      "........",
+      ".######.",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 187,
+    "slot_hex": "0xBB",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003ffc001c073800e00738780e0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FFC",
+      "0x001C",
+      "0x0738",
+      "0x00E0",
+      "0x0738",
+      "0x780E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      "......#.",
+      "...#.##.",
+      "....##..",
+      "...#.##.",
+      ".##...##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 188,
+    "slot_hex": "0xBC",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "03807ff8003000e007b07b9c03800000",
+    "scanlines_hex": [
+      "0x0380",
+      "0x7FF8",
+      "0x0030",
+      "0x00E0",
+      "0x07B0",
+      "0x7B9C",
+      "0x0380",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      ".######.",
+      ".....#..",
+      "....##..",
+      "...###..",
+      ".####.#.",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 189,
+    "slot_hex": "0xBD",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000380038007000e0078078000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0038",
+      "0x0038",
+      "0x0070",
+      "0x00E0",
+      "0x0780",
+      "0x7800",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".....##.",
+      ".....##.",
+      ".....#..",
+      "....##..",
+      "...##...",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 190,
+    "slot_hex": "0xBE",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003870387038387038701ce01c0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3870",
+      "0x3870",
+      "0x3838",
+      "0x7038",
+      "0x701C",
+      "0xE01C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".##..#..",
+      ".##..#..",
+      ".##..##.",
+      ".#...##.",
+      ".#....#.",
+      "##....#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 191,
+    "slot_hex": "0xBF",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00363800387038387038701ce01c0000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x3800",
+      "0x3870",
+      "0x3838",
+      "0x7038",
+      "0x701C",
+      "0xE01C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".##.....",
+      ".##..#..",
+      ".##..##.",
+      ".#...##.",
+      ".#....#.",
+      "##....#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 192,
+    "slot_hex": "0xC0",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00063869387638387038701ce01c0000",
+    "scanlines_hex": [
+      "0x0006",
+      "0x3869",
+      "0x3876",
+      "0x3838",
+      "0x7038",
+      "0x701C",
+      "0xE01C",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".......#",
+      ".##..##.",
+      ".##..#.#",
+      ".##..##.",
+      ".#...##.",
+      ".#....#.",
+      "##....#.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 193,
+    "slot_hex": "0xC1",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000700070f07f00700070003ffc0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7000",
+      "0x70F0",
+      "0x7F00",
+      "0x7000",
+      "0x7000",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#......",
+      ".#..##..",
+      ".###....",
+      ".#......",
+      ".#......",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 194,
+    "slot_hex": "0xC2",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0036700070f07f00700070003ffc0000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x7000",
+      "0x70F0",
+      "0x7F00",
+      "0x7000",
+      "0x7000",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".#......",
+      ".#..##..",
+      ".###....",
+      ".#......",
+      ".#......",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 195,
+    "slot_hex": "0xC3",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000c701270ec7f00700070003ffc0000",
+    "scanlines_hex": [
+      "0x000C",
+      "0x7012",
+      "0x70EC",
+      "0x7F00",
+      "0x7000",
+      "0x7000",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "......#.",
+      ".#.....#",
+      ".#..###.",
+      ".###....",
+      ".#......",
+      ".#......",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 196,
+    "slot_hex": "0xC4",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00007ffe000e001c003801e01e000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7FFE",
+      "0x000E",
+      "0x001C",
+      "0x0038",
+      "0x01E0",
+      "0x1E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#######",
+      "......##",
+      "......#.",
+      ".....##.",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 197,
+    "slot_hex": "0xC5",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00367ffe000e001c003801e01e000000",
+    "scanlines_hex": [
+      "0x0036",
+      "0x7FFE",
+      "0x000E",
+      "0x001C",
+      "0x0038",
+      "0x01E0",
+      "0x1E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#.#",
+      ".#######",
+      "......##",
+      "......#.",
+      ".....##.",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 198,
+    "slot_hex": "0xC6",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00067fe90036007000e003803c000000",
+    "scanlines_hex": [
+      "0x0006",
+      "0x7FE9",
+      "0x0036",
+      "0x0070",
+      "0x00E0",
+      "0x0380",
+      "0x3C00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".......#",
+      ".######.",
+      ".....#.#",
+      ".....#..",
+      "....##..",
+      "...##...",
+      ".##.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 199,
+    "slot_hex": "0xC7",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000000e0039c0e078000f00000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0E00",
+      "0x39C0",
+      "0xE078",
+      "0x000F",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "..##....",
+      ".##.#...",
+      "##...##.",
+      "......##",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 200,
+    "slot_hex": "0xC8",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000360e0039c0e078000f00000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0036",
+      "0x0E00",
+      "0x39C0",
+      "0xE078",
+      "0x000F",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".....#.#",
+      "..##....",
+      ".##.#...",
+      "##...##.",
+      "......##",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 201,
+    "slot_hex": "0xC9",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000c00120e0c39c0e078000f00000000",
+    "scanlines_hex": [
+      "0x000C",
+      "0x0012",
+      "0x0E0C",
+      "0x39C0",
+      "0xE078",
+      "0x000F",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "......#.",
+      ".......#",
+      "..##..#.",
+      ".##.#...",
+      "##...##.",
+      "......##",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 202,
+    "slot_hex": "0xCA",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "038003807ffc03803398739ce38e0000",
+    "scanlines_hex": [
+      "0x0380",
+      "0x0380",
+      "0x7FFC",
+      "0x0380",
+      "0x3398",
+      "0x739C",
+      "0xE38E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##...",
+      "...##...",
+      ".######.",
+      "...##...",
+      ".#.##.#.",
+      ".#.##.#.",
+      "##.##.##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 203,
+    "slot_hex": "0xCB",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "03b603807ffc03803398739ce38e0000",
+    "scanlines_hex": [
+      "0x03B6",
+      "0x0380",
+      "0x7FFC",
+      "0x0380",
+      "0x3398",
+      "0x739C",
+      "0xE38E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...###.#",
+      "...##...",
+      ".######.",
+      "...##...",
+      ".#.##.#.",
+      ".#.##.#.",
+      "##.##.##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 204,
+    "slot_hex": "0xCC",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "038603897fe603803398739ce38e0000",
+    "scanlines_hex": [
+      "0x0386",
+      "0x0389",
+      "0x7FE6",
+      "0x0380",
+      "0x3398",
+      "0x739C",
+      "0xE38E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "...##..#",
+      "...##.#.",
+      ".#####.#",
+      "...##...",
+      ".#.##.#.",
+      ".#.##.#.",
+      "##.##.##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 205,
+    "slot_hex": "0xCD",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00007ffc001c003838e0070001c00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7FFC",
+      "0x001C",
+      "0x0038",
+      "0x38E0",
+      "0x0700",
+      "0x01C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      "......#.",
+      ".....##.",
+      ".##.##..",
+      "...#....",
+      "....#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 206,
+    "slot_hex": "0xCE",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000fe0003c1fc000783f0001f00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0FE0",
+      "0x003C",
+      "0x1FC0",
+      "0x0078",
+      "0x3F00",
+      "0x01F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..####..",
+      ".....##.",
+      "..###...",
+      ".....##.",
+      ".###....",
+      "....##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 207,
+    "slot_hex": "0xCF",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000070007001c00383071dcfe0e0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0700",
+      "0x0700",
+      "0x1C00",
+      "0x3830",
+      "0x71DC",
+      "0xFE0E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "...#....",
+      "...#....",
+      "..#.....",
+      ".##..#..",
+      ".#..#.#.",
+      "####..##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 208,
+    "slot_hex": "0xD0",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000380038037000e007b8780e0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0038",
+      "0x0038",
+      "0x0370",
+      "0x00E0",
+      "0x07B8",
+      "0x780E",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".....##.",
+      ".....##.",
+      "...#.#..",
+      "....##..",
+      "...####.",
+      ".##...##",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 209,
+    "slot_hex": "0xD1",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003ff807007ffc0700070003f80000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FF8",
+      "0x0700",
+      "0x7FFC",
+      "0x0700",
+      "0x0700",
+      "0x03F8",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      "...#....",
+      ".######.",
+      "...#....",
+      "...#....",
+      "...####.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 210,
+    "slot_hex": "0xD2",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000000380007f87e30070003800000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x3800",
+      "0x07F8",
+      "0x7E30",
+      "0x0700",
+      "0x0380",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      ".##.....",
+      "...####.",
+      ".###.#..",
+      "...#....",
+      "...##...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 211,
+    "slot_hex": "0xD3",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00001cfe0f9cfe700700038001c00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x1CFE",
+      "0x0F9C",
+      "0xFE70",
+      "0x0700",
+      "0x0380",
+      "0x01C0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "..#.####",
+      "..###.#.",
+      "####.#..",
+      "...#....",
+      "...##...",
+      "....#...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 212,
+    "slot_hex": "0xD4",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000000000001f80038007007ff00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x1F80",
+      "0x0380",
+      "0x0700",
+      "0x7FF0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "..###...",
+      "...##...",
+      "...#....",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 213,
+    "slot_hex": "0xD5",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003fe000e000e001c001c07ffc0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FE0",
+      "0x00E0",
+      "0x00E0",
+      "0x01C0",
+      "0x01C0",
+      "0x7FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".#####..",
+      "....##..",
+      "....##..",
+      "....#...",
+      "....#...",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 214,
+    "slot_hex": "0xD6",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000003fe000e01fe000e03fe00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x3FE0",
+      "0x00E0",
+      "0x1FE0",
+      "0x00E0",
+      "0x3FE0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      ".#####..",
+      "....##..",
+      "..####..",
+      "....##..",
+      ".#####..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 215,
+    "slot_hex": "0xD7",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00003ffc001c1ffc003800383ffc0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3FFC",
+      "0x001C",
+      "0x1FFC",
+      "0x0038",
+      "0x0038",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      "......#.",
+      "..#####.",
+      ".....##.",
+      ".....##.",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 216,
+    "slot_hex": "0xD8",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "1fe000007ffc001c007001c00e000000",
+    "scanlines_hex": [
+      "0x1FE0",
+      "0x0000",
+      "0x7FFC",
+      "0x001C",
+      "0x0070",
+      "0x01C0",
+      "0x0E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..####..",
+      "........",
+      ".######.",
+      "......#.",
+      ".....#..",
+      "....#...",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 217,
+    "slot_hex": "0xD9",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000383838383838003800e00f000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3838",
+      "0x3838",
+      "0x3838",
+      "0x0038",
+      "0x00E0",
+      "0x0F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".##..##.",
+      ".##..##.",
+      ".##..##.",
+      ".....##.",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 218,
+    "slot_hex": "0xDA",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000039c039c039c071c671dce1f00000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x39C0",
+      "0x39C0",
+      "0x39C0",
+      "0x71C6",
+      "0x71DC",
+      "0xE1F0",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".##.#...",
+      ".##.#...",
+      ".##.#...",
+      ".#..#..#",
+      ".#..#.#.",
+      "##..##..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 219,
+    "slot_hex": "0xDB",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000038003800380c383839e03f000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3800",
+      "0x3800",
+      "0x380C",
+      "0x3838",
+      "0x39E0",
+      "0x3F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".##.....",
+      ".##.....",
+      ".##...#.",
+      ".##..##.",
+      ".##.##..",
+      ".###....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 220,
+    "slot_hex": "0xDC",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00007ffc38383838383838383ffc0000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7FFC",
+      "0x3838",
+      "0x3838",
+      "0x3838",
+      "0x3838",
+      "0x3FFC",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      ".##..##.",
+      ".##..##.",
+      ".##..##.",
+      ".##..##.",
+      ".######.",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 221,
+    "slot_hex": "0xDD",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00007ffc701c701c003800e01f000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7FFC",
+      "0x701C",
+      "0x701C",
+      "0x0038",
+      "0x00E0",
+      "0x1F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      ".#....#.",
+      ".#....#.",
+      ".....##.",
+      "....##..",
+      "..##....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 222,
+    "slot_hex": "0xDE",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00007ffc001c3ffc001c00700f800000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x7FFC",
+      "0x001C",
+      "0x3FFC",
+      "0x001C",
+      "0x0070",
+      "0x0F80",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".######.",
+      "......#.",
+      ".######.",
+      "......#.",
+      ".....#..",
+      "..###...",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 223,
+    "slot_hex": "0xDF",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000038000e04000c001801f03f000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x3800",
+      "0x0E04",
+      "0x000C",
+      "0x0018",
+      "0x01F0",
+      "0x3F00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      ".##.....",
+      "..##....",
+      "......#.",
+      "......#.",
+      "....##..",
+      ".###....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 224,
+    "slot_hex": "0xE0",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000000000000003000cc0030000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x3000",
+      "0xCC00",
+      "0x3000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      ".#......",
+      "#.#.....",
+      ".#......",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 225,
+    "slot_hex": "0xE1",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000000000000000070001c0006000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x7000",
+      "0x1C00",
+      "0x0600",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      ".#......",
+      "..#.....",
+      "...#....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 226,
+    "slot_hex": "0xE2",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00fc00c000c000000000000000000000",
+    "scanlines_hex": [
+      "0x00FC",
+      "0x00C0",
+      "0x00C0",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "....###.",
+      "....#...",
+      "....#...",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 227,
+    "slot_hex": "0xE3",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000000000000000c000c00fc000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0C00",
+      "0x0C00",
+      "0xFC00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "..#.....",
+      "..#.....",
+      "###.....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 228,
+    "slot_hex": "0xE4",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "000c003c00f803e00f803000c0000000",
+    "scanlines_hex": [
+      "0x000C",
+      "0x003C",
+      "0x00F8",
+      "0x03E0",
+      "0x0F80",
+      "0x3000",
+      "0xC000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "......#.",
+      ".....##.",
+      "....###.",
+      "...###..",
+      "..###...",
+      ".#......",
+      "#.......",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 229,
+    "slot_hex": "0xE5",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00000000000003c003c0000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x03C0",
+      "0x03C0",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "...##...",
+      "...##...",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 230,
+    "slot_hex": "0xE6",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0e36fff0e070e07000e003803e000000",
+    "scanlines_hex": [
+      "0x0E36",
+      "0xFFF0",
+      "0xE070",
+      "0xE070",
+      "0x00E0",
+      "0x0380",
+      "0x3E00",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "..##.#.#",
+      "######..",
+      "##...#..",
+      "##...#..",
+      "....##..",
+      "...##...",
+      ".###....",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 231,
+    "slot_hex": "0xE7",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "3000c618c330c1e6c0c0c0c030000000",
+    "scanlines_hex": [
+      "0x3000",
+      "0xC618",
+      "0xC330",
+      "0xC1E6",
+      "0xC0C0",
+      "0xC0C0",
+      "0x3000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".#......",
+      "#..#..#.",
+      "#..#.#..",
+      "#...##.#",
+      "#...#...",
+      "#...#...",
+      ".#......",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 232,
+    "slot_hex": "0xE8",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0030618c798c6d8c678c618c00300000",
+    "scanlines_hex": [
+      "0x0030",
+      "0x618C",
+      "0x798C",
+      "0x6D8C",
+      "0x678C",
+      "0x618C",
+      "0x0030",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      ".....#..",
+      ".#..#.#.",
+      ".##.#.#.",
+      ".##.#.#.",
+      ".#.##.#.",
+      ".#..#.#.",
+      ".....#..",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 233,
+    "slot_hex": "0xE9",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 234,
+    "slot_hex": "0xEA",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 235,
+    "slot_hex": "0xEB",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 236,
+    "slot_hex": "0xEC",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 237,
+    "slot_hex": "0xED",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 238,
+    "slot_hex": "0xEE",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 239,
+    "slot_hex": "0xEF",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 240,
+    "slot_hex": "0xF0",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "ffffc3ffcf00fc3ff0f0f3c0f300f300",
+    "scanlines_hex": [
+      "0xFFFF",
+      "0xC3FF",
+      "0xCF00",
+      "0xFC3F",
+      "0xF0F0",
+      "0xF3C0",
+      "0xF300",
+      "0xF300"
+    ],
+    "scanlines_ascii": [
+      "########",
+      "#..#####",
+      "#.##....",
+      "###..###",
+      "##..##..",
+      "##.##...",
+      "##.#....",
+      "##.#...."
+    ]
+  },
+  {
+    "slot_index": 241,
+    "slot_hex": "0xF1",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "ffffffff0000ffff0000000000000000",
+    "scanlines_hex": [
+      "0xFFFF",
+      "0xFFFF",
+      "0x0000",
+      "0xFFFF",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "########",
+      "########",
+      "........",
+      "########",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 242,
+    "slot_hex": "0xF2",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "ffffffc300f3fc3f0f0f03cf00cf00cf",
+    "scanlines_hex": [
+      "0xFFFF",
+      "0xFFC3",
+      "0x00F3",
+      "0xFC3F",
+      "0x0F0F",
+      "0x03CF",
+      "0x00CF",
+      "0x00CF"
+    ],
+    "scanlines_ascii": [
+      "########",
+      "#####..#",
+      "....##.#",
+      "###..###",
+      "..##..##",
+      "...##.##",
+      "....#.##",
+      "....#.##"
+    ]
+  },
+  {
+    "slot_index": 243,
+    "slot_hex": "0xF3",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "f300f300f300f300f300f300f300f300",
+    "scanlines_hex": [
+      "0xF300",
+      "0xF300",
+      "0xF300",
+      "0xF300",
+      "0xF300",
+      "0xF300",
+      "0xF300",
+      "0xF300"
+    ],
+    "scanlines_ascii": [
+      "##.#....",
+      "##.#....",
+      "##.#....",
+      "##.#....",
+      "##.#....",
+      "##.#....",
+      "##.#....",
+      "##.#...."
+    ]
+  },
+  {
+    "slot_index": 244,
+    "slot_hex": "0xF4",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00cf00cf00cf00cf00cf00cf00cf00cf",
+    "scanlines_hex": [
+      "0x00CF",
+      "0x00CF",
+      "0x00CF",
+      "0x00CF",
+      "0x00CF",
+      "0x00CF",
+      "0x00CF",
+      "0x00CF"
+    ],
+    "scanlines_ascii": [
+      "....#.##",
+      "....#.##",
+      "....#.##",
+      "....#.##",
+      "....#.##",
+      "....#.##",
+      "....#.##",
+      "....#.##"
+    ]
+  },
+  {
+    "slot_index": 245,
+    "slot_hex": "0xF5",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "f300f300f3c0f0f0fc3fcf00c3ffffff",
+    "scanlines_hex": [
+      "0xF300",
+      "0xF300",
+      "0xF3C0",
+      "0xF0F0",
+      "0xFC3F",
+      "0xCF00",
+      "0xC3FF",
+      "0xFFFF"
+    ],
+    "scanlines_ascii": [
+      "##.#....",
+      "##.#....",
+      "##.##...",
+      "##..##..",
+      "###..###",
+      "#.##....",
+      "#..#####",
+      "########"
+    ]
+  },
+  {
+    "slot_index": 246,
+    "slot_hex": "0xF6",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "0000000000000000ffff0000ffffffff",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0xFFFF",
+      "0x0000",
+      "0xFFFF",
+      "0xFFFF"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "########",
+      "........",
+      "########",
+      "########"
+    ]
+  },
+  {
+    "slot_index": 247,
+    "slot_hex": "0xF7",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "00cf00cf03cf0f0ffc3f00f3ffc3ffff",
+    "scanlines_hex": [
+      "0x00CF",
+      "0x00CF",
+      "0x03CF",
+      "0x0F0F",
+      "0xFC3F",
+      "0x00F3",
+      "0xFFC3",
+      "0xFFFF"
+    ],
+    "scanlines_ascii": [
+      "....#.##",
+      "....#.##",
+      "...##.##",
+      "..##..##",
+      "###..###",
+      "....##.#",
+      "#####..#",
+      "########"
+    ]
+  },
+  {
+    "slot_index": 248,
+    "slot_hex": "0xF8",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "e000fe00ffe0fffcffe0fe00e0000000",
+    "scanlines_hex": [
+      "0xE000",
+      "0xFE00",
+      "0xFFE0",
+      "0xFFFC",
+      "0xFFE0",
+      "0xFE00",
+      "0xE000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "##......",
+      "####....",
+      "######..",
+      "#######.",
+      "######..",
+      "####....",
+      "##......",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 249,
+    "slot_hex": "0xF9",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 250,
+    "slot_hex": "0xFA",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 251,
+    "slot_hex": "0xFB",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 252,
+    "slot_hex": "0xFC",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 253,
+    "slot_hex": "0xFD",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 254,
+    "slot_hex": "0xFE",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": true,
+    "raw_hex": "00000000000000000000000000000000",
+    "scanlines_hex": [
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000",
+      "0x0000"
+    ],
+    "scanlines_ascii": [
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........",
+      "........"
+    ]
+  },
+  {
+    "slot_index": 255,
+    "slot_hex": "0xFF",
+    "ascii_code": null,
+    "ascii_char": null,
+    "category": "JAPANESE_KANA_KANJI",
+    "is_empty": false,
+    "raw_hex": "ffffffffffffffffffffffffffffffff",
+    "scanlines_hex": [
+      "0xFFFF",
+      "0xFFFF",
+      "0xFFFF",
+      "0xFFFF",
+      "0xFFFF",
+      "0xFFFF",
+      "0xFFFF",
+      "0xFFFF"
+    ],
+    "scanlines_ascii": [
+      "########",
+      "########",
+      "########",
+      "########",
+      "########",
+      "########",
+      "########",
+      "########"
+    ]
+  }
+]
