@@ -1,0 +1,125 @@
+{
+  "file": "EFC3",
+  "compressed_size": 22976,
+  "decompressed_size": 38168,
+  "format_type": "DIGITAL_PCM_AUDIO",
+  "sections": [
+    {
+      "index": 0,
+      "label": "sfx_0_laser_primary",
+      "offset_in_decomp": 18,
+      "section_length": 2398,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 2354,
+        "duration_seconds": 0.214,
+        "wav_file": "efc3_sfx_0_laser_primary.wav",
+        "waveform_png": "efc3_sfx_0_laser_primary_waveform.png"
+      }
+    },
+    {
+      "index": 1,
+      "label": "sfx_1_laser_secondary",
+      "offset_in_decomp": 2416,
+      "section_length": 2398,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 2354,
+        "duration_seconds": 0.214,
+        "wav_file": "efc3_sfx_1_laser_secondary.wav",
+        "waveform_png": "efc3_sfx_1_laser_secondary_waveform.png"
+      }
+    },
+    {
+      "index": 2,
+      "label": "sfx_2_explosion_large",
+      "offset_in_decomp": 4814,
+      "section_length": 1450,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 1406,
+        "duration_seconds": 0.1278,
+        "wav_file": "efc3_sfx_2_explosion_large.wav",
+        "waveform_png": "efc3_sfx_2_explosion_large_waveform.png"
+      }
+    },
+    {
+      "index": 3,
+      "label": "sfx_3_missile_fire",
+      "offset_in_decomp": 6264,
+      "section_length": 2741,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 2697,
+        "duration_seconds": 0.2452,
+        "wav_file": "efc3_sfx_3_missile_fire.wav",
+        "waveform_png": "efc3_sfx_3_missile_fire_waveform.png"
+      }
+    },
+    {
+      "index": 4,
+      "label": "sfx_4_shield_activate",
+      "offset_in_decomp": 9005,
+      "section_length": 5161,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 5117,
+        "duration_seconds": 0.4652,
+        "wav_file": "efc3_sfx_4_shield_activate.wav",
+        "waveform_png": "efc3_sfx_4_shield_activate_waveform.png"
+      }
+    },
+    {
+      "index": 5,
+      "label": "sfx_5_explosion_small",
+      "offset_in_decomp": 14166,
+      "section_length": 8356,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 8312,
+        "duration_seconds": 0.7556,
+        "wav_file": "efc3_sfx_5_explosion_small.wav",
+        "waveform_png": "efc3_sfx_5_explosion_small_waveform.png"
+      }
+    },
+    {
+      "index": 6,
+      "label": "sfx_6_powerup_charge",
+      "offset_in_decomp": 22522,
+      "section_length": 4081,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 4037,
+        "duration_seconds": 0.367,
+        "wav_file": "efc3_sfx_6_powerup_charge.wav",
+        "waveform_png": "efc3_sfx_6_powerup_charge_waveform.png"
+      }
+    },
+    {
+      "index": 7,
+      "label": "sfx_7_transformation",
+      "offset_in_decomp": 26603,
+      "section_length": 6283,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 6239,
+        "duration_seconds": 0.5672,
+        "wav_file": "efc3_sfx_7_transformation.wav",
+        "waveform_png": "efc3_sfx_7_transformation_waveform.png"
+      }
+    },
+    {
+      "index": 8,
+      "label": "sfx_8_warning_barrier",
+      "offset_in_decomp": 32886,
+      "section_length": 5282,
+      "pcm": {
+        "sample_rate": 11000,
+        "sample_count": 5238,
+        "duration_seconds": 0.4762,
+        "wav_file": "efc3_sfx_8_warning_barrier.wav",
+        "waveform_png": "efc3_sfx_8_warning_barrier_waveform.png"
+      }
+    }
+  ]
+}

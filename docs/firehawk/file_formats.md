@@ -22,7 +22,7 @@ The `assets/firehawk/` directory contains the complete original DOS release of *
 | `RES3.IX` | 2,052 | Binary Index Table | Index table for `RES3.SAR` archive |
 | `RES3.SAR` | 100,668 | Binary Archive | Sierra / Game Arts Archive Resource volume 3 |
 | `SS000` - `SS120` | ~10K - 43K ea. | Binary Stage Files | Stage map geometry, tile layouts, and enemy spawn tables for stages 0-12 |
-| `EFC1` - `EFC4` | 1.9K - 28K ea. | Binary Effects | Explosion effects, weapon sprites, HUD elements, animation frames |
+| `EFC1` - `EFC4` | 1.9K - 28K ea. | Binary Sound Effects | Sound effect banks: FM synth (`EFC1`), Tandy (`EFC2`), 11kHz PCM (`EFC3`/`EFC4`) |
 | `*.DRV` | ~800B - 9K ea. | Relocatable Driver Binaries | Video (`MCGA320`, `EGA640`), Audio (`ADL`, `SNDBLAST`, `MT32`), Keyboard, Joystick |
 | `SAVEGM.DAT` | 315 | Binary Save State | Player savegame file storing stage, score, energy, weapons, and flags |
 
@@ -89,4 +89,50 @@ Drivers in Firehawk are 16-bit relocatable binary drivers dynamically loaded by 
   - `stop_audio()`: Silence all channels.
 
 In our decompilation, rather than executing raw 16-bit driver binaries, we map these driver interfaces directly to modern native implementations in `src/platform/`!
+
+---
+
+## 6. Sound Effect Banks (`EFC1` to `EFC4`)
+
+Contrary to early assumptions that `EFC` files stored visual animation sprites, reverse engineering of `GAME.EXE`, `INSTALL.EXE`, and the audio drivers reveals that `EFC` stands for **Effects (Sound Effects)**. They provide the complete library of in-game sound effects across all supported audio hardware profiles.
+
+### 6.1 Container Structure
+All four `EFC` files share the standard standalone Firehawk compressed asset format:
+1. **Header (4 bytes):** Little-endian 32-bit unsigned integer representing the uncompressed (decompressed) payload byte length.
+2. **Payload (Offset 4+):** Variable-width 9-to-12 bit LZW-compressed stream starting with clear code `0x100`.
+
+### 6.2 Decompressed Master Index Table
+Immediately upon decompression, the payload starts with an 18-byte index table defining 9 sound effect sections:
+```text
+Offset    Type        Field Name       Description
++0x00     uint16_t    sec_offsets[9]   Monotonically increasing relative offsets to Sections 0..8
+```
+The byte length of Section `i` is `sec_offsets[i+1] - sec_offsets[i]` (with `sec_offsets[9]` equal to the total decompressed length).
+
+### 6.3 Hardware Target Profiles
+| File | Raw Size | Decompressed Size | Target Sound Hardware | Format Type |
+| :--- | :--- | :--- | :--- | :--- |
+| `EFC1` | 1,979 B | 2,945 B | AdLib / Sound Blaster FM (`ADL.DRV`), Roland MT-32 (`MT32.DRV`) | Compiled MIDI / FM Synthesizer Bytecode |
+| `EFC2` | 1,995 B | 2,808 B | Tandy 1000 3-Voice (`TANDY.DRV`), PC Speaker (`STD.DRV`) | Tandy 3-Voice / Square Wave Bytecode |
+| `EFC3` | 22,976 B | 38,168 B | Sound Blaster DSP DAC (`SNDBLAST.DRV`) (Low/Compact Memory) | 11,000 Hz, 8-bit Unsigned Mono PCM Audio |
+| `EFC4` | 28,090 B | 51,792 B | Sound Blaster DSP DAC (`SNDBLAST.DRV`) (Standard/Full Memory) | 11,000 Hz, 8-bit Unsigned Mono PCM Audio (Extended Tails) |
+
+### 6.4 Sound Effect Mapping (Sections 0 to 8)
+1. **Section 0 (`SFX_0`):** Primary Laser Fire
+2. **Section 1 (`SFX_1`):** Secondary Laser Fire / Alternate Beam
+3. **Section 2 (`SFX_2`):** Large Explosion / Boss Destruction (EFC4 includes a long 1.64s reverb tail)
+4. **Section 3 (`SFX_3`):** Missile Launch / Rocket Thrust
+5. **Section 4 (`SFX_4`):** Force Field / Shield Activation
+6. **Section 5 (`SFX_5`):** Standard Enemy Explosion / Impact Damage
+7. **Section 6 (`SFX_6`):** Energy Recharge / Power-up Acquired
+8. **Section 7 (`SFX_7`):** Robot-to-Jet / Jet-to-Robot Transformation
+9. **Section 8 (`SFX_8`):** Barrier Warning / Hit Clang
+
+### 6.5 Extraction Tool
+The repository includes a dedicated decoding utility:
+```bash
+python tools/efc_extractor.py
+```
+This utility decompresses `EFC1-EFC4`, exports all PCM audio into playable standard `.wav` files at 11,000 Hz, generates waveform diagrams (`.png`), and disassembles the synthesizer sequencer tracks into structured JSON.
+
 
