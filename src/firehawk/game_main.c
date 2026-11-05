@@ -103,7 +103,8 @@ void game_main_step(game_context_t* ctx, uint16_t inputs, uint8_t* fb)
     case STATE_GAME_OVER:
         if (fb != NULL) {
             // Keep game world in background, overlay GAME OVER banner
-            renderer_draw_tilemap(fb, 320, 200, &ctx->tilemap, 168);
+            renderer_draw_tilemap(fb, 320, 200, &ctx->tilemap, ctx->stage_cg, ctx->stage_cg_len, ctx->stage_ct,
+                ctx->stage_ct_len, ctx->current_stage);
             hud_render(fb, 320, 200, &ctx->player, ctx->font_data);
             font_draw_string(fb, 320, 200, 120, 80, "GAME OVER", 12, ctx->font_data);
             font_draw_string(fb, 320, 200, 80, 110, "PRESS FIRE TO CONTINUE", 14, ctx->font_data);

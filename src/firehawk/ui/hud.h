@@ -20,6 +20,9 @@ void hud_set_message(const char* msg);
 /// @brief Advance message typewriter character clock
 void hud_update(void);
 
+/// @brief Render authentic cockpit frame border surrounding playfield
+void hud_render_frame(uint8_t* fb, int16_t fb_w, int16_t fb_h);
+
 /// @brief Render cockpit status gauges, score, ammunition, and terminal text
 /// @details Ghidra: FUN_1000_22c8 (1000:22c8)
 /// @param fb Pointer to 8-bit framebuffer

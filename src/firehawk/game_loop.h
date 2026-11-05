@@ -30,6 +30,10 @@ typedef struct game_context {
     entity_pool_t pool; ///< 64-slot dynamic entity pool
     savegame_state_t save; ///< Persistent save record
     uint8_t font_data[4096]; ///< REGFONT bitmap font sheet
+    uint8_t stage_cg[8192]; ///< Stage 8x8 character tiles (CGxx)
+    size_t stage_cg_len; ///< Byte length of stage_cg buffer
+    uint8_t stage_ct[2048]; ///< Stage 16x16 compound block mapping table (CTxx)
+    size_t stage_ct_len; ///< Byte length of stage_ct buffer
     uint8_t player_sprites[16384]; ///< SHIP robot/jet transformation sprite sheet
     size_t player_sprites_len; ///< Decompressed byte length of player sprites
     uint8_t stage_tiles[65536]; ///< Active stage tile index buffer

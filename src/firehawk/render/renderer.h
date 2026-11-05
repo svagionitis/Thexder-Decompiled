@@ -27,8 +27,13 @@ void renderer_clear(uint8_t* fb, int16_t fb_w, int16_t fb_h, uint8_t color);
 /// @param fb_w Framebuffer width in pixels (320)
 /// @param fb_h Framebuffer height in pixels (200)
 /// @param tilemap Pointer to stage tilemap
-/// @param viewport_h Viewport height in pixels (typically 168)
-void renderer_draw_tilemap(uint8_t* fb, int16_t fb_w, int16_t fb_h, const stage_tilemap_t* tilemap, int16_t viewport_h);
+/// @param stage_cg Pointer to stage 8x8 character tiles (CGxx)
+/// @param cg_len Byte length of stage_cg buffer
+/// @param stage_ct Pointer to stage 16x16 block mapping table (CTxx)
+/// @param ct_len Byte length of stage_ct buffer
+/// @param stage_num Stage number (0 to 12) for palette remapping
+void renderer_draw_tilemap(uint8_t* fb, int16_t fb_w, int16_t fb_h, const stage_tilemap_t* tilemap,
+    const uint8_t* stage_cg, size_t cg_len, const uint8_t* stage_ct, size_t ct_len, uint8_t stage_num);
 
 /// @brief Draw player robot or jet sprite
 /// @details Ghidra: FUN_1000_1e20 (1000:1e20)

@@ -42,6 +42,19 @@ bool game_loop_init_stage(game_context_t* ctx, uint8_t stage_num, uint8_t sub_st
     // Load authentic SHIP robot and jet transformation sprite sheet
     res_manager_load_chunk("SHIP", ctx->player_sprites, sizeof(ctx->player_sprites), &ctx->player_sprites_len, true);
 
+    // Load authentic stage character tiles (CGxx) and compound block table (CTxx)
+    char cg_tag[8];
+    snprintf(cg_tag, sizeof(cg_tag), "CG%02u", stage_num);
+    if (!res_manager_load_chunk(cg_tag, ctx->stage_cg, sizeof(ctx->stage_cg), &ctx->stage_cg_len, true)) {
+        res_manager_load_chunk("CG01", ctx->stage_cg, sizeof(ctx->stage_cg), &ctx->stage_cg_len, true);
+    }
+
+    char ct_tag[8];
+    snprintf(ct_tag, sizeof(ct_tag), "CT%02u", stage_num);
+    if (!res_manager_load_chunk(ct_tag, ctx->stage_ct, sizeof(ctx->stage_ct), &ctx->stage_ct_len, true)) {
+        res_manager_load_chunk("CT01", ctx->stage_ct, sizeof(ctx->stage_ct), &ctx->stage_ct_len, true);
+    }
+
     // Load stage geometry and spawners
     stage_header_t hdr = { 0 };
     if (!stage_loader_load_stage(stage_num, sub_stage, &ctx->tilemap, &hdr, ctx->spawners, 128, &ctx->spawner_count,
@@ -71,8 +84,10 @@ bool game_loop_init_stage(game_context_t* ctx, uint8_t stage_num, uint8_t sub_st
         ctx->tilemap.tile_attributes = ctx->tile_attributes;
     }
 
-    // Initialize subsystems (spawn on floor at y=32, so top of robot is at y=0)
-    vector2d_t p_spawn = { INT_TO_FP12_4(32), INT_TO_FP12_4(0) };
+    // Initialize subsystems (Stage 1 authentic spawn coordinates at x=80, y=16)
+    int16_t spawn_x = (stage_num == 1) ? 80 : 32;
+    int16_t spawn_y = (stage_num == 1) ? 16 : 0;
+    vector2d_t p_spawn = { INT_TO_FP12_4(spawn_x), INT_TO_FP12_4(spawn_y) };
     player_init(&ctx->player, p_spawn);
     weapons_init(&ctx->weapons);
     entities_init(&ctx->pool);
@@ -128,12 +143,12 @@ void game_loop_tick(game_context_t* ctx, uint16_t inputs, uint8_t* fb)
             }
         }
 
-        // 5. Spawner Activation & Viewport Culling
-        entities_spawn_from_stage(&ctx->pool, ctx->spawners, ctx->spawner_count, ctx->tilemap.camera_pos, 320, 168);
-        entities_cull_offscreen(&ctx->pool, ctx->tilemap.camera_pos, 320, 168);
+        // 5. Spawner Activation & Viewport Culling (256x128 playfield window)
+        entities_spawn_from_stage(&ctx->pool, ctx->spawners, ctx->spawner_count, ctx->tilemap.camera_pos, 256, 128);
+        entities_cull_offscreen(&ctx->pool, ctx->tilemap.camera_pos, 256, 128);
 
-        // 6. Viewport Camera Tracking
-        tilemap_update_cam(&ctx->tilemap, ctx->player.position, 320, 168);
+        // 6. Viewport Camera Tracking (256x128 playfield window)
+        tilemap_update_cam(&ctx->tilemap, ctx->player.position, 256, 128);
 
         // 7. HUD Status Clock
         hud_update();
@@ -149,7 +164,8 @@ void game_loop_tick(game_context_t* ctx, uint16_t inputs, uint8_t* fb)
     // 9. Frame Presentation & Blitting
     if (fb != NULL) {
         renderer_clear(fb, 320, 200, 0);
-        renderer_draw_tilemap(fb, 320, 200, &ctx->tilemap, 168);
+        renderer_draw_tilemap(fb, 320, 200, &ctx->tilemap, ctx->stage_cg, ctx->stage_cg_len, ctx->stage_ct,
+            ctx->stage_ct_len, ctx->current_stage);
         renderer_draw_entities(fb, 320, 200, &ctx->pool, ctx->tilemap.camera_pos);
         renderer_draw_player(
             fb, 320, 200, &ctx->player, ctx->tilemap.camera_pos, ctx->player_sprites, ctx->player_sprites_len);
