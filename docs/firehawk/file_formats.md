@@ -27,6 +27,9 @@ The `assets/firehawk/` directory contains the complete original DOS release of *
 | `*.DRV` | ~800B - 9K ea. | Relocatable Driver Binaries | Video (`MCGA320`, `EGA640`), Audio (`ADL`, `SNDBLAST`, `MT32`), Keyboard, Joystick |
 | `FILEID3` | 4 | Plain Text Volume Marker | Floppy Disk #3 volume identifier for multi-disk verification in `SIERRA.EXE` |
 | `GRPH` | 1,184 | Planar EGA Bitmap | Cockpit HUD gauges, radar bezel, and status bar graphics ($32 \times 74$ px) |
+| `PATCH.001` | 9,735 | Compressed Audio Bank | Roland MT-32 custom timbre bank (64 voices), SysEx setup, and LCD greetings |
+| `PATCH.003` | 1,212 | Compressed Audio Bank | AdLib / Sound Blaster YM3812 (OPL2) FM synth instrument bank (192 presets) |
+| `PATCH.101` | 71 | Compressed Audio Bank | Creative Music System (CMS) / Game Blaster SAA1099 voice mapping table |
 | `SAVEGM.DAT` | 315 | Binary Save State | Player savegame file storing stage, score, energy, weapons, and flags |
 
 ---
@@ -217,6 +220,26 @@ This utility:
 - **Dedicated Audit Document:** [`docs/firehawk/grph_technical_audit.md`](grph_technical_audit.md)
 - **Decoder Tool:** `tools/grph_decoder.py`
 - **Rendered Visual Asset:** `reference/extracted_data/images/grph_atlas.png` ($32 \times 74$ px native, $64 \times 148$ px 2x)
+
+---
+
+## 10. Audio Hardware Patch & Instrument Banks (`PATCH.*`)
+
+The `PATCH.*` files provide hardware-specific sound instrument patch banks and SysEx configuration created by Sierra composer **Robert Atesalp**:
+- **`PATCH.001` (9,735 B $\to$ 16,637 B):** Roland MT-32 / LAPC-I sound bank. Contains 3 LCD screen messages (`"MUSIC BY ROB ATESALP"`), master system reverb/volume setup, 64 custom MT-32 user timbres (246 bytes each), and rhythm key map (notes 33..87).
+- **`PATCH.003` (1,212 B $\to$ 2,706 B):** AdLib / Sound Blaster YM3812 (OPL2) FM synth bank. Contains 192 instrument presets (128 melodic + 64 rhythm, 14 bytes each) defining Modulator and Carrier AR/DR, SL/RR, TL, and Feedback.
+- **`PATCH.101` (71 B $\to$ 314 B):** Creative Music System (CMS) / Game Blaster dual Philips SAA1099 square-wave and noise frequency mapping tables.
+
+### 10.1 Dedicated Audit & Tooling
+- **Dedicated Technical Audit:** [`docs/firehawk/patch_files_technical_audit.md`](patch_files_technical_audit.md)
+- **Extraction Tool:** `tools/patch_decoder.py`
+- **Exported Roland MT-32 SysEx Bank:** `reference/extracted_data/audio/patches/mt32_thexder2.syx`
+- **JSON Manifest:** `reference/extracted_data/audio/patches/patch_manifest.json`
+- **Rendered Visual Assets:**
+  - `reference/extracted_data/audio/patches/images/mt32_lcd_display.png` (Roland MT-32 20x2 dot-matrix LCD display)
+  - `reference/extracted_data/audio/patches/images/opl2_adsr_envelopes.png` (OPL2 Modulator vs Carrier ADSR envelope curves)
+  - `reference/extracted_data/audio/patches/images/patch_architecture_overview.png` (Architecture matrix infographic)
+
 
 
 

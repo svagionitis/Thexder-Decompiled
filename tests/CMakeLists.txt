@@ -6,6 +6,12 @@ add_test(
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 )
 
+add_test(
+    NAME test_patch_decoder
+    COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/test_patch_decoder.py
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+)
+
 # Macro to add firehawk core unit tests
 macro(add_firehawk_test test_name)
     add_executable(${test_name}
