@@ -23,7 +23,7 @@ Absolute host filesystem paths (`C:\Users\...`, `D:\...`, `/home/...`, `/Users/.
 When referencing repository files within textual descriptions, tables, or list items, use pathnames relative to the **repository root**:
 - **Required**: `` `src/firehawk/game.h` ``
 - **Required**: `` `src/platform/video_adapter.cpp` ``
-- **Required**: `` `tools/sar_extractor.c` ``
+- **Required**: `` `tools/sar_extractor.py` ``
 - **Required**: `` `docs/firehawk/decompilation_plan.md` ``
 - **Banned**: `` `C:\Users\Developer\workspace\Thexder-Decompiled.git\src\firehawk\game.h` ``
 - **Banned**: `` `/home/developer/Thexder-Decompiled/src/firehawk/game.h` ``

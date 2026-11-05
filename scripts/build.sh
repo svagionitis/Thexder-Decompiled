@@ -113,15 +113,11 @@ fi
 if [ "${EXTRACT_ASSETS}" = true ]; then
     echo ""
     echo "--- Extracting Firehawk Assets ---"
-    EXTRACTOR_BIN="${BUILD_DIR}/tools/sar_extractor"
-    if [ -f "${EXTRACTOR_BIN}" ]; then
-        OUT_DIR="${BUILD_DIR}/extracted_assets"
-        mkdir -p "${OUT_DIR}"
-        "${EXTRACTOR_BIN}" "assets/firehawk" "${OUT_DIR}"
-        echo "[OK] Firehawk assets extracted to: ${OUT_DIR}"
-    else
-        echo "Warning: sar_extractor binary not found at: ${EXTRACTOR_BIN}" >&2
-    fi
+    SAR_PY="${REPO_ROOT}/tools/sar_extractor.py"
+    OUT_DIR="${BUILD_DIR}/extracted_assets"
+    mkdir -p "${OUT_DIR}"
+    python3 "${SAR_PY}" "assets/firehawk" "${OUT_DIR}"
+    echo "[OK] Firehawk assets extracted to: ${OUT_DIR}"
 fi
 
 echo ""

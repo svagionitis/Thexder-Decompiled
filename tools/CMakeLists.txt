@@ -1,26 +1,10 @@
-add_library(sar_lib STATIC
-    sar_extractor.c
-    sar_extractor.h
-)
+# Tools for reading, extracting, and analyzing data are implemented in Python.
+# See sar_extractor.py, extract_sar_archives.py, frame_diff.py, etc.
 
-target_include_directories(sar_lib PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}
-)
-
-apply_compiler_flags(sar_lib)
-
-add_executable(sar_extractor
-    sar_main.c
-)
-
-target_link_libraries(sar_extractor PRIVATE
-    sar_lib
-)
-
-apply_compiler_flags(sar_extractor)
-
-add_executable(frame_diff
-    frame_diff.c
-)
-
-apply_compiler_flags(frame_diff)
+if(Python3_FOUND)
+    add_custom_target(sar_extractor
+        COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/sar_extractor.py assets/firehawk ${CMAKE_BINARY_DIR}/extracted_assets
+        WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+        COMMENT "Extracting Firehawk assets using Python sar_extractor"
+    )
+endif()

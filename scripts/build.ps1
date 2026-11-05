@@ -108,22 +108,13 @@ if ($Test) {
 # Step 5: Extract assets if requested
 if ($ExtractAssets) {
     Write-Host "`n--- Extracting Firehawk Assets ---" -ForegroundColor Yellow
-    $extractorExe = Join-Path $BuildDir "tools\$Config\sar_extractor.exe"
-    if (-not (Test-Path $extractorExe)) {
-        # Fallback for single-config generators (Ninja/Make)
-        $extractorExe = Join-Path $BuildDir "tools\sar_extractor.exe"
+    $sarPy = Join-Path $RepoRoot "tools\sar_extractor.py"
+    $outAssets = Join-Path $BuildDir "extracted_assets"
+    python $sarPy "assets/firehawk" $outAssets
+    if ($LASTEXITCODE -ne 0) {
+        Write-Error "Asset extraction failed."
     }
-
-    if (Test-Path $extractorExe) {
-        $outAssets = Join-Path $BuildDir "extracted_assets"
-        & $extractorExe "assets/firehawk" $outAssets
-        if ($LASTEXITCODE -ne 0) {
-            Write-Error "Asset extraction failed."
-        }
-        Write-Host "[OK] Firehawk assets extracted to: $outAssets" -ForegroundColor Green
-    } else {
-        Write-Warning "sar_extractor executable not found at: $extractorExe"
-    }
+    Write-Host "[OK] Firehawk assets extracted to: $outAssets" -ForegroundColor Green
 }
 
 Write-Host "`n=== Build Finished Successfully ===" -ForegroundColor Green

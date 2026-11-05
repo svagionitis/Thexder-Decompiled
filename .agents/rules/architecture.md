@@ -88,6 +88,9 @@ flowchart TD
    - Always use `#pragma once` as the first non-comment line in all headers.
 6. **Cross-Platform Portability:**
    - All code must compile and run cleanly on both **Linux** (GCC, Clang) and **Windows** (MSVC, Clang-CL).
+7. **Offline Asset & Data Extraction Tools (Python Only):**
+   - All offline tools regarding reading, extracting, inspecting, and analyzing game assets and data files (e.g. `tools/sar_extractor.py`, `tools/extract_graphics.py`, `tools/frame_diff.py`, `tools/extract_stages.py`) must be implemented exclusively in Python.
+   - C and C++ are reserved strictly for decompiled core engines, platform HAL adapters, and native game executables. If any data reading/extraction tools exist in C, convert them to Python.
 
 ---
 
