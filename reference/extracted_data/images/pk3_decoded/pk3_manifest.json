@@ -1,0 +1,73 @@
+{
+  "files": {
+    "EN23.PK3": {
+      "compressed_size": 6591,
+      "decompressed_size": 17160,
+      "meta": {
+        "name": "Earth Curvature / Planet Horizon",
+        "scene": "Ending Scene 2 (Orbital Re-entry)",
+        "width_bytes": 66,
+        "width_px": 528,
+        "height": 65,
+        "planes": 4,
+        "expected_decomp_len": 17160,
+        "screen_x": 80,
+        "screen_y": 80
+      },
+      "exported_images": [
+        "EN23_earth_horizon_528x65.png"
+      ]
+    },
+    "EN24.PK3": {
+      "compressed_size": 1764,
+      "decompressed_size": 7506,
+      "meta": {
+        "name": "Moon & Atmospheric Firehawk Descent",
+        "scene": "Ending Scene 2 (Re-entry & Moon)",
+        "part1": {
+          "width_bytes": 27,
+          "width_px": 216,
+          "height": 55,
+          "planes": 4,
+          "len": 5940,
+          "screen_x": 184,
+          "screen_y": 25
+        },
+        "part2": {
+          "width_bytes": 27,
+          "width_px": 216,
+          "height": 29,
+          "planes": 2,
+          "len": 1566,
+          "screen_x": 184,
+          "screen_y": 80
+        },
+        "expected_decomp_len": 7506
+      },
+      "exported_images": [
+        "EN24_part1_moon_descent_216x55.png",
+        "EN24_part2_reentry_tail_216x29.png",
+        "EN24_combined_descent_216x84.png"
+      ]
+    },
+    "EN26.PK3": {
+      "compressed_size": 244,
+      "decompressed_size": 370,
+      "meta": {
+        "name": "THE END Title Banner",
+        "scene": "Ending Finale",
+        "width_bytes": 37,
+        "width_px": 296,
+        "height": 10,
+        "planes": 1,
+        "expected_decomp_len": 370,
+        "screen_x": 168,
+        "screen_y": 157
+      },
+      "exported_images": [
+        "EN26_the_end_banner_296x10.png"
+      ]
+    }
+  },
+  "composite_image": "ending_scene2_full_composite_640x200.png"
+}

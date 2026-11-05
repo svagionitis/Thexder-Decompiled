@@ -23,6 +23,7 @@ The `assets/firehawk/` directory contains the complete original DOS release of *
 | `RES3.SAR` | 100,668 | Binary Archive | Sierra / Game Arts Archive Resource volume 3 |
 | `SS000` - `SS120` | ~10K - 43K ea. | Binary Stage Files | Stage map geometry, tile layouts, and enemy spawn tables for stages 0-12 |
 | `EFC1` - `EFC4` | 1.9K - 28K ea. | Binary Sound Effects | Sound effect banks: FM synth (`EFC1`), Tandy (`EFC2`), 11kHz PCM (`EFC3`/`EFC4`) |
+| `EN23.PK3` - `EN26.PK3`| 244B - 6.5KB ea. | 2-bit RLE Graphic Packs | Ending cutscene visual assets: Earth horizon, Moon/descent, "THE END" banner |
 | `*.DRV` | ~800B - 9K ea. | Relocatable Driver Binaries | Video (`MCGA320`, `EGA640`), Audio (`ADL`, `SNDBLAST`, `MT32`), Keyboard, Joystick |
 | `SAVEGM.DAT` | 315 | Binary Save State | Player savegame file storing stage, score, energy, weapons, and flags |
 
@@ -134,5 +135,69 @@ The repository includes a dedicated decoding utility:
 python tools/efc_extractor.py
 ```
 This utility decompresses `EFC1-EFC4`, exports all PCM audio into playable standard `.wav` files at 11,000 Hz, generates waveform diagrams (`.png`), and disassembles the synthesizer sequencer tracks into structured JSON.
+
+---
+
+## 7. Ending Cinematic Graphic Packs (`EN2*.PK3`)
+
+The files `EN23.PK3`, `EN24.PK3`, and `EN26.PK3` in `assets/firehawk/` are standalone compressed graphic archives containing visual artwork for the **Ending Cinematic Cutscene (Scene 2: Atmospheric Re-entry)** and final **"THE END"** credit sequence.
+
+### 7.1 Compression Algorithm: 2-Bit Opcode Run-Length Encoding (RLE)
+
+Unlike the SAR archives (which use 9-to-12 bit variable-width LZW compression), the `PK3` format utilizes a specialized byte-stream Run-Length Encoding (RLE) optimized for EGA bitplane graphics with large contiguous runs of transparent pixels (`0x00`) and opaque solid planes (`0xFF`).
+
+Reverse-engineered directly from `DEMO.EXE` (routine `FUN_1000_088b`):
+
+Each command begins with an 8-bit opcode byte `B`:
+- **Bits [5:0] (Run Length):** `count = (B & 0x3F) + 1` (integer run count from 1 to 64 bytes).
+- **Bits [7:6] (Mode Select):** `mode = (B >> 6) & 3`
+
+| Mode (`B >> 6`) | Opcode Range | Semantics | Payload Bytes Followed | Output Decompression Action |
+| :--- | :--- | :--- | :--- | :--- |
+| `00b` | `0x00` - `0x3F` | Zero Fill | None | Append `count` bytes of `0x00` to output buffer |
+| `01b` | `0x40` - `0x7F` | Solid Fill | None | Append `count` bytes of `0xFF` to output buffer |
+| `10b` | `0x80` - `0xBF` | Byte Repeat / EOS | 1 byte `V` (if `count > 1`) | If `B == 0x80` (`count == 1`): **End-of-Stream (EOS)** terminator.<br/>Else: Read byte `V`, append `count` copies of `V` |
+| `11b` | `0xC0` - `0xFF` | Literal Run | `count` bytes | Copy next `count` raw bytes directly from stream |
+
+Every valid `.PK3` stream terminates with opcode `0x80`.
+
+### 7.2 File Inventory & Visual Geometry
+
+| File | Compressed Size | Decompressed Size | Pixel Dimensions | Bitplanes | Screen Position `(X, Y)` | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `EN23.PK3` | 6,591 B | 17,160 B | 528 x 65 | 4 planar (EGA) | `(80, 80)` | Earth curvature / planet horizon during atmospheric re-entry |
+| `EN24.PK3` | 1,764 B | 7,506 B | 216 x 84 | 4 planar + 2 planar | `(184, 25)` | Celestial sphere (Moon) and Firehawk jet re-entry burn tail |
+| `EN26.PK3` | 244 B | 370 B | 296 x 10 | 1-bit monochrome | `(168, 157)` | "THE END" typography banner centered on screen |
+
+#### `EN24.PK3` Structure Details
+`EN24.PK3` contains two vertically adjacent segments blitted consecutively:
+1. **Part 1 (Moon & Upper Jet):** `27 bytes * 55 lines * 4 planes = 5,940 bytes` (occupies `Y = 25 .. 79`, `X = 184 .. 399`).
+2. **Part 2 (Atmospheric Flame Tail):** `27 bytes * 29 lines * 2 planes = 1,566 bytes` (occupies `Y = 80 .. 108`, `X = 184 .. 399`).
+`5,940 + 1,566 = 7,506 bytes`.
+
+### 7.3 Usage in the Game Architecture
+
+In `DEMO.EXE` (routines `1000:0e26`..`1000:10c4`), these files are dynamically loaded and rendered during the final attract sequence and ending credits:
+1. **Palette and Display Setup:** `DEMO.EXE` queries video mode variable `[0x558]`. If EGA/VGA planar mode is active, the driver blits planes directly to `0xA000:DI`; if MCGA packed mode is active, `FUN_1000_1c44` converts the bitplane data into 4-bit packed nibbles via a lookup table at `CS:0x1c24`.
+2. **Layering Sequence:**
+   - Background sky/space canvas cleared.
+   - `EN24.PK3` (Moon and Firehawk descent) blitted at `(X=184, Y=25)`.
+   - `EN23.PK3` (Earth horizon) layered on top at `(X=80, Y=80)`.
+   - Story narration rolls across screen ("CAUGHT IN THE EARTH'S GRAVITY, THE FIREHAWK RE-ENTERED THE ATMOSPHERE...").
+   - `EN26.PK3` ("THE END") blitted at `(X=168, Y=157)`.
+   - Staff credits roll (`KEN WILLIAMS`, `MITSUHIRO MAZDA`, `OSAMU HARADA`, etc.).
+
+### 7.4 Extraction Tool
+
+The repository provides an automated extraction tool:
+```bash
+python tools/pk3_extractor.py
+```
+This utility:
+- Decompresses `EN23.PK3`, `EN24.PK3`, and `EN26.PK3` into decompressed binaries.
+- Exports all sprites and components into authentic EGA 16-color PNGs.
+- Renders the full 640x200 composite ending cutscene screen (`ending_scene2_full_composite_640x200.png`).
+- Generates a machine-readable JSON manifest at `reference/extracted_data/images/pk3_decoded/pk3_manifest.json`.
+
 
 
