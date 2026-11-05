@@ -59,5 +59,6 @@ add_firehawk_test(test_collision)
 add_firehawk_test(test_savegame)
 add_firehawk_test(test_golden_replay)
 add_firehawk_test(test_campaign)
+add_firehawk_test(test_game_decomp)
 
 add_subdirectory(hal)

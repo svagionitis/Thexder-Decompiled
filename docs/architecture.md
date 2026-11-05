@@ -91,7 +91,9 @@ Thexder-Decompiled/
 │   ├── decompilation_guide.md    # Methodology, Ghidra workflows, standards
 │   ├── implementation_plan.md    # Actionable implementation plan for Firehawk
 │   └── firehawk/                 # Firehawk-specific documentation
-│       └── file_formats.md       # SAR, IX, SS*, DAT format specs
+│       ├── file_formats.md       # SAR, IX, SS*, DAT format specs
+│       ├── decompiled_functions_audit.md # Decompiled functions & drivers audit
+│       └── exact_decompiled_functions_plan.md # 1:1 decompiled module plan
 ├── src/
 │   ├── common/                   # Shared types, endian helpers, math
 │   ├── firehawk/                 # Decompiled Firehawk engine (.c and .h)

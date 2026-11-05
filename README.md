@@ -17,6 +17,8 @@ Detailed documentation is maintained in the [`docs/`](docs/) directory:
 - [Firehawk Implementation Plan](docs/implementation_plan.md): Step-by-step phased roadmap for decompiling and porting Firehawk.
 - [Phase 1 Implementation Plan](docs/phase1_tooling_and_infrastructure.md): Tooling automation (Ghidra, Cutter, DOSBox), asset extractor tool, and CMake setup.
 - [Firehawk File Formats](docs/firehawk/file_formats.md): Structural breakdown of `GAME.EXE`, `RES*.SAR`, `RES*.IX`, `SS*` stage files, and drivers.
+- [Firehawk Decompiled Functions & Drivers Audit](docs/firehawk/decompiled_functions_audit.md): Function-by-function comparison of original DOS binaries/drivers vs modern C99/C++17 implementations.
+- [1:1 Decompiled Functions Plan](docs/firehawk/exact_decompiled_functions_plan.md): Specification for the standalone 1:1 decompiled C module (SDL only).
 
 ---
 
