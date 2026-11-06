@@ -8,13 +8,23 @@
   h1 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 12px; }
   h2 { color: #79c0ff; margin-top: 32px; }
   .card { background: #1c2129; border: 1px solid #30363d; border-radius: 8px; padding: 20px; margin-bottom: 24px; }
-  .asset-img { background: #0b0d11; border: 1px solid #444c56; padding: 12px; border-radius: 4px; display: inline-block; image-rendering: pixelated; }
+  .asset-img { background: #0b0d11; border: 1px solid #444c56; padding: 12px; border-radius: 4px; display: inline-block; image-rendering: pixelated; margin: 6px; }
   .meta { color: #8b949e; font-size: 14px; margin-top: 8px; }
 </style>
 </head>
 <body>
 <h1>Firehawk: Thexder II - Extracted Graphics Gallery</h1>
-<p>Authentic graphics reverse-engineered and decompressed from original DOS archives (LZW bitstream decoded to 4-plane EGA bitmaps).</p>
+<p>Authentic graphics reverse-engineered and decompressed from original DOS archives (LZW bitstream decoded to 4-plane EGA bitmaps and 4-bit packed tilebanks).</p>
+
+<div class="card">
+  <h2>0. In-Game Scene Reconstruction & CRT Aspect Simulation</h2>
+  <img class="asset-img" src="ingame_scene_breakdown.png" alt="In-Game Scene Breakdown" style="max-width: 100%; height: auto;">
+  <div style="margin-top: 14px;">
+    <img class="asset-img" src="ingame_scene_crt_4x3.png" alt="4:3 CRT Simulation" style="max-width: 48%; height: auto;">
+    <img class="asset-img" src="ingame_scene_320x200.png" alt="Native 320x200 Screen" style="max-width: 48%; height: auto;">
+  </div>
+  <div class="meta">Assembled in-game composition: Stage 1 volcanic cavern tiles (CG01/CT01), player Thexder robot (SHIP frame 0), laser beam, obstacle (ZAN2), enemy drone (EG11), powerup crystal (ITEM), and cockpit telemetry HUD (GRPH radar/gauges and REGFONT typewriter console) in authentic 4:3 CRT aspect ratio.</div>
+</div>
 
 <div class="card">
   <h2>1. Player Thexder/Firehawk Robot & Jet Transformation Atlas</h2>
@@ -43,7 +53,38 @@
 </div>
 
 <div class="card">
-  <h2>5. Standard 16-Color EGA Palette</h2>
+  <h2>5. Carrier Takeoff & Obstacle Barrier Sprites</h2>
+  <img class="asset-img" src="tak0_atlas.png" alt="TAK0 Atlas">
+  <img class="asset-img" src="zan2_atlas.png" alt="ZAN2 Atlas">
+  <div class="meta">Mobile carrier launch sequence &bull; Stage wreckage/barrier obstacles &bull; Decompressed from TAK0.bin, ZAN2.bin</div>
+</div>
+
+<div class="card">
+  <h2>6. Stage Background Character Tilebanks (CGxx)</h2>
+  <img class="asset-img" src="cg01_tiles.png" alt="CG01 Tiles">
+  <img class="asset-img" src="cg11_tiles.png" alt="CG11 Tiles">
+  <img class="asset-img" src="cg21_tiles.png" alt="CG21 Tiles">
+  <img class="asset-img" src="cg61_tiles.png" alt="CG61 Tiles">
+  <div class="meta">132 character tiles of 8x8 pixels per bank &bull; Packed 4-bit nibbles &bull; Decompressed from CG01, CG11, CG21, CG61</div>
+</div>
+
+<div class="card">
+  <h2>7. Stage-Specific Enemy Sprite Sheets (EGxx)</h2>
+  <img class="asset-img" src="eg11_enemy_tiles.png" alt="EG11 Enemies">
+  <img class="asset-img" src="eg21_enemy_tiles.png" alt="EG21 Enemies">
+  <img class="asset-img" src="eg61_enemy_tiles.png" alt="EG61 Enemies">
+  <div class="meta">23 character tiles of 8x8 pixels per bank &bull; Decompressed from EG11, EG21, EG61</div>
+</div>
+
+<div class="card">
+  <h2>8. Stage 12 Boss & Sub-Boss Atlases</h2>
+  <img class="asset-img" src="bigg_boss_atlas.png" alt="Final Boss Atlas">
+  <img class="asset-img" src="btg1_subboss_tiles.png" alt="Sub-Boss Tiles">
+  <div class="meta">BIGG: Final Boss sprite sheet (24 frames of 16x18) &bull; BTG1: Sub-boss 8x8 character tiles &bull; Decompressed from RES3.SAR</div>
+</div>
+
+<div class="card">
+  <h2>9. Standard 16-Color EGA Palette</h2>
   <img class="asset-img" src="ega_palette_preview.png" alt="EGA Palette">
   <div class="meta">16-color RGB hardware palette programmed by EGA640.DRV and MCGA320.DRV</div>
 </div>

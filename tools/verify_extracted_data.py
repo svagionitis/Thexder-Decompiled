@@ -238,6 +238,9 @@ def verify_images():
         "grp3_atlas.png",
         "tak0_atlas.png",
         "zan2_atlas.png",
+        "ingame_scene_320x200.png",
+        "ingame_scene_crt_4x3.png",
+        "ingame_scene_breakdown.png",
     ]
 
     errors = []
