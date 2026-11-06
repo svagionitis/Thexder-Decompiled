@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "game": "Firehawk: Thexder II",
+    "developer": "Game Arts / Sierra On-Line (1990)",
+    "subsystem": "Attract Mode Title Screen Animation Sequencer",
+    "reverse_engineered_from": [
+      "DEMO.EXE: FUN_1000_02c4..FUN_1000_0495",
+      "DEMO.EXE: FUN_1000_088b (2-bit opcode RLE decompressor)",
+      "EGA640.DRV: Dispatch slot 0x30 / routine 0000:09ba"
+    ]
+  },
+  "ttlc": {
+    "file": "TTLC",
+    "file_size": 2049,
+    "payload_size": 2048,
+    "has_eof_marker_0x1a": true,
+    "glyph_count": 128,
+    "glyph_dimensions": {
+      "width": 16,
+      "height": 8,
+      "bits_per_pixel": 1
+    },
+    "bytes_per_glyph": 16,
+    "atlas_image": "ttlc_tileset_atlas.png",
+    "raw_binary": "ttlc_glyphs_128x16.bin"
+  },
+  "ttls": {
+    "file": "TTLS",
+    "file_size": 3492,
+    "header_size": 736,
+    "header_base_word": "0x62E0",
+    "compressed_rle_size": 2756,
+    "decompressed_payload_size": 20481,
+    "has_eof_marker_0x1a": true,
+    "frame_count": 40,
+    "frame_dimensions": {
+      "tiles_x": 32,
+      "tiles_y": 16,
+      "pixels_w": 512,
+      "pixels_h": 128,
+      "screen_dest_x": 64,
+      "screen_dest_y": 40,
+      "canvas_w": 640,
+      "canvas_h": 200
+    },
+    "animation_gif": "ttls_title_animation.gif",
+    "contact_sheet": "ttls_contact_sheet.png",
+    "raw_binary": "ttls_tilemaps_40x512.bin"
+  }
+}

@@ -31,6 +31,8 @@ The `assets/firehawk/` directory contains the complete original DOS release of *
 | `PATCH.003` | 1,212 | Compressed Audio Bank | AdLib / Sound Blaster YM3812 (OPL2) FM synth instrument bank (192 presets) |
 | `PATCH.101` | 71 | Compressed Audio Bank | Creative Music System (CMS) / Game Blaster SAA1099 voice mapping table |
 | `SAVEGM.DAT` | 315 | Binary Save State | Player savegame file storing stage, score, energy, weapons, and flags |
+| `TTLC` | 2,049 | Planar Tile Charset | 128 1-bit tile glyphs ($16 \times 8$ px ea.) for attract title animation |
+| `TTLS` | 3,492 | 2-bit RLE Title Sequence | 736B header + 40 sequential $32 \times 16$ tilemaps for "FIREHAWK" title animation |
 
 ---
 
