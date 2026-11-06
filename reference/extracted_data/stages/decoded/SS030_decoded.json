@@ -1,0 +1,355 @@
+{
+  "stage": "SS030",
+  "raw_size_bytes": 27794,
+  "decompressed_size_bytes": 46473,
+  "expected_decompressed_size": 46473,
+  "compression_ratio": 0.5981,
+  "integrity_verified": true,
+  "master_header_tag": "0x00000084 (132)",
+  "sections_catalog": {
+    "DEFAULT_MAP_BLOCK": {
+      "section_id": "0x00",
+      "chunk_count": 5,
+      "total_bytes": 35,
+      "chunks": [
+        {
+          "flags": 37376,
+          "chunk_offset": 31611,
+          "chunk_length": 10
+        },
+        {
+          "flags": 3328,
+          "chunk_offset": 15750,
+          "chunk_length": 3
+        },
+        {
+          "flags": 18944,
+          "chunk_offset": 38281,
+          "chunk_length": 2
+        },
+        {
+          "flags": 57088,
+          "chunk_offset": 2443,
+          "chunk_length": 7
+        },
+        {
+          "flags": 59392,
+          "chunk_offset": 1426,
+          "chunk_length": 13
+        }
+      ]
+    },
+    "VISUAL_BACKGROUND_TERRAIN": {
+      "section_id": "0x08",
+      "chunk_count": 6,
+      "total_bytes": 14837,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 31634,
+          "chunk_length": 2683
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 34317,
+          "chunk_length": 829
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 35146,
+          "chunk_length": 661
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 35807,
+          "chunk_length": 1801
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 37608,
+          "chunk_length": 3333
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 40941,
+          "chunk_length": 5530
+        }
+      ]
+    },
+    "FOREGROUND_OVERLAY_TERRAIN": {
+      "section_id": "0x09",
+      "chunk_count": 2,
+      "total_bytes": 6008,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 20103,
+          "chunk_length": 2679
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 22782,
+          "chunk_length": 3329
+        }
+      ]
+    },
+    "SECTION_0x65": {
+      "section_id": "0x65",
+      "chunk_count": 0,
+      "total_bytes": 0,
+      "chunks": []
+    },
+    "COLLISION_ENVIRONMENTAL_MATRIX": {
+      "section_id": "0x0C",
+      "chunk_count": 10,
+      "total_bytes": 15624,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 187,
+          "chunk_length": 2679
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 2866,
+          "chunk_length": 993
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 3859,
+          "chunk_length": 2211
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 6070,
+          "chunk_length": 3515
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 9585,
+          "chunk_length": 825
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 10410,
+          "chunk_length": 657
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 11067,
+          "chunk_length": 1797
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 12864,
+          "chunk_length": 121
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 12985,
+          "chunk_length": 117
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 13102,
+          "chunk_length": 2709
+        }
+      ]
+    },
+    "ENEMY_SPAWNER_DESCRIPTORS": {
+      "section_id": "0x12",
+      "chunk_count": 1,
+      "total_bytes": 4292,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 15811,
+          "chunk_length": 4292
+        }
+      ]
+    },
+    "WAYPOINTS_AND_SCRIPT_TRIGGERS": {
+      "section_id": "0x13",
+      "chunk_count": 2,
+      "total_bytes": 6008,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 20103,
+          "chunk_length": 2679
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 22782,
+          "chunk_length": 3329
+        }
+      ]
+    }
+  },
+  "terrain_runs_total": 1050,
+  "sample_terrain_runs": [
+    {
+      "tag": "0x2D",
+      "macroblock_id": 109,
+      "run_length": 7
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 0,
+      "run_length": 5
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 97,
+      "run_length": 6
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 0,
+      "run_length": 7
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 105,
+      "run_length": 6
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 0,
+      "run_length": 6
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 96,
+      "run_length": 3
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 0,
+      "run_length": 4
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 103,
+      "run_length": 3
+    },
+    {
+      "tag": "0x2D",
+      "macroblock_id": 0,
+      "run_length": 3
+    }
+  ],
+  "spawners_count": 632,
+  "spawners_sample": [
+    {
+      "index": 0,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 7,
+      "flags": [
+        45,
+        0,
+        5
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 6,
+      "flags": [
+        45,
+        0,
+        7
+      ]
+    },
+    {
+      "index": 2,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 6,
+      "flags": [
+        45,
+        0,
+        6
+      ]
+    },
+    {
+      "index": 3,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 3,
+      "flags": [
+        45,
+        0,
+        4
+      ]
+    },
+    {
+      "index": 4,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 3,
+      "flags": [
+        45,
+        0,
+        3
+      ]
+    },
+    {
+      "index": 5,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 4,
+      "flags": [
+        45,
+        0,
+        2
+      ]
+    },
+    {
+      "index": 6,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 4,
+      "flags": [
+        45,
+        0,
+        2
+      ]
+    },
+    {
+      "index": 7,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 6,
+      "flags": [
+        45,
+        0,
+        7
+      ]
+    },
+    {
+      "index": 8,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 5,
+      "flags": [
+        45,
+        0,
+        7
+      ]
+    },
+    {
+      "index": 9,
+      "tag": "0x2D",
+      "position_param": 94,
+      "enemy_type": 3,
+      "flags": [
+        45,
+        0,
+        4
+      ]
+    }
+  ]
+}

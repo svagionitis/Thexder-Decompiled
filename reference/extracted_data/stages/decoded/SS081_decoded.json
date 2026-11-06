@@ -1,0 +1,359 @@
+{
+  "stage": "SS081",
+  "raw_size_bytes": 19460,
+  "decompressed_size_bytes": 32092,
+  "expected_decompressed_size": 32092,
+  "compression_ratio": 0.6064,
+  "integrity_verified": true,
+  "master_header_tag": "0x00000084 (132)",
+  "sections_catalog": {
+    "DEFAULT_MAP_BLOCK": {
+      "section_id": "0x00",
+      "chunk_count": 5,
+      "total_bytes": 30,
+      "chunks": [
+        {
+          "flags": 17664,
+          "chunk_offset": 31065,
+          "chunk_length": 0
+        },
+        {
+          "flags": 48640,
+          "chunk_offset": 1369,
+          "chunk_length": 8
+        },
+        {
+          "flags": 49920,
+          "chunk_offset": 32353,
+          "chunk_length": 20
+        },
+        {
+          "flags": 16640,
+          "chunk_offset": 61302,
+          "chunk_length": 0
+        },
+        {
+          "flags": 12288,
+          "chunk_offset": 45943,
+          "chunk_length": 2
+        }
+      ]
+    },
+    "VISUAL_BACKGROUND_TERRAIN": {
+      "section_id": "0x08",
+      "chunk_count": 6,
+      "total_bytes": 9237,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 22853,
+          "chunk_length": 121
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 22974,
+          "chunk_length": 2053
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 25027,
+          "chunk_length": 5246
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 30273,
+          "chunk_length": 239
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 30512,
+          "chunk_length": 691
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 31203,
+          "chunk_length": 887
+        }
+      ]
+    },
+    "FOREGROUND_OVERLAY_TERRAIN": {
+      "section_id": "0x09",
+      "chunk_count": 3,
+      "total_bytes": 7541,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 13442,
+          "chunk_length": 2049
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 15491,
+          "chunk_length": 5257
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 20748,
+          "chunk_length": 235
+        }
+      ]
+    },
+    "COLLISION_ENVIRONMENTAL_MATRIX": {
+      "section_id": "0x0C",
+      "chunk_count": 10,
+      "total_bytes": 13255,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 187,
+          "chunk_length": 786
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 973,
+          "chunk_length": 2049
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 3022,
+          "chunk_length": 2151
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 5173,
+          "chunk_length": 5821
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 10994,
+          "chunk_length": 821
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 11815,
+          "chunk_length": 103
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 11918,
+          "chunk_length": 609
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 12527,
+          "chunk_length": 117
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 12644,
+          "chunk_length": 687
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 13331,
+          "chunk_length": 111
+        }
+      ]
+    },
+    "ENEMY_SPAWNER_DESCRIPTORS": {
+      "section_id": "0x12",
+      "chunk_count": 1,
+      "total_bytes": 1870,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 20983,
+          "chunk_length": 1870
+        }
+      ]
+    },
+    "WAYPOINTS_AND_SCRIPT_TRIGGERS": {
+      "section_id": "0x13",
+      "chunk_count": 3,
+      "total_bytes": 7541,
+      "chunks": [
+        {
+          "flags": 0,
+          "chunk_offset": 13442,
+          "chunk_length": 2049
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 15491,
+          "chunk_length": 5257
+        },
+        {
+          "flags": 0,
+          "chunk_offset": 20748,
+          "chunk_length": 235
+        }
+      ]
+    }
+  },
+  "terrain_runs_total": 698,
+  "sample_terrain_runs": [
+    {
+      "tag": "0x00",
+      "macroblock_id": 39,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 41,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 40,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 42,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 43,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 42,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 42,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 42,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 40,
+      "run_length": 43
+    },
+    {
+      "tag": "0x00",
+      "macroblock_id": 40,
+      "run_length": 43
+    }
+  ],
+  "spawners_count": 270,
+  "spawners_sample": [
+    {
+      "index": 0,
+      "tag": "0x32",
+      "position_param": 117,
+      "enemy_type": 7,
+      "flags": [
+        50,
+        0,
+        5
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "0x32",
+      "position_param": 117,
+      "enemy_type": 7,
+      "flags": [
+        50,
+        0,
+        4
+      ]
+    },
+    {
+      "index": 2,
+      "tag": "0x3E",
+      "position_param": 117,
+      "enemy_type": 9,
+      "flags": [
+        62,
+        0,
+        3
+      ]
+    },
+    {
+      "index": 3,
+      "tag": "0x32",
+      "position_param": 117,
+      "enemy_type": 7,
+      "flags": [
+        50,
+        0,
+        4
+      ]
+    },
+    {
+      "index": 4,
+      "tag": "0x32",
+      "position_param": 117,
+      "enemy_type": 7,
+      "flags": [
+        50,
+        0,
+        5
+      ]
+    },
+    {
+      "index": 5,
+      "tag": "0x32",
+      "position_param": 117,
+      "enemy_type": 8,
+      "flags": [
+        50,
+        0,
+        4
+      ]
+    },
+    {
+      "index": 6,
+      "tag": "0x3E",
+      "position_param": 117,
+      "enemy_type": 11,
+      "flags": [
+        50,
+        117,
+        1
+      ]
+    },
+    {
+      "index": 7,
+      "tag": "0x3E",
+      "position_param": 0,
+      "enemy_type": 7,
+      "flags": [
+        50,
+        0,
+        4
+      ]
+    },
+    {
+      "index": 8,
+      "tag": "0x32",
+      "position_param": 117,
+      "enemy_type": 6,
+      "flags": [
+        50,
+        0,
+        5
+      ]
+    },
+    {
+      "index": 9,
+      "tag": "0x32",
+      "position_param": 117,
+      "enemy_type": 7,
+      "flags": [
+        50,
+        0,
+        5
+      ]
+    }
+  ]
+}
